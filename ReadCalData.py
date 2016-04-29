@@ -151,6 +151,15 @@ class CheckReadDataTestCase(unittest.TestCase):
         for i in range(0x1D,0x20):
             self.assertEqual(write_cat[i],'0x1111')
 
+
+class CalcSingleResult(unittest.TestCase):
+    def setUp(self):
+        self.txt = get_file_context(folder_path + '1.log')
+
+    def testCalcByte(self):
+        byte = get_Byte(self.txt)
+
+
 try:
     unittest.main()
 except:
