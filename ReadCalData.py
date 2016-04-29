@@ -21,11 +21,7 @@ def text_find(pat,text):
 folder_path = r'E:\private\python\Tools\\'
 
 
-#check input file.
-#fill field
-#single calc result
-#muti calc result
-#output values
+
 
 
 def get_Cal(text):
@@ -57,10 +53,13 @@ def get_Byte(text):
 def get_MMDC_MPWLDECTRL(i,text):
     return text_find('MMDC_MPWLDECTRL'+str(i)+'.*?= (0x[0-9A-F]*)',text)
 
+def get_file_context(file_path):
+     f = open(file_path)
+     return f.read().replace('\r\n','\n')
+
 def check_file(file_path):
     try:
-        f = open(file_path)
-        t = f.read().replace('\r\n','\n')
+        t = get_file_context(file_path)
         ctrl0 = get_MMDC_MPWLDECTRL(0,t)
         ctrl1 = get_MMDC_MPWLDECTRL(1,t)
         byte = get_Byte(t)
@@ -72,6 +71,8 @@ def check_file(file_path):
 
 import unittest
 
+
+#check input file.
 class CheckInputFileTestCase(unittest.TestCase):
 
     def testCorrectFile(self):
@@ -101,10 +102,64 @@ class CheckInputFileTestCase(unittest.TestCase):
     def testWriteCalDataError(self):
         self.failIf(check_file(folder_path + 'write_cal_data_error.log'),'Write Cal field error should return false')
 
+#fill field
+class CheckReadDataTestCase(unittest.TestCase):
+    def testReadCtrlData(self):
+        txt = get_file_context(folder_path + '1.log')
+        ctrl0 = get_MMDC_MPWLDECTRL(0,txt)
+        ctrl1 = get_MMDC_MPWLDECTRL(1,txt)
+        self.assertEquals([ctrl0,ctrl1],['0x00000004','0x00150011'])
+        
+        byte = get_Byte(txt)
+        self.assertEquals(byte[0]['start'],['0x02','0x10'])
+        self.assertEquals(byte[0]['end'],['0x04','0x38'])
+
+        self.assertEquals(byte[1]['start'],['0x02','0x08'])
+        self.assertEquals(byte[1]['end'],['0x04','0x2C'])
+
+        self.assertEquals(byte[2]['start'],['0x02','0x08'])
+        self.assertEquals(byte[2]['end'],['0x04','0x2C'])
+
+        self.assertEquals(byte[3]['start'],['0x01','0x68'])
+        self.assertEquals(byte[3]['end'],['0x04','0x34'])
+
+        read_cat = get_ReadCal(txt)
+        for i in range(0,3):
+            self.assertEqual(read_cat[i],'0x1111')
+        self.assertEqual(read_cat[3],'0x1011')
+        self.assertEqual(read_cat[4],'0x1001')
+        self.assertEqual(read_cat[5],'0x1001')
+        for i in range(6,0x18):
+            self.assertEqual(read_cat[i],'0x0000')
+        self.assertEqual(read_cat[0x18],'0x0110')
+        self.assertEqual(read_cat[0x19],'0x0111')
+        self.assertEqual(read_cat[0x1A],'0x0111')
+        for i in range(0x1B,0x20):
+            self.assertEqual(read_cat[i],'0x1111')
+
+        #write cal
+        write_cat = get_WriteCal(txt)
+        for i in range(0,4):
+            self.assertEqual(write_cat[i],'0x1111')
+        self.assertEqual(write_cat[4],'0x0010')
+        self.assertEqual(write_cat[5],'0x0010')
+        for i in range(6,0x1A):
+            self.assertEqual(write_cat[i],'0x0000')
+        self.assertEqual(write_cat[0x1A],'0x0100')
+        self.assertEqual(write_cat[0x1B],'0x1100')
+        self.assertEqual(write_cat[0x1C],'0x1110')
+        for i in range(0x1D,0x20):
+            self.assertEqual(write_cat[i],'0x1111')
+
 try:
     unittest.main()
 except:
     pass
+
+
+#single calc result
+#muti calc result
+#output values
 
 
 """
