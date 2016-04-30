@@ -18,7 +18,7 @@ def text_find(pat,text):
         raise ReadFieldErrorException
 
 
-folder_path = r'E:\private\python\Tools\\'
+folder_path = r'/home/yong/Source/misc/'
 
 
 
@@ -68,7 +68,33 @@ def check_file(file_path):
         return True
     except:
         return False
+def hc_abs_value(hc,abs):
+    hc_v = int(hc,16)
+    abs_v = int(abs,16)
+    return (hc_v << 8) + abs_v
 
+def calc_hc_abs_pri(start,end):
+    start_hc_v = int(start[0],16)
+    start_abs_v = int(start[1],16)
+    end_hc_v = int(end[0],16)
+    end_abs_v = int(end[1],16)
+    mean = ((start_hc_v+end_hc_v)/2) << 8
+    mean += (start_abs_v+end_abs_v)/2 
+    end_half = ((end_hc_v-1) << 8) + end_abs_v
+    final = max(mean,end_half)
+    print 'final:',hex(final)
+    final_hc = "0x%02X" % (final>>8)
+    final_abs = "0x%02X" % (final&0xFF)
+    return final_hc,final_abs
+
+def calc_hc_abs(byte):
+    return calc_hc_abs_pri(byte['start'],byte['end'])
+
+def calc_DQS_cal(byte):
+    b = []
+    for i in range(4):
+        b.append(calc_hc_abs(byte[i]))
+    #MPDG_ctrl0 =  
 import unittest
 
 
@@ -158,7 +184,15 @@ class CalcSingleResult(unittest.TestCase):
 
     def testCalcByte(self):
         byte = get_Byte(self.txt)
-
+        self.assertEquals(('0x03','0x38'),calc_hc_abs(byte[0]))
+        self.assertEquals(('0x03','0x2C'),calc_hc_abs(byte[1]))
+        self.assertEquals(('0x03','0x2C'),calc_hc_abs(byte[2]))
+        self.assertEquals(('0x03','0x34'),calc_hc_abs(byte[3]))
+    def testQDSResult(self):
+        byte = get_Byte(self.txt)
+        #self.assertEquals(('0x032C0338',''),calc_DQS_cal(byte))
+        pass
+          
 
 try:
     unittest.main()
@@ -174,7 +208,7 @@ except:
 """
     some experiments
 """
-
+"""
 f = open(folder_path + '1.log','r')
 file_text = f.read().replace('\r\n','\n')
 
@@ -210,3 +244,4 @@ for i in range(0x20):
     s ='result\[' + '%02X'%i + '\]=(0x[0-9A-F]*)'
     v = text_find(s,write_cal_text)
     print '%02X'%(i*4),v
+"""
