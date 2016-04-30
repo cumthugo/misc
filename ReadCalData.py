@@ -68,6 +68,7 @@ def check_file(file_path):
         return True
     except:
         return False
+
 def hc_abs_value(hc,abs):
     hc_v = int(hc,16)
     abs_v = int(abs,16)
@@ -82,10 +83,7 @@ def calc_hc_abs_pri(start,end):
     mean += (start_abs_v+end_abs_v)/2 
     end_half = ((end_hc_v-1) << 8) + end_abs_v
     final = max(mean,end_half)
-    print 'final:',hex(final)
-    final_hc = "0x%02X" % (final>>8)
-    final_abs = "0x%02X" % (final&0xFF)
-    return final_hc,final_abs
+    return final
 
 def calc_hc_abs(byte):
     return calc_hc_abs_pri(byte['start'],byte['end'])
@@ -94,7 +92,23 @@ def calc_DQS_cal(byte):
     b = []
     for i in range(4):
         b.append(calc_hc_abs(byte[i]))
-    #MPDG_ctrl0 =  
+    MPDG_ctrl0 = (b[1] << 16) + b[0]
+    MPDG_ctrl1 = (b[3] << 16) + b[2]
+    return "0x%08X"%MPDG_ctrl0, "0x%08X"%MPDG_ctrl1
+
+ 
+def calc_cal_start_end(cal_arr,index):
+    s=0;e=0
+    last_value = '1'
+    for i in range(len(cal_arr)):
+        current_value = cal_arr[i][-(index+1)]
+        if '0' == current_value and last_value == '1':
+            s = i
+        if '1' == current_value and last_value == '0':
+            e = i-1
+        last_value = current_value
+    return s*4,e*4 
+
 import unittest
 
 
@@ -184,16 +198,26 @@ class CalcSingleResult(unittest.TestCase):
 
     def testCalcByte(self):
         byte = get_Byte(self.txt)
-        self.assertEquals(('0x03','0x38'),calc_hc_abs(byte[0]))
-        self.assertEquals(('0x03','0x2C'),calc_hc_abs(byte[1]))
-        self.assertEquals(('0x03','0x2C'),calc_hc_abs(byte[2]))
-        self.assertEquals(('0x03','0x34'),calc_hc_abs(byte[3]))
+        self.assertEquals(hc_abs_value('0x03','0x38'),calc_hc_abs(byte[0]))
+        self.assertEquals(hc_abs_value('0x03','0x2C'),calc_hc_abs(byte[1]))
+        self.assertEquals(hc_abs_value('0x03','0x2C'),calc_hc_abs(byte[2]))
+        self.assertEquals(hc_abs_value('0x03','0x34'),calc_hc_abs(byte[3]))
+
     def testQDSResult(self):
         byte = get_Byte(self.txt)
-        #self.assertEquals(('0x032C0338',''),calc_DQS_cal(byte))
-        pass
-          
+        self.assertEquals(('0x032C0338','0x0334032C'),calc_DQS_cal(byte))
+    
+    def testFindStartEnd(self):
+        read_cat = get_ReadCal(self.txt)
+        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
+        self.assertEquals((0x10,0x5C),calc_cal_start_end(read_cat,1))
+        self.assertEquals((0x0C,0x5C),calc_cal_start_end(read_cat,2))
+        self.assertEquals((0x18,0x68),calc_cal_start_end(read_cat,3))
 
+        write_cat = get_WriteCal(self.txt)
+        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
+        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
+        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
 try:
     unittest.main()
 except:
