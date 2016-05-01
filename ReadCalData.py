@@ -17,12 +17,7 @@ def text_find(pat,text):
     else:
         raise ReadFieldErrorException
 
-
 folder_path = r'./'
-
-
-
-
 
 def get_Cal(text):
     ret = []
@@ -107,6 +102,15 @@ def calc_cal_start_end(cal_arr,index):
             e = i-1
         last_value = current_value
     return s*4,e*4 
+
+def calc_cal_value(cal_arr):
+    ret = 0
+    for i in range(4):
+        start,end = calc_cal_start_end(cal_arr,i)
+        mid = (start + end) / 2
+        ret += mid << (8 * i)
+    return "0x%08X"%ret
+
 
 import unittest
 
@@ -214,9 +218,17 @@ class CalcSingleResult(unittest.TestCase):
         self.assertEquals((0x18,0x68),calc_cal_start_end(read_cat,3))
 
         write_cat = get_WriteCal(self.txt)
-        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
-        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
-        self.assertEquals((0x18,0x60),calc_cal_start_end(read_cat,0))
+        self.assertEquals((0x10,0x70),calc_cal_start_end(write_cat,0))
+        self.assertEquals((0x18,0x6C),calc_cal_start_end(write_cat,1))
+        self.assertEquals((0x10,0x64),calc_cal_start_end(write_cat,2))
+        self.assertEquals((0x10,0x68),calc_cal_start_end(write_cat,3))
+
+    def testGetCalValue(self):
+        read_cat = get_ReadCal(self.txt)
+        self.assertEqual('0x4034363C',calc_cal_value(read_cat))
+
+        write_cat = get_WriteCal(self.txt)
+        self.assertEqual('0x3C3A4240',calc_cal_value(write_cat))
 try:
     unittest.main()
 except:
