@@ -18,7 +18,7 @@ def text_find(pat,text):
         raise ReadFieldErrorException
 
 
-folder_path = r'/home/yong/Source/misc/'
+folder_path = r'./'
 
 
 
@@ -74,7 +74,9 @@ def hc_abs_value(hc,abs):
     abs_v = int(abs,16)
     return (hc_v << 8) + abs_v
 
-def calc_hc_abs_pri(start,end):
+def calc_hc_abs(byte):
+    start = byte['start']
+    end = byte['end']
     start_hc_v = int(start[0],16)
     start_abs_v = int(start[1],16)
     end_hc_v = int(end[0],16)
@@ -84,9 +86,6 @@ def calc_hc_abs_pri(start,end):
     end_half = ((end_hc_v-1) << 8) + end_abs_v
     final = max(mean,end_half)
     return final
-
-def calc_hc_abs(byte):
-    return calc_hc_abs_pri(byte['start'],byte['end'])
 
 def calc_DQS_cal(byte):
     b = []
