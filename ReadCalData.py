@@ -79,9 +79,9 @@ def calc_hc_abs_final(byte):
     mean = (byte[0] + byte[1]) / 2
     end_half = byte[1] - (1<<8)
     final = max(mean,end_half)
-    print 'Mean: HC=',hc_string(mean),' ABS=',abs_string(mean)
-    print 'end_half: HC=',hc_string(end_half),' ABS=',abs_string(end_half)
-    print 'final: HC=',hc_string(final),' ABS=',abs_string(final)
+    #print 'Mean: HC=',hc_string(mean),' ABS=',abs_string(mean)
+    #print 'end_half: HC=',hc_string(end_half),' ABS=',abs_string(end_half)
+    #print 'final: HC=',hc_string(final),' ABS=',abs_string(final)
     return final
 
 def calc_DQS_cal(byte):
@@ -121,11 +121,16 @@ def calc_cal_start_end(cal_arr,index):
         last_value = current_value
     return s*4,e*4 
 
-def calc_cal_value(cal_arr):
+def calc_cal_values(cals_arr):
     ret = 0
     for i in range(4):
-        start,end = calc_cal_start_end(cal_arr,i)
-        mid = (start + end) / 2
+        start_arr = []; end_arr =[]
+        for cal in cals_arr:
+            start,end = calc_cal_start_end(cal,i)
+            start_arr.append(start)
+            end_arr.append(end)
+        #find min start and max end
+        mid = (min(start_arr) + max(end_arr))/2
         ret += mid << (8 * i)
     return "0x%08X"%ret
 
@@ -263,10 +268,10 @@ class CalcSingleResult(unittest.TestCase):
 
     def testGetCalValue(self):
         read_cat = get_ReadCal(self.txt)
-        self.assertEqual('0x4034363C',calc_cal_value(read_cat))
+        self.assertEqual('0x4034363C',calc_cal_values([read_cat]))
 
         write_cat = get_WriteCal(self.txt)
-        self.assertEqual('0x3C3A4240',calc_cal_value(write_cat))
+        self.assertEqual('0x3C3A4240',calc_cal_values([write_cat]))
 
 
 class Calc2SampleResult(unittest.TestCase):
@@ -286,6 +291,16 @@ class Calc2SampleResult(unittest.TestCase):
         bytes = [file1_byte,file2_byte]
         self.assertEqual(('0x032C0338','0x0330032C'),calc_DQS_cals(bytes))
 
+    def testCalcCalValue(self):
+        file1_read_cal = get_ReadCal(self.data_txt_1)
+        file2_read_cal = get_ReadCal(self.data_txt_2)
+        cals = [file1_read_cal,file2_read_cal]
+        self.assertEqual('0x40323638',calc_cal_values(cals))
+
+        file1_write_cal = get_WriteCal(self.data_txt_1)
+        file2_write_cal = get_WriteCal(self.data_txt_2)
+        cals = [file1_write_cal,file2_write_cal]
+        self.assertEqual('0x383A4440',calc_cal_values(cals))
 try:
     unittest.main()
 except:
