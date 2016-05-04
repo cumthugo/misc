@@ -301,6 +301,18 @@ class Calc2SampleResult(unittest.TestCase):
         file2_write_cal = get_WriteCal(self.data_txt_2)
         cals = [file1_write_cal,file2_write_cal]
         self.assertEqual('0x383A4440',calc_cal_values(cals))
+
+class CalcMutiResult(unittest.TestCase):
+    def setUp(self):
+        self.data_txt_1 = get_file_context(folder_path + "log/ddr_calibration_20160427-10'8'3_Radio1_tmp85_1.log")
+        self.data_txt_2 = get_file_context(folder_path + "log/ddr_calibration_20160427-11'46'37_Radio3_tmp85_1.log")
+        self.data_txt_3 = get_file_context(folder_path + "log/ddr_calibration_20160427-11'49'53_Radio3_tmp85_2.log")
+
+
+
+    def test3Samples(self):
+        pass
+
 try:
     unittest.main()
 except:

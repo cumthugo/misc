@@ -1,0 +1,53 @@
+
+============================================
+        DDR Stress Test (2.4.0) 
+        Build: Dec 11 2015, 11:13:38
+        Freescale Semiconductor, Inc.
+============================================
+
+============================================
+        Chip ID
+CHIP ID = i.MX6 Dual/Quad (0x63)
+Internal Revision = TO1.5
+============================================
+
+============================================
+        Boot Configuration
+SRC_SBMR1(0x020d8004) = 0x02004000
+SRC_SBMR2(0x020d801c) = 0x11000001
+============================================
+
+ARM Clock set to 1GHz
+
+============================================
+        DDR configuration
+BOOT_CFG3[5-4]: 0x00, Single DDR channel.
+DDR type is DDR3 
+Data width: 32, bank num: 8
+Row size: 15, col size: 10
+Chip select CSD0 is used 
+Density per chip select: 1024MB 
+============================================
+
+Current Tempareture: 92
+============================================
+
+DDR Freq: 528 MHz 
+
+ddr_mr1=0x00000000
+Start write leveling calibration...
+running Write level HW calibration
+Write leveling calibration completed, update the following registers in your initialization script
+    MMDC_MPWLDECTRL0 ch0 (0x021b080c) = 0x00000004
+    MMDC_MPWLDECTRL1 ch0 (0x021b0810) = 0x001F001F
+Write DQS delay result:
+   Write DQS0 delay: 4/256 CK
+   Write DQS1 delay: 0/256 CK
+   Write DQS2 delay: 31/256 CK
+   Write DQS3 delay: 31/256 CK
+
+Starting DQS gating calibration
+. . . . . . . . . . . . . . ERROR FOUND, we can't get suitable value !!!!
+dram test fails for all values. 
+
+Error: failed during ddr calibration
