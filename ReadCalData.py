@@ -1,4 +1,5 @@
 import re
+import os
 
 class ReadFieldErrorException(Exception):pass
 
@@ -36,16 +37,35 @@ def get_WriteCal(text):
     return get_Cal(write_cal_text)
 
 
+'''
+Document for DQS:
+The "start" and "end" show the start value and end value of DQS gating "window". Mean is
+the middle point of the window. The suggested DQS gating value is calculated base on the
+formula max[mean(start,end),end-0.5*tCK].
+
+*******Important*******
+On the result, HC means 0.5 cycle, ABS represents 1/256 of a cycle. For example, HC=0x01
+ABS=0x58 means that the delay is 0.5 + 88/256 cycle.
+
+'''
+
 def hc_abs_value(hc,abs):
     hc_v = int(hc,16)
     abs_v = int(abs,16)
-    return (hc_v << 8) + abs_v
+    return (hc_v << 7) + abs_v
 
 def hc_string(v):
-    return "0x%02X"%(v>>8)
+    return "0x%02X"%(v>>7)
 
 def abs_string(v):
-    return "0x%02X"%(v&0xFF)
+    return "0x%02X"%(v&0x7F)
+
+def two_hc_abs_string(f,s):
+    f_v = ((f>>7)<<8)
+    f_v += f&0x7F
+    s_v = ((s>>7)<<8)
+    s_v += s&0x7F
+    return "0x%08X"%((f_v<<16) + s_v)
 
 def get_Byte(text):
     ret = []
@@ -77,7 +97,7 @@ def check_file(file_path):
 
 def calc_hc_abs_final(byte):
     mean = (byte[0] + byte[1]) / 2
-    end_half = byte[1] - (1<<8)
+    end_half = byte[1] - (1<<7)
     final = max(mean,end_half)
     #print 'Mean: HC=',hc_string(mean),' ABS=',abs_string(mean)
     #print 'end_half: HC=',hc_string(end_half),' ABS=',abs_string(end_half)
@@ -90,9 +110,9 @@ def calc_DQS_cal(byte):
         #print 'Byte',i,'\nStart: HC=',hc_string(byte[i][0]),' ABS=',abs_string(byte[i][0])
         #print 'End: HC=',hc_string(byte[i][1]),' ABS=',abs_string(byte[i][1])
         b.append(calc_hc_abs_final(byte[i]))
-    MPDG_ctrl0 = (b[1] << 16) + b[0]
-    MPDG_ctrl1 = (b[3] << 16) + b[2]
-    return "0x%08X"%MPDG_ctrl0, "0x%08X"%MPDG_ctrl1
+    MPDG_ctrl0 = two_hc_abs_string(b[1],b[0])
+    MPDG_ctrl1 = two_hc_abs_string(b[3],b[2])
+    return MPDG_ctrl0, MPDG_ctrl1
 
 def calc_DQS_cals(bytes):
     new_byte = []
@@ -154,6 +174,32 @@ def calc_MPWLDECTRL(ctrl_list):
     str_ctrl0 = "0x%08X"%avg_per2bytes(ctrl0)
     str_ctrl1 = "0x%08X"%avg_per2bytes(ctrl1)
     return str_ctrl0,str_ctrl1
+
+
+def calc_all_values(file_texts):
+    ret = []
+    ctrl_list = []
+    byte_list = []
+    read_cal_list = []; write_cal_list = []
+    for file_text in file_texts:
+        ctrl_list.append(get_MMDC_MPWLDECTRL(file_text))
+        byte_list.append(get_Byte(file_text))
+        read_cal_list.append(get_ReadCal(file_text))
+        write_cal_list.append(get_WriteCal(file_text))
+    ret.extend(calc_MPWLDECTRL(ctrl_list))
+    ret.extend(calc_DQS_cals(byte_list))
+    ret.append(calc_cal_values(read_cal_list))
+    ret.append(calc_cal_values(write_cal_list))
+    return ret
+
+def print_result(result):
+    print 'MMDC_MPWLDECTRL0 (080c) = ',result[0]
+    print 'MMDC_MPWLDECTRL1 (0810) = ',result[1]
+    print 'DQS calibration MMDC0 MPDGCTRL0 = ',result[2],', MPDGCTRL1 = ',result[3]
+    print 'Read calibration, MMDC0 MPRDDLCTL = ',result[4]
+    print 'Write calibration, MMDC0 MPWRDLCTL = ',result[5]
+
+
 
 import unittest
 
@@ -308,10 +354,21 @@ class CalcMutiResult(unittest.TestCase):
         self.data_txt_2 = get_file_context(folder_path + "log/ddr_calibration_20160427-11'46'37_Radio3_tmp85_1.log")
         self.data_txt_3 = get_file_context(folder_path + "log/ddr_calibration_20160427-11'49'53_Radio3_tmp85_2.log")
 
-
-
     def test3Samples(self):
-        pass
+        file_text = [self.data_txt_1,self.data_txt_2,self.data_txt_3]
+        self.assertEqual(['0x00020008','0x0018000F','0x032C0338','0x0330032C','0x40323638','0x383A4440'],calc_all_values(file_text))
+
+    def testActual(self):
+        file_texts = []
+        for f in os.listdir(folder_path + "log/log/"):
+            try:
+                text = get_file_context(folder_path + "log/log/" + f)
+                file_texts.append(text)
+            except:
+                print f,' can\'t open'
+                continue
+        result = calc_all_values(file_texts)
+        print_result(result)
 
 try:
     unittest.main()
