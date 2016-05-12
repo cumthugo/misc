@@ -1,0 +1,13 @@
+1. use A add text at the end of this line
+2. use o/O to add text at buttom or top of this line
+3. use ! to execute command
+4. v motion :w filename to save file
+5. :r filename or !command to insert text to current file
+
+6. :s/old/new/g to replace current line
+7. :%s/old/new/g to replace the whole file
+8. :%s/old/new/gc add prompt
+9. use % to match () [] {}
+10. gg goto the begin 
+11. use cw, ce, c$ to change more things
+
