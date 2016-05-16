@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2bee47ba-21d6-477a-a4c1-84e6da13d00f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>ReadCalData.py</StartupFile>
+    <StartupFile>Main.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -24,7 +24,13 @@
     <Content Include="DDR Parameters Calibration ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Main.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ReadCalData.py" />
+    <Compile Include="TestReadCalData.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
