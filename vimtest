@@ -49,3 +49,36 @@ fib(42)
 <a href="#">TWO</a>
 <a href="#">THREE</a>
 
+
+
+
+
+
+
+Chapter         |    Page;
+-------------------------
+Normal mode     |    15
+Insert mode     |    31
+Visual mode     |    44
+
+Chapter        |   Page
+-----------------------
+Normal mode    |   15
+Insert mode    |   31
+Visual mode    |   44
+
+li.one   a{ background-image: url('/components/sprite.png');}
+li.two   a{ background-image: url('/components/sprite.png');}
+li.three a{ background-image: url('/components/sprite.png');}
+
+var foo = 1;
+var bar = 'a';
+var foobar = foo + bar;
+
+Shopping list
+    Beauty Parlor
+        Buy nail polish remover
+	Buy nails
+    Hardware Store
+        Buy nails
+        Buy new hammer
