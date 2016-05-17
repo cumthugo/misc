@@ -82,3 +82,8 @@ Shopping list
     Hardware Store
         Buy nails
         Buy new hammer
+
+var counter;
+for (counter=1; counter <=10; counter++){
+    // do something with counter
+};
