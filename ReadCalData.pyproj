@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2bee47ba-21d6-477a-a4c1-84e6da13d00f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>Main.py</StartupFile>
+    <StartupFile>TestReadCalData.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>

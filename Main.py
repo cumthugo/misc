@@ -1,6 +1,6 @@
 from ReadCalData import *
 
-folder_path = r'./log/log/' #TODO: change log files folder name
+folder_path = r'./log/' #TODO: change log files folder name
 
 '''
 Usage:
@@ -24,5 +24,4 @@ def get_actual():
                 continue
         result = calc_all_values(file_texts)
         print_result(result)
-
 get_actual()

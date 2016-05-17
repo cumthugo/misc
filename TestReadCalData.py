@@ -1,8 +1,8 @@
 from ReadCalData import *
 
 import unittest
-
-folder_path = r'./'
+folder_path_parent = r'./'
+folder_path = r'./unittest/'
 
 #check input file.
 class CheckInputFileTestCase(unittest.TestCase):
@@ -150,9 +150,9 @@ class Calc2SampleResult(unittest.TestCase):
 
 class CalcMutiResult(unittest.TestCase):
     def setUp(self):
-        self.data_txt_1 = get_file_context(folder_path + "log/ddr_calibration_20160427-10'8'3_Radio1_tmp85_1.log")
-        self.data_txt_2 = get_file_context(folder_path + "log/ddr_calibration_20160427-11'46'37_Radio3_tmp85_1.log")
-        self.data_txt_3 = get_file_context(folder_path + "log/ddr_calibration_20160427-11'49'53_Radio3_tmp85_2.log")
+        self.data_txt_1 = get_file_context(folder_path_parent + "log/ddr_calibration_20160427-10'8'3_Radio1_tmp85_1.log")
+        self.data_txt_2 = get_file_context(folder_path_parent + "log/ddr_calibration_20160427-11'46'37_Radio3_tmp85_1.log")
+        self.data_txt_3 = get_file_context(folder_path_parent + "log/ddr_calibration_20160427-11'49'53_Radio3_tmp85_2.log")
 
     def test3Samples(self):
         file_text = [self.data_txt_1,self.data_txt_2,self.data_txt_3]
@@ -160,9 +160,9 @@ class CalcMutiResult(unittest.TestCase):
 
     def testActual(self):
         file_texts = []
-        for f in os.listdir(folder_path + "log/log/"):
+        for f in os.listdir(folder_path_parent + "log/"):
             try:
-                text = get_file_context(folder_path + "log/log/" + f)
+                text = get_file_context(folder_path_parent + "log/" + f)
                 file_texts.append(text)
             except:
                 print f,' can\'t open'
