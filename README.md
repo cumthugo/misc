@@ -3,8 +3,8 @@ This tool can calculate DDR3 parameter automatically, it will search all log fil
 1. Change folder_path in Main.py
 2. type the command: python Main.py
 
-[解析log文件]
-﻿以下内容主要是DDR Parameters Calibration时需要注意的事项：
+[解析log文件说明]
+以下内容主要是DDR Parameters Calibration时需要注意的事项：
 
 1.I.MX6DQSDL DDR3 Script Aid V0.10.xlsx
 	这个表格是用来生成DDR init script file(*inc).
