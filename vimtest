@@ -49,12 +49,6 @@ fib(42)
 <a href="#">TWO</a>
 <a href="#">THREE</a>
 
-
-
-
-
-
-
 Chapter         |    Page;
 -------------------------
 Normal mode     |    15
@@ -87,3 +81,18 @@ var counter;
 for (counter=1; counter <=10; counter++){
     // do something with counter
 };
+
+
+class XhtmlDocument < XmlDocument; end
+class XhtmlTag < XmlTag; end
+
+
+
+mixin = {
+	applyName: function(config){
+		return Factory(config, this.getName());
+	},
+	applyNumber: function(config){
+		return Factory(config, this.getNumber());
+	},
+}
