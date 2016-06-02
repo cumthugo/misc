@@ -79,13 +79,13 @@ def get_Byte(text):
 def get_MMDC_MPWLDECTRL(text):
     return text_find('MMDC_MPWLDECTRL0.*?= (0x[0-9A-F]*)',text),text_find('MMDC_MPWLDECTRL1.*?= (0x[0-9A-F]*)',text)
 
-def get_file_context(file_path):
+def get_file_content(file_path):
      f = open(file_path)
      return f.read().replace('\r\n','\n')
 
 def check_file(file_path):
     try:
-        t = get_file_context(file_path)
+        t = get_file_content(file_path)
         ctrl = get_MMDC_MPWLDECTRL(t)
         byte = get_Byte(t)
         read_cat = get_ReadCal(t)
@@ -175,7 +175,7 @@ def calc_MPWLDECTRL(ctrl_list):
     return str_ctrl0,str_ctrl1
 
 
-def calc_all_values(file_texts):
+def calculate_all_calibration_parameter(file_texts):
     ret = []
     ctrl_list = []
     byte_list = []

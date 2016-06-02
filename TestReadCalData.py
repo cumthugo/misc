@@ -2,42 +2,42 @@ from ReadCalData import *
 
 import unittest
 folder_path_parent = r'./'
-folder_path = r'./unittest/'
+CalibrationLogFolder = r'./unittest/'
 
 #check input file.
 class CheckInputFileTestCase(unittest.TestCase):
 
     def testCorrectFile(self):
-        self.failUnless(check_file(folder_path + '1.log'),'Correct file but check failed!')
+        self.failUnless(check_file(CalibrationLogFolder + '1.log'),'Correct file but check failed!')
     
     def testFileNotExist(self):
-        self.failIf(check_file(folder_path + 'not_exist.log'),'File Not exist should return false!')   
+        self.failIf(check_file(CalibrationLogFolder + 'not_exist.log'),'File Not exist should return false!')   
     
     def testEmptyFile(self):
-        self.failIf(check_file(folder_path + 'empty.log'),'Empty file should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'empty.log'),'Empty file should return false')
 
     def testCtrlError(self):
-        self.failIf(check_file(folder_path + 'ctrl_error.log'),'Ctrl field error should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'ctrl_error.log'),'Ctrl field error should return false')
     
     def testByteError(self):
-        self.failIf(check_file(folder_path + 'byte_error.log'),'Byte field error should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'byte_error.log'),'Byte field error should return false')
 
     def testReadCalError(self):
-        self.failIf(check_file(folder_path + 'read_cal_error.log'),'Read Cal field error should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'read_cal_error.log'),'Read Cal field error should return false')
     
     def testReadCalDataError(self):
-        self.failIf(check_file(folder_path + 'read_cal_data_error.log'),'Read Cal field error should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'read_cal_data_error.log'),'Read Cal field error should return false')
 
     def testWriteCalError(self):
-        self.failIf(check_file(folder_path + 'write_cal_error.log'),'Write Cal field error should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'write_cal_error.log'),'Write Cal field error should return false')
     
     def testWriteCalDataError(self):
-        self.failIf(check_file(folder_path + 'write_cal_data_error.log'),'Write Cal field error should return false')
+        self.failIf(check_file(CalibrationLogFolder + 'write_cal_data_error.log'),'Write Cal field error should return false')
 
 #fill field
 class CheckReadDataTestCase(unittest.TestCase):
     def testReadCtrlData(self):
-        txt = get_file_context(folder_path + '1.log')
+        txt = get_file_content(CalibrationLogFolder + '1.log')
         ctrl = get_MMDC_MPWLDECTRL(txt)
 
         self.assertEquals(ctrl,('0x00000004','0x00150011'))
@@ -86,7 +86,7 @@ class CheckReadDataTestCase(unittest.TestCase):
 #single calculation
 class CalcSingleResult(unittest.TestCase):
     def setUp(self):
-        self.txt = get_file_context(folder_path + '1.log')
+        self.txt = get_file_content(CalibrationLogFolder + '1.log')
 
     def testCalcByte(self):
         byte = get_Byte(self.txt)
@@ -122,8 +122,8 @@ class CalcSingleResult(unittest.TestCase):
 
 class Calc2SampleResult(unittest.TestCase):
     def setUp(self):
-        self.data_txt_1 = get_file_context(folder_path + '1.log')
-        self.data_txt_2 = get_file_context(folder_path + '2.log')
+        self.data_txt_1 = get_file_content(CalibrationLogFolder + '1.log')
+        self.data_txt_2 = get_file_content(CalibrationLogFolder + '2.log')
 
     def testMPWLDE(self):
         file1_ctrl = get_MMDC_MPWLDECTRL(self.data_txt_1)
@@ -150,24 +150,24 @@ class Calc2SampleResult(unittest.TestCase):
 
 class CalcMutiResult(unittest.TestCase):
     def setUp(self):
-        self.data_txt_1 = get_file_context(folder_path_parent + "log/ddr_calibration_20160427-10'8'3_Radio1_tmp85_1.log")
-        self.data_txt_2 = get_file_context(folder_path_parent + "log/ddr_calibration_20160427-11'46'37_Radio3_tmp85_1.log")
-        self.data_txt_3 = get_file_context(folder_path_parent + "log/ddr_calibration_20160427-11'49'53_Radio3_tmp85_2.log")
+        self.data_txt_1 = get_file_content(folder_path_parent + "log/ddr_calibration_20160427-10'8'3_Radio1_tmp85_1.log")
+        self.data_txt_2 = get_file_content(folder_path_parent + "log/ddr_calibration_20160427-11'46'37_Radio3_tmp85_1.log")
+        self.data_txt_3 = get_file_content(folder_path_parent + "log/ddr_calibration_20160427-11'49'53_Radio3_tmp85_2.log")
 
     def test3Samples(self):
         file_text = [self.data_txt_1,self.data_txt_2,self.data_txt_3]
-        self.assertEqual(['0x00020008','0x0018000F','0x032C0338','0x0330032C','0x40323638','0x383A4440'],calc_all_values(file_text))
+        self.assertEqual(['0x00020008','0x0018000F','0x032C0338','0x0330032C','0x40323638','0x383A4440'],calculate_all_calibration_parameter(file_text))
 
     def testActual(self):
         file_texts = []
         for f in os.listdir(folder_path_parent + "log/"):
             try:
-                text = get_file_context(folder_path_parent + "log/" + f)
+                text = get_file_content(folder_path_parent + "log/" + f)
                 file_texts.append(text)
             except:
                 print f,' can\'t open'
                 continue
-        result = calc_all_values(file_texts)
+        result = calculate_all_calibration_parameter(file_texts)
         print_result(result)
 
 try:
