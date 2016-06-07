@@ -13,9 +13,9 @@ def calculate_calibration_result():
         logfile_content_arr = []
         for logfile in os.listdir(CalibrationLogFolder):
             try:
-                abs_logfile = CalibrationLogFolder + logfile
-                if check_file(abs_logfile):
-                    text = get_file_content(abs_logfile)
+                logfile_abs_path = CalibrationLogFolder + logfile
+                if check_file(logfile_abs_path):
+                    text = get_file_content(logfile_abs_path)
                     logfile_content_arr.append(text)
                 else:
                     print 'Check ',logfile,' Failed!'

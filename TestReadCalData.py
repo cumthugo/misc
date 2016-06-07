@@ -34,7 +34,6 @@ class CheckInputFileTestCase(unittest.TestCase):
     def testWriteCalDataError(self):
         self.failIf(check_file(CalibrationLogFolder + 'write_cal_data_error.log'),'Write Cal field error should return false')
 
-#fill field
 class CheckReadDataTestCase(unittest.TestCase):
     def testReadCtrlData(self):
         txt = get_file_content(CalibrationLogFolder + '1.log')
