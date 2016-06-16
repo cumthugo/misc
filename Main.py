@@ -1,11 +1,11 @@
 from ReadCalData import *
 
-CalibrationLogFolder = r'./log/' #TODO: change log files folder name
+CalibrationLogFolder = r'./log/' #TODO: change folder name of log files
 
 '''
 Usage:
 1. put all log files text into array
-2. call calculate_all_calibration_parameter will get the result.
+2. call calc_all_calibration_param will get the result.
  return (MMDC_MPWLDECTRL0, MMDC_MPWLDECTRL1, MPDGCTRL0, MPDGCTRL1, MPRDDLCTL, MPWRDLCTL)
 3. print_result can show the result
 '''
@@ -18,10 +18,10 @@ def calculate_calibration_result():
                     text = get_file_content(logfile_abs_path)
                     logfile_content_arr.append(text)
                 else:
-                    print 'Check ',logfile,' Failed!'
+                    print '[Error] Check ',logfile,' Failed!'
             except:
-                print ' can\'t open',logfile
+                print '[Error] Can\'t open',logfile
                 continue
-        result = calculate_all_calibration_parameter(logfile_content_arr)
+        result = calc_all_calibration_param(logfile_content_arr)
         print_result(result)
 calculate_calibration_result()
