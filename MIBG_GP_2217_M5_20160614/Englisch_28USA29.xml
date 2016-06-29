@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangDef langCode="0409" xsi:schemaLocation="VWXML2.0 ./../XSD/VWXML_Texts.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="VWXML2.0">
+    <LangID ID="AM_Monitor_Fieldstrength_Value_Entry" Text="%1 dBµV"/>
+    <LangID ID="ANG_CAR_ASSIST_DRIVE_ListItem_Vibration_Label" Text="Vibration active"/>
+    <LangID ID="FM_Monitor_Fieldstrength_Value_Entry" Text="%1 dBµV"/>
+    <LangID ID="LAND_MEDIA_BT_DEVICE_SETUP_MAIN_Item_Device_Text" Text="Bluetooth devices"/>
+    <LangID ID="LAND_MEDIA_BT_DEVICE_SETUP_MAIN_Item_Search_Text" Text="Search for devices"/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_ERROR_Text" Text="MirrorLink® is currently not available."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_ERROR_Text_SKODA" Text="SmartLink is currently not available."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_NOT_AVAILABLE_Text" Text="Starting MirrorLink®..."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_NOT_AVAILABLE_Text_SKODA" Text="Starting SmartLink..."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PK_SPELLER_REQ_Headline_TextLabel" Text="Enter password"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PK_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PROFILE_SELECTION_Headline_TextLabel" Text="Profile: %1"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_DEVICES_FOUND_Title" Text="Bluetooth devices"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Button_Help" Text="Help"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Button_Proceed" Text="Results"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_Additional" Text="Please check that the Bluetooth function and\nvisibility are enabled on your mobile Bluetooth\ndevice (phone, audio player etc)."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_BTAudioCodedActivated" Text="Searching for devices...\nBluetooth audio stopped."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_BTAudioNoCodedOrDeactive" Text="Searching for devices..."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Title" Text="Bluetooth devices"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_ListItem_Help" Text="Help"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Text_SearchFailure" Text="No Bluetooth devices found."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Text_SearchFailure_Additional" Text="Please check if you have enabled bluetooth and\nvisibility of your external bluetooth device (e.g. \nphone, bluetooth audio player, etc.).\nPlease also check if your device supports \nthe bluetooth profiles used in this system\nand if they are activated (see manual)."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Title" Text="Bluetooth devices"/>
+    <LangID ID="LANG_BLUETOOTH_PIN_SPELLER_REQ_Headline_TextLabel" Text="Enter user PIN"/>
+    <LangID ID="LANG_BLUETOOTH_PIN_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_Headline_TextLabel" Text="Bluetooth settings"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_AudioProfilesEnabled" Text="Bluetooth audio (A2DP/AVRCP)"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_BluetoothEnabled" Text="Bluetooth"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName" Text="Name:"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName_Name1" Text="VW Radio"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName_Name2" Text="Skoda Radio"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_PairedDevices" Text="Paired devices"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_SearchDevices" Text="Search for devices"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility" Text="Visibility:"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown0" Text="Visible"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown0_open" Text="Visible"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown1" Text="Hidden"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown1_open" Text="Hidden"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_NAME_Headline_TextLabel" Text="Enter name"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_NAME_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_Headline_Button_DeleteAll" Text="All"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_Headline_TextLabel" Text="Paired devices"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_TextArea_List_Empty" Text="No Bluetooth devices paired."/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_TextArea_List_Empty_Additional" Text="Please check that the Bluetooth function and\nvisibility are enabled\non your mobile device\n(phone, audio player etc). Then\nstart the device search to pair the device."/>
+    <LangID ID="LANG_BLUETOOTH_UID_SPELLER_REQ_Headline_TextLabel" Text="Enter user name"/>
+    <LangID ID="LANG_BLUETOOTH_UID_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_ButtonUnderstood_TextLabel_text" Text="OK"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Roof_ExpListItem_Label_Value_Format_" Text="%1%"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Roof_ExpListItem_Slider_Label_Off_" Text="Off"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Title_Roof_Label" Text="Roof"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Distance_Warning_Label" Text="Display distance warning"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_EmergencyBraking_Label" Text="Auton. Emerg. Braking Syst."/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Enabled_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Pedestrian_Protection_Label" Text="Pedestrian Monitoring"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Label" Text="Advance warning:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option0" Text="Early"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option0_open" Text="Early"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option1" Text="Medium"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option1_open" Text="Medium"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option2" Text="Late"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option2_open" Text="Late"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option3" Text="Off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option3_open" Text="Off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_Label" Text="Advance warning"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_BlindSpotDetectionWarning_Label" Text="Warning sound"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_BlindSpotDetection_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_CityEmergencyBraking_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels0" Text="Eco"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels0_open" Text="Eco"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels1" Text="Normal"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels1_open" Text="Normal"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels2" Text="Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels2_open" Text="Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels3" Text="Comfort"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels3_open" Text="Comfort"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels0" Text="Very close"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels0_open" Text="Very close"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels1" Text="Close"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels1_open" Text="Close"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels2" Text="Moderate"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels2_open" Text="Moderate"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels3" Text="Far"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels3_open" Text="Far"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels4" Text="Very far"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels4_open" Text="Very far"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0" Text="Activated"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0_open" Text="Activated"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0_open" Text="Activated"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1" Text="ASR off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1_open" Text="ASR off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1_open" Text="ASR off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2" Text="ESC Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2_open" Text="ESC Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2_open" Text="ESC Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3" Text="ESC off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3_open" Text="ESC off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3_open" Text="ESC off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels0" Text="Weak"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels0_open" Text="Weak"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels1" Text="Moderate"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels1_open" Text="Moderate"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels2" Text="Strong"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels2_open" Text="Strong"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_HCA_Enabled_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACCProgram_Label" Text="Driving program:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACC_Distance_Label" Text="Distance:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACC_Distance_last_Label" Text="Last distance selected"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ESP_Label" Text="ESC system:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_HCA_Strength_Label" Text="Warning level:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_HCA_WarnTime_Label" Text="Adaptive lane tracking"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssistWarning_Label" Text="Advance warning"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Label" Text="Advance warning:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option0" Text="Early"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option0_open" Text="Early"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option1" Text="Medium"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option1_open" Text="Medium"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option2" Text="Late"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option2_open" Text="Late"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option3" Text="Off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option3_open" Text="Off"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PreCrash_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Brightness_Label" Text="Brightness"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Brightness_Value" Text="%1"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Enabled_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title" Text="Assistance system settings"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_ACC_Label" Text="ACC (Adaptive Cruise Control)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_BlindSpotDetection_Label" Text="Blind Spot Monitor"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_CityEmergencyBrake_Label" Text="Autonomous Emergency Braking System"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_FrontAssist_Label" Text="Front Assist (Forward Collision Warning)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_LaneAssist_Label" Text="Lane Keeping System (Lane Assist)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_PedestrianAssist_Label" Text="Pedestrian Monitoring"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_PreCrash_Label" Text="Proactive occupant protection"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_SideAssist_Label" Text="Lane Change System (Side Assist)"/>
+    <LangID ID="LANG_CAR_ASSIST_INFO_ListItem_MKE_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_INFO_Title_MKE_Label" Text="Driver Alert System"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_ExpListItem_Label_Value_Format" Text="%1"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_ManeuverAssiet_Operation_Label" Text="Active"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCActivation_Label" Text="Automatic activation"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCAudioLowering_ExpListItem_Label_Off" Text="Off"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCAudioLowering_Label" Text="Audio lowering"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels0" Text="Front volume"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels1" Text="Front pitch"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels2" Text="Rear volume"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels3" Text="Rear pitch"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Settings_Title" Text="Parking and maneuvering"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Title_ManeuverAssist_Label" Text="Maneuver braking"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Title_ParkPilot_Label" Text="ParkPilot"/>
+    <LangID ID="LANG_CAR_BMA_Profile_Labels_Emode" Text="E-MODE"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title" Text="Steering wheel heating settings"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title_SteeringWheelHeater_AutomaticActivation" Text="Automatic activation"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title_SteeringWheelHeater_Label" Text="Steering wheel heating"/>
+    <LangID ID="LANG_CAR_DOMAIN_ERROR_DomainNotAvailable_text" Text="Vehicle menu is currently not available."/>
+    <LangID ID="LANG_CAR_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="Starting vehicle menu..."/>
+    <LangID ID="LANG_CAR_ESCOFF_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_CAR_ESCOFF_Confirm" Text="Deactivate"/>
+    <LangID ID="LANG_CAR_ESCOFF_Text" Text="Turning stabilization control \noff completely is not\nrecommended. Are you\nsure you want to deactivate ESC?"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels0" Text="Comfort"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels1" Text="Normal"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels2" Text="Sport"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels3" Text="Offroad"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels4" Text="Race"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels5" Text="Eco"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels6" Text="Custom"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels7" Text="Eco+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ACC_Label" Text="ACC:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AFS_Label" Text="Adaptive Front Lighting Syst.:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AirCondition_Label" Text="Climate control:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AirSuspension_Label" Text="Air suspension:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AntiRollBar_Label" Text="Adaptive sway stabilizer:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AntiSlipControl_Label" Text="ASR:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_BeltTensioner_Label" Text="Belt tensioner:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_BrakeControl_Label" Text="ESC system:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CenterDifferential_Label" Text="Center differential lock:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CenterRearAxleDifferential_Label" Text="All-wheel:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Chassis_Label" Text="Suspension:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CurveAssist_Label" Text="Curve assist:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Label" Text="DCC"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Comfort" Text="Comfort"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Normal" Text="Normal"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Sport" Text="Sport"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DisplaySetup1_Label" Text="Instrument cluster:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DisplaySetup2_Label" Text="Infotainment system:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveAssist2_Label" Text="Parking Assist:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveAssist_Label" Text="Hill Start Assist:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveTrain_Label" Text="Drive system:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriverSeat_Label" Text="Driver's seat:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DynEngineMount_Label" Text="Aggregatelager."/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ESound_Label" Text="Electronic engine sound:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EcoAssist_Label" Text="Eco tips:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Electrictrorquevectoring_Label" Text="El. torque vect."/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EnergoACC_Label" Text="Speed adjustment"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EnergoDisplaySetup_Label" Text="Eco-driving notes:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EngineSound_Label" Text="Interior engine sound:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Engine_Label" Text="Engine:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ExhaustFlap_Label" Text="Exhaust doors:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ExhaustSystemSound_Label" Text="Exterior engine sound:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_FreeRolling_Label" Text="DSG coasting:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_FrontAxleDifferential_Label" Text="Front differential lock:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_GearboxDrivingPosition_Label" Text="Transmission:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_HillDescentControl_Label" Text="Hill Descent Control:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_HybridComponents_Label" Text="Hybrid drive:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_InteriorLight_Label" Text="Ambient lighting:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_LaneAssist_Label" Text="Lane Assist:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_MagneticRide_Label" Text="Magnetic ride"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_MatrixBeam_Label" Text="Matrix headlights:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Navigation2_Label" Text="Navigation"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Navigation_Label" Text="Navigation"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_PassengerCabin_Label" Text="Interior:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Profile7_Title" Text="Custom"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit0" Text="-"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit0_DD_open" Text="-"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit1" Text="Comfort"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit1_DD_open" Text="Comfort"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit2" Text="Normal"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit2_DD_open" Text="Normal"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit3" Text="Sport"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit3_DD_open" Text="Sport"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit4" Text="Offroad"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit4_DD_open" Text="Offroad"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit5" Text="Eco"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit5_DD_open" Text="Eco"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit6" Text="Race"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit6_DD_open" Text="Race"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit7" Text="Eco+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit7_DD_open" Text="Eco+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Off" Text="Off"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Off_DD_open" Text="Off"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_On" Text="On"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_On_DD_open" Text="On"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RESET_Popup_Text" Text="Are you sure you\nwant to reset this mode?"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearAxleDifferential_Label" Text="Rear differential lock:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearAxleSteering_Label" Text="Rear axle steering:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearSpoiler_Label" Text="Rear spoiler:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ResetButton_Label" Text="Reset mode"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Reset_Popup_Button_Cancel_Text" Text="Cancel"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Reset_Popup_Button_Reset_Text" Text="Reset"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SeatSidebolsterAdjustment_Label" Text="Seat bolster settings"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SoundComponents_Label" Text="Engine sound:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_StartStop_Label" Text="Start-Stop system:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Steering_Label" Text="Steering:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SuperpositionSteering_Label" Text="Progressive steering:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SwitchableDamper_Label" Text="&quot;Sport Select&quot; suspension"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_TPMS_Label" Text="Tire Pressure Monitoring Sys.:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Transmission_Label" Text="Transmission:"/>
+    <LangID ID="LANG_CAR_FPA_Title_Label_Text" Text="Driving Mode Selection"/>
+    <LangID ID="LANG_CAR_LIGHT_AFS_Label" Text="Adaptive Front Lighting System"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels0" Text="Early"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels0_open" Text="Early"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels1" Text="Medium"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels1_open" Text="Medium"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels2" Text="Late"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels2_open" Text="Late"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLight_Label" Text="Turn-on time:"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoRainLight_Label" Text="Automatic headlight control (during rain)"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label" Text="Front ambient lighting"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_ComfortTurnLights_Label" Text="Convenience turn signal"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Label_Value_Format" Text="%1 s"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Label_Value_Off" Text="Off"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Slider_Label_Off" Text="Off"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_Labels0" Text="&quot;Coming home&quot; function"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_Labels1" Text="&quot;Leaving home&quot; function"/>
+    <LangID ID="LANG_CAR_LIGHT_DayDrivingLight_Label" Text="Daytime running lights"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label" Text="Door ambient lighting"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label" Text="Footwell light"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_HeadlampLeveling_Label_Value_text" Text="%1"/>
+    <LangID ID="LANG_CAR_LIGHT_MDF_Label" Text="Dynamic Light Assist"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_AmbienceLight_Label" Text="Roof ambient lighting"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_AutoLightSystem_Label" Text="Light Assist"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_ComingLeavingHome_Label" Text="&quot;Coming/Leaving home&quot; function"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_HeadlampLeveling_Label" Text="Headlight range adjustment"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_PanelLighting_Label" Text="Instrument lighting"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Label" Text="Travel mode:"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value0" Text="Right"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value0_open" Text="Right"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value1" Text="Left"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value1_open" Text="Left"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Max" Text="Max."/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Min" Text="Min."/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Off" Text="Off"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValu_time_default_Entry" Text="--:--"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_Format" Text="%1 %2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_avgConsumption_Format_Entry" Text="Avg. %1.%2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_avgSpeed_Format_Entry" Text="Avg. %1"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_consumption_default_Entry" Text="--.-"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_default_Entry" Text="---"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_time_Format_Entry" Text="%1:%2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits0" Text="km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits1" Text="mi"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits10" Text="kg/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits11" Text="m³/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits12" Text="kg/100km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits13" Text="m³/100km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits14" Text="km/kg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits15" Text="km/m³"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits16" Text="mi/kg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits17" Text="mi/m³"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits2" Text="h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits3" Text="km/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits4" Text="mph"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits5" Text="l/100km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits6" Text="km/l"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits7" Text="mpg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits8" Text="mpg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits9" Text="l/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Reset_BCmenu1_Label" Text="Reset &quot;Since start&quot; data"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Reset_BCmenu2_Label" Text="Reset &quot;Extended period&quot; data"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Fuelcycle_Label" Text="Since refuel"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Longterm_Label" Text="Extended period"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Trip_Label" Text="Since start"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Media" Text="Media"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Parkheater" Text="Aux. heating"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Radio" Text="Radio"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Setup" Text="Setup"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_SteeringWheelHeater" Text="Steer. whl. heat."/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_View" Text="View"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_WindshieldHeater" Text="Front defrost"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_MAIN_StartStop" Text="Start-Stop"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_MAIN_Title_Label" Text="Vehicle status"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver1" Text="Driver 1"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver2" Text="Driver 2"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver3" Text="Driver 3"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver4" Text="Guest"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_Individual" Text="0,01"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label1" Text="Driver 1"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label2" Text="Driver 2"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label3" Text="Driver 3"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label4" Text="Guest"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Text_Label" Text="0,01"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_RKA_CheckTirePressure_Title" Text="Check/adjust tire pressures"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_RKA_Instructions_text" Text="The pressure in all 4 tires must be\nchecked and set correctly\nin order for the\nTire Pressure Monitoring System (TPMS)\nto function correctly. Depending on\nvehicle type, the tire pressures are found \non the sticker located either on the\ninside of the fuel tank door or in the\ndriver door frame. For additional\ninformation on tire pressure and the\nTire Pressure Monitoring System (TPMS),\nrefer to your Owner's Manual.\nOnce you have checked the pressure\nin all 4 tires and adjusted them,\nif necessary, press &quot;SET&quot; in the\n&quot;Tire Pressure Monitoring System&quot; \nscreen.The vehicle will then\n start the programming process."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Headline_Titel" Text="Start-Stop system status"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels1" Text="Driver is not present."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels10" Text="Trailer hitched"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels11" Text="Windshield could fog up."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels12" Text="Outside of operating temperature range."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels13" Text="Driver is not present."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels14" Text="The transmission requires\nthe engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels15" Text="Power consumption is high."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels16" Text="Starting Start-Stop system..."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels17" Text="The engine must run."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels18" Text="The incline is too steep."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels19" Text="The Start-Stop system is\ncurrently not available."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels2" Text="Note: Please close driver's door."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels20" Text="Emergency braking function active."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels21" Text="The brakes require the engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels22" Text="Power consumption is high."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels23" Text="Note: Set interior temperature not reached."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels24" Text="Note: Please reduce the steering angle."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels25" Text="Note: Park mode. You\nmust drive forward."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels26" Text="Defrost function is switched on."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels27" Text="Note: Please buckle driver's seat belt."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels28" Text="Note: Please close driver's door."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels29" Text="Note: Please release the gas pedal."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels3" Text="The hood is open."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels30" Text="The windshield defogger is switched on."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels31" Text="Note: Please switch off max A/C function."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels32" Text="The hood is open."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels33" Text="It is currently not possible to stop the engine."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels34" Text="Note: Please switch off Offroad mode."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels35" Text="Note: Started too many times.\nYou must drive forward."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels36" Text="Note: Please take out of gear."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels37" Text="Note: Please activate Start-Stop system."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels38" Text="Interior humidity level is too high."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels39" Text="Traffic situation"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels4" Text="Note: Please buckle driver's seat belt."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels40" Text="Note: Please switch off Park Assist."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels41" Text="Note: Please switch on ESC."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels42" Text="Power consumption is high."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels43" Text="Start-Stop system requires\nthe engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels5" Text="Driver is not present."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels6" Text="System protection active."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels7" Text="No engine start: System-controlled."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels8" Text="Note: Please start engine manually."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels9" Text="Note: Please take out of gear."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels1" Text="Last restart: ESC was switched off."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels10" Text="Last restart:\nWindshield could fog up."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels11" Text="Last restart:\nPower consumption is high."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels12" Text="Last restart: Engine must be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels13" Text="Last restart:\nVehicle in front has moved"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels14" Text="Last restart: Offroad mode\nwas switched on."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels15" Text="Last restart:\nBrakes require the engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels16" Text="Last restart:\nPower consumption is high."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels17" Text="Last restart: Seat ventilation requires\nthe engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels18" Text="Last restart: Start-Stop system requires\nthe engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels2" Text="Last restart: Start-Stop button was pressed."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels3" Text="Last restart: Reverse gear was engaged."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels4" Text="Last restart: At driver's request."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels5" Text="Last restart: Defrost function was switched on."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels6" Text="Last restart: Windshield defogger\nwas switched on."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels7" Text="Last restart: Climate control requires\nthe engine to be running."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels8" Text="Last restart: Max A/C function\nwas switched on."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels9" Text="Last restart: By rolling."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels0" Text="Start-Stop system is activated."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels1" Text="Start-Stop system is available."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels2" Text="Engine stop is active."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels3" Text="The driver's door is open.\nThe driver is not present."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels4" Text="Note: Please press the brake pedal."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels5" Text="Note: Please release the clutch."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels6" Text="Note: Please activate Start-Stop system."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels7" Text="Error: Start-Stop system"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels8" Text="The Start-Stop system is not available."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_SizeS_Source_BT_Audio_Label" Text="BT audio"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_Error_text" Text="Error: Source"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_NoFile_text" Text="No playable files"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_loading_text" Text="Loading..."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_noSource_text" Text="No source\navailable."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_TitleName_Mirrorlink_text" Text="MirrorLink®"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_TitleName_TrackNumber" Text="Track %1"/>
+    <LangID ID="LANG_CAR_MAIN_PU_TUNER_FrequencyFormater_MHz" Text="%1 MHz"/>
+    <LangID ID="LANG_CAR_MAIN_PU_TUNER_FrequencyFormater_kHZ" Text="%1 kHz"/>
+    <LangID ID="LANG_CAR_MAIN_PU_View_Button_Labels0" Text="Driving data"/>
+    <LangID ID="LANG_CAR_MAIN_PU_View_Button_Labels2" Text="Vehicle status"/>
+    <LangID ID="LANG_CAR_MFA_Labels0" Text="Current consumption"/>
+    <LangID ID="LANG_CAR_MFA_Labels1" Text="Average consumption"/>
+    <LangID ID="LANG_CAR_MFA_Labels10" Text="Oil temperature"/>
+    <LangID ID="LANG_CAR_MFA_Labels2" Text="Refuel quantity"/>
+    <LangID ID="LANG_CAR_MFA_Labels3" Text="Convenience consumer"/>
+    <LangID ID="LANG_CAR_MFA_Labels4" Text="Eco tips"/>
+    <LangID ID="LANG_CAR_MFA_Labels5" Text="Travel time"/>
+    <LangID ID="LANG_CAR_MFA_Labels6" Text="Distance"/>
+    <LangID ID="LANG_CAR_MFA_Labels7" Text="Average speed"/>
+    <LangID ID="LANG_CAR_MFA_Labels8" Text="Digital speed display"/>
+    <LangID ID="LANG_CAR_MFA_Labels9" Text="Speed warning"/>
+    <LangID ID="LANG_CAR_MFA_MFA_Label" Text="Multifunction indicator"/>
+    <LangID ID="LANG_CAR_MFA_Reset_longterm_Popup_Button_Cancel_Text" Text="Cancel"/>
+    <LangID ID="LANG_CAR_MFA_Reset_longterm_Popup_Button_Reset_Text" Text="Reset"/>
+    <LangID ID="LANG_CAR_MFA_Title" Text="Instrument cluster settings"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels0" Text="All"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels0_open" Text="All"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels1" Text="Single door"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels1_open" Text="Single door"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels2" Text="Vehicle side"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels2_open" Text="Vehicle side"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels0" Text="All"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels0_open" Text="All"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels1" Text="Driver"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels1_open" Text="Driver"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels2" Text="Off"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels2_open" Text="Off"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_AutoLock_Label" Text="Lock automatically"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_AutoUnlock_Label" Text="Unlock automatically"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_BootCover_Label" Text="Auto open luggage compartment cover"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_CloseAutoLock_Label" Text="Automatic closing when locking"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_DWA_Label" Text="Acoustic confirmation"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_EasyEntry_Label" Text="&quot;Easy Entry&quot; entry assistance"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_Int_Monitoring_System_Label" Text="Interior monitoring system"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_ManualUnlock_Label" Text="Unlock doors:"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_RainProtection_Label" Text="Automatic closing in rain"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_TrunkOpener_Label" Text="&quot;Easy Open&quot;"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_WindowOpen_Label" Text="Convenience opening:"/>
+    <LangID ID="LANG_CAR_OPEN_Title_Doors_Label" Text="Central locking"/>
+    <LangID ID="LANG_CAR_OPEN_Title_Windows_Label" Text="Window operation"/>
+    <LangID ID="LANG_CAR_OPS_Disclaimer_HardWarning_Label" Text="Look! Safe to move? Function limited."/>
+    <LangID ID="LANG_CAR_OPS_Disclaimer_IceMud_Label" Text="Look! Safe to move? Clean sensors!"/>
+    <LangID ID="LANG_CAR_OPS_RVC_Disclaimer_Label" Text="Look! Safe to move?"/>
+    <LangID ID="LANG_CAR_OPS_Title" Text="ParkPilot"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_BeltTensionerLeft_Label" Text="Left"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_BeltTensionerRight_Label" Text="Right"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_SeatPosition_Label" Text="Vehicle key activated"/>
+    <LangID ID="LANG_CAR_SEATS_Title" Text="Seat settings"/>
+    <LangID ID="LANG_CAR_SEATS_Title_AutoBelts_Label" Text="Automatic belt tensioning"/>
+    <LangID ID="LANG_CAR_SEATS_Title_Seats_Label" Text="Store seat position"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Error_Label" Text="--- or ---"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_1" Text="in %1 %2 or %3 days"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_2" Text="in %1 %2 or %3 day"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_3" Text="%1 %2 or %3 days ago"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_4" Text="%1 %2 or %3 day ago"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Subtitle" Text="Oil change service:"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Error_Label" Text="--- or ---"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_1" Text="in %1 %2 or %3 days"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_2" Text="in %1 %2 or %3 day"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_3" Text="%1 %2 or %3 days ago"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_4" Text="%1 %2 or %3 day ago"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Subtitle" Text="Inspection:"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_notAvailable_Label" Text="No service data available."/>
+    <LangID ID="LANG_CAR_SERVICE_VehicleID_Error_Label" Text="---"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_ACC_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_AWV_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_ESP_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_HCA_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_MKE_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_PreCrash_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_SWA_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Popup_Text" Text="Are you sure you\nwant to reset the\nsettings for\n&quot;%1&quot;?"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RESET_Popup_Button_Cancel_Text" Text="Cancel"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RESET_Popup_Button_Reset_Text" Text="Reset"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RestoreAll_Label" Text="All settings and data"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RestoreIndividual_Label" Text="Individual settings"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings0" Text="All settings"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings1" Text="Assistance systems"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings14" Text="Steering wheel heating"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings15" Text="Personalization"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings2" Text="Parking and maneuvering"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings3" Text="Lights"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings4" Text="Mirrors and wipers"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings5" Text="Opening and closing"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings6" Text="Seats"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings7" Text="Instrument cluster"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Title" Text="Factory settings"/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_ComingLeavingHome_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_ExteriorLight_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_InteriorLight_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_Title" Text="Light settings"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels0" Text="Assistance systems"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels1" Text="Parking and maneuvering"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels10" Text="Units"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels11" Text="Factory settings"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels12" Text="Personalization"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels2" Text="Lights"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels20" Text="Steering wheel heating"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels3" Text="Mirrors and wipers"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels4" Text="Opening and closing"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels5" Text="Seats"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels6" Text="Tires"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels7" Text="Service"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels8" Text="Instrument cluster"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels9" Text="Time and date"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_Title" Text="Vehicle settings"/>
+    <LangID ID="LANG_CAR_SETUP_MFA_RESET_LONG_Popup_Text" Text="Do you want to reset\nthe &quot;Extended period&quot;\ndriving data?"/>
+    <LangID ID="LANG_CAR_SETUP_MFA_RESET_TRIP_Popup_Text" Text="Do you want to\nreset the &quot;Since start&quot;\ndriving data?"/>
+    <LangID ID="LANG_CAR_SETUP_OPEN_Title" Text="Opening and closing"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label0" Text="Driver 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label1" Text="Driver 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label2" Text="Driver 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label3" Text="Guest"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label0" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label1" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label2" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label3" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Title" Text="Copy settings to another account"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Copy_Text" Text="Copy settings to another account"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title1" Text="Driver 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title2" Text="Driver 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title3" Text="Driver 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title4" Text="Guest"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Rename_Text" Text="Rename to:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Reset_Text" Text="Reset account"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Title" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_InputField_HideTypingChar" Text="-1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title0" Text="Rename to:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title1" Text="Rename to:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title2" Text="Rename to:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title3" Text="Rename to:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label1" Text="Driver 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label2" Text="Driver 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label3" Text="Driver 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label4" Text="Guest"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label1" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label2" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label3" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label4" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Subtitle" Text="Select account"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option1" Text="Automatic"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option1_open" Text="Automatic"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option2" Text="Manual"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option2_open" Text="Manual"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Text" Text="Key assignment:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_ManualAssigning_Text" Text="Assign key to current account"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_ResetAll_Text" Text="Reset all"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_Subtitle" Text="Settings"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Personalization_Operation_Text" Text="Active"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Personalization_Subtitle" Text="Personalization"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Title" Text="Personalization"/>
+    <LangID ID="LANG_CAR_SETUP_SEATS_SETTINGS_Belts_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_SEATS_SETTINGS_Seats_Label_notAvailable_text" Text="Function is currently not available."/>
+    <LangID ID="LANG_CAR_SETUP_SERVICE_Title" Text="Service"/>
+    <LangID ID="LANG_CAR_SETUP_SERVICE_VehicleID_Label_2" Text="VIN:"/>
+    <LangID ID="LANG_CAR_SETUP_SIGHT_Title" Text="Mirrors and wipers"/>
+    <LangID ID="LANG_CAR_SETUP_TIRES_Title" Text="Tire settings"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_AutoRearWiping_Label" Text="Wipe rear window in reverse"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorAdjust_Label" Text="Synchronized mirror adjustment"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorFold_Label" Text="Fold away after parking"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorLow_Label" Text="Lowering in reverse"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_RainSensor_Label" Text="Automatic wiping during rain"/>
+    <LangID ID="LANG_CAR_SIGHT_Title_Mirrors_Label" Text="Mirrors"/>
+    <LangID ID="LANG_CAR_SIGHT_Title_Wipers_Label" Text="Windshield wipers"/>
+    <LangID ID="LANG_CAR_SliderLabel_Off" Text="Off"/>
+    <LangID ID="LANG_CAR_TIRES_ListItem_Calibration_Label" Text="SET"/>
+    <LangID ID="LANG_CAR_TIRES_RKA_CAL_ERROR" Text="Tire pressures could not be stored."/>
+    <LangID ID="LANG_CAR_TIRES_RKA_CAL_SUCCESS" Text="Tire pressures were stored."/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Confirm" Text="Confirm"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Help" Text="Help"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_CorrectPressure_text" Text="Do all four tire pressure\nreadings comply with the\nrequired values?"/>
+    <LangID ID="LANG_CAR_TIRES_Title_TPMS_Label" Text="Tire Pressure Monitoring System"/>
+    <LangID ID="LANG_CLIMATE_AIRFLOW_FUNCTIONS_REAR_Manual" Text="Manual"/>
+    <LangID ID="LANG_CLIMATE_AIRFLOW_FUNCTIONS_REAR_Title" Text="Presets"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_FRONT_Temp_High_text" Text="HI"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_FRONT_Temp_Low_text" Text="LO"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_000_RearTemp_Low" Text="LO"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_001_RearTemp_High" Text="HI"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_RearTemp_Eco" Text="ECO"/>
+    <LangID ID="LANG_CLIMATE_DESKTOP_CB_Setup" Text="Setup"/>
+    <LangID ID="LANG_CLIMATE_DOMAIN_ERROR_DomainNotAvailable_text" Text="Climate control menu is currently not available."/>
+    <LangID ID="LANG_CLIMATE_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="Starting climate control menu..."/>
+    <LangID ID="LANG_CLIMATE_OVERLAY_FUNCTION_ERROR_Continue_Label_text" Text="OK"/>
+    <LangID ID="LANG_CLIMATE_OVERLAY_FUNCTION_ERROR_Label_text" Text="The function is not available."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DD_Off" Text="Off"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Duration" Text="Duration %1 min"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Info_Climatic_text" Text="The duration relates to the\nactivation of a departure time \nand the pressing of the immediate\nheating button/remote control."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Info_Climatronic_text" Text="The duration relates to\nthe pressing of the immediate\nheating button/remote control."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_TitleLabel_text" Text="Set duration"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts1" Text="Insufficient fuel.\nAuxiliary heating not activated."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts2" Text="Battery low.\nAuxiliary heating not activated."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts3" Text="Power low.\nAuxiliary heating not activated."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts4" Text="Error: Auxiliary heating"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStartManual_TextFormatter" Text="%1,\n%2 min"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts0" Text="At"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts0_b" Text="At"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts1" Text="Monday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts1_b" Text="Monday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts2" Text="Tuesday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts2_b" Text="Tuesday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts3" Text="Wednesday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts3_b" Text="Wednesday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts4" Text="Thursday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts4_b" Text="Thursday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts5" Text="Friday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts5_b" Text="Friday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts6" Text="Saturday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts6_b" Text="Saturday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts7" Text="Sunday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts7_b" Text="Sunday"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short0" Text="At %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short1" Text="Mo %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short2" Text="Tu %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short3" Text="We %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short4" Text="Th %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short5" Text="Fri %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short6" Text="Sa %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short7" Text="Su %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter" Text="Departure time:\n%1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter1" Text="Departure time:\nToday %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter2" Text="Departure time:\nTomorrow %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts0" Text="Departure time:\nOff"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts1" Text="Heating"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts2" Text="Ventilation"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts0" Text="Heating"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts0_open" Text="Heating"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts1" Text="Ventilation"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts1_open" Text="Ventilation"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingOff_text" Text="Off"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_TimerAdjust_text" Text="Adjust"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_TitelLabel_text" Text="Auxiliary heating"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_NoTimer" Text="Departure time: Off"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_Activate_text" Text="Activate"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_12hformat_AM" Text="am"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_12hformat_PM" Text="pm"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Headline_suffixes1" Text="Departure time %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Hour_text" Text="Hour"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Minute_text" Text="Minute"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Weekday_text" Text="Week day"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_ampm_text" Text="am/pm"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_SetupDuration_text" Text="Duration"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer1_text" Text="Departure time 1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer2_text" Text="Departure time 2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer3_text" Text="Departure time 3"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_TitelLabel_text" Text="Set auxiliary heating"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_1" Text="Low"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_2" Text="Medium"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_3" Text="High"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_000_ButtonClose_SEAT_Label" Text="Door, window or roof open."/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_AirCleaning" Text="Active"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_Headline" Text="Air Care Climatronic"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_ViewContainer_Info_text" Text=""/>
+    <LangID ID="LANG_CLIMATE_SETUP_AutoAir_text" Text="Automatic air recirculation"/>
+    <LangID ID="LANG_CLIMATE_SETUP_AutomaticWindowHeater_text" Text="Automatic window defogger"/>
+    <LangID ID="LANG_CLIMATE_SETUP_AuxHeater_text" Text="Automatic supplementary heater"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList0" Text="Low"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList0_open" Text="Low"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList1" Text="Medium"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList1_open" Text="Medium"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList2" Text="High"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList2_open" Text="High"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyle_text" Text="Climate profile:"/>
+    <LangID ID="LANG_CLIMATE_SETUP_CouplingSeatWithSteeringWheel_text" Text="Synchronize seat and steering wheel heating"/>
+    <LangID ID="LANG_CLIMATE_SETUP_Headline_text" Text="Climate control settings"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ManualRunningTime_value" Text="%1 min"/>
+    <LangID ID="LANG_CLIMATE_SETUP_NOT_AVAILABLE_Continue_Label_text" Text="OK"/>
+    <LangID ID="LANG_CLIMATE_SETUP_SteeringWheelHeater_text" Text="Steering wheel heating"/>
+    <LangID ID="LANG_CLIMATE_SETUP_WindowHeater_text" Text="Window defogger"/>
+    <LangID ID="LANG_MEDIA_AUX_MAIN_Text" Text="AUX"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label0" Text="Track lists"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label1" Text="Artists"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label2" Text="Albums"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label3" Text="Tracks"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label4" Text="Podcasts"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label5" Text="Genres"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label6" Text="Composers"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label7" Text="Audio books"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label_AllAlbum" Text="All albums"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label_AllTitle" Text="All tracks"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_CategoryEmpty_Text" Text="No playable files."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_DeviceDisconnectInfo_Text" Text="Device is not connected."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_Element_Button_File_ErrorText" Text="Error: File"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_Element_Button_File_MissingText" Text="File not found."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_NoAudioFileInfo_Text" Text="No playable files."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_Loading" Text="Loading..."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoFiles" Text="No playable files."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoTrackList_AUX" Text="Track list not supported."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoTrackList_BT" Text="No track list available."/>
+    <LangID ID="LANG_MEDIA_BT_AUDIO_A2DP_MAIN_BTAudioText" Text="Bluetooth audio"/>
+    <LangID ID="LANG_MEDIA_BT_AUDIO_MAIN_StatusText_text" Text="Connection interrupted."/>
+    <LangID ID="LANG_MEDIA_COMPRESSED_AUDIO_BROWSER_PlaybackWait" Text="Loading..."/>
+    <LangID ID="LANG_MEDIA_COMPRESSED_AUDIO_SOURCES_Headline_Path_Text" Text="Sources"/>
+    <LangID ID="LANG_MEDIA_DEVICE_NOT_RESPONSED_Text" Text="Device is not responding."/>
+    <LangID ID="LANG_MEDIA_DOMAIN_ERROR_DomainNotAvailable_text" Text="&quot;Media&quot; is currently not available."/>
+    <LangID ID="LANG_MEDIA_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="Starting &quot;media&quot;..."/>
+    <LangID ID="LANG_MEDIA_INFO_InfoText_Device_Error" Text="Error: Device"/>
+    <LangID ID="LANG_MEDIA_INFO_InfoText_Device_Not_Connected" Text="Device is not connected."/>
+    <LangID ID="LANG_MEDIA_INFO_LoadingText_text" Text="Loading..."/>
+    <LangID ID="LANG_MEDIA_INFO_LoadingText_text_1" Text="Loading %1..."/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Next" Text="Next"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Pause" Text="Pause"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Play" Text="Play"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Previous" Text="Previous"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Selection" Text="Selection"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Setup" Text="Setup"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Source" Text="Source"/>
+    <LangID ID="LANG_MEDIA_MAIN_OVERVIEW_MEDIA_NO_SOURCE_AVAILABLE_text" Text="No source available."/>
+    <LangID ID="LANG_MEDIA_NO_AUDIO_FILES_text" Text="%1: No playable files."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_MIX_REPEAT_FOLDER_Button_Cancel_Text" Text="Cancel"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_MIX_REPEAT_FOLDER_Text_StatusInformation_text" Text="&quot;Mix/Repeat including subfolders&quot;\nis not activated. Do you want to\nactivate this function?"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_PLAYBACK_WAIT_StatusInformation_text" Text="Please wait..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_AVAILABLE_Text" Text="Device is not available."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_SUPPORTED_Hub_Text" Text="USB hub is not supported."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_SUPPORTED_Text" Text="Device is not supported."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_ERROR_Text" Text="Error: %1"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_FUNCTION_NOT_AVAILABLE_TextArea_Text" Text="Function is not available."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_ACTIVE_CALL_StatusInformation_Text" Text="This function is not available when a call is in progress."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_DOMAIN_ERROR_StatusInformation_Text" Text="Phone is currently not available."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_DOMAIN_NOT_AVAILABLE_StatusInformation_Text" Text="It is currently not possible to activate\na Bluetooth audio device."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PO_PROGRESS_MEDIA_PLAYBACK_WAIT_Text" Text="Please wait..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONNECTING_Text" Text="Connecting device…"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONTAINS_NO_AUDIO_FILES_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONTAINS_NO_AUDIO_FILES_Text" Text="No playable files available."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_ERROR_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames2" Text="SD card"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames3" Text="AUX"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames6" Text="BT audio"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames7" Text="iPod"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames8" Text="USB"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Bluetooth_Setup_Text" Text="Bluetooth"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_IncludeSubfolders_Text" Text="Mix/Repeat including subfolders"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Ipod_Settings_Text" Text="iPod"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_SD_Settings_Text" Text="SD card"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Source_Settings_Text" Text="Select"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Tone_Settings_Text" Text="Sound"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_USB_Settings_Text" Text="USB"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Unmount_Settings_Text" Text="Remove safely:"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Title" Text="Media settings"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames2" Text="SD card"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames3" Text="AUX"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames6" Text="Bluetooth audio"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames7" Text="iPod"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames8" Text="USB"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_CloseApps_text" Text="Close apps"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_CloseConnection_text" Text="Disconnect"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_Phoneview_text" Text="1:1"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Device_locked_text" Text="Please unlock the mobile device to use MirrorLink®."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_1" Text="App is not enabled for this country."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_2" Text="App not available while driving."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_3" Text="Error: MirrorLink®"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_4" Text="App is not compatible."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_5" Text="Fault: Video transfer"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_Loading_Text" Text="Loading app..."/>
+    <LangID ID="LANG_MIRROR_LINK_CLOSE_APPS_Close_All_Button" Text="Close all"/>
+    <LangID ID="LANG_MIRROR_LINK_CLOSE_APPS_Label" Text="Close open apps"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECTION_Text" Text="Connecting…"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECT_Button_OK" Text="OK"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECT_Text" Text="No USB connection.\nPlease connect your mobile device."/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_APPLICATION_ERROR_Text" Text="Error: MirrorLink®"/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_DEVICE_FATAL_ERROR_Text" Text="Please reconnect the mobile device."/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_DEVICE_UNTRUSTED_Text" Text="The mobile device is not certified."/>
+    <LangID ID="LANG_MIRROR_LINK_MAIN_InfoML_Text" Text="MirrorLink® compatible apps"/>
+    <LangID ID="LANG_MIRROR_LINK_MAIN_Text" Text="No compatible apps were found on the device.\nThey may not be supported by the device."/>
+    <LangID ID="LANG_MIRROR_LINK_SPELLER_OK_Button" Text="OK"/>
+    <LangID ID="LANG_MIRROR_LINK_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_MiniPlayer_Media_ErrorMessage_Device_Not_Connected" Text="Device not\nconnected."/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_AndroidAuto_text" Text="Android Auto"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_BaiduCarLife_text" Text="Baidu CarLife"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_Carplay_text" Text="Apple CarPlay"/>
+    <LangID ID="LANG_OverlayPopup_Button_Activate_Text" Text="Activate"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_AUDIO_SOURCE" Text="Bluetooth audio (A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_All_Profile" Text="All profiles (HFP/A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_HFP" Text="Hands-free phone (HFP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names2" Text="Hands-free phone (HFP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names5" Text="Bluetooth audio (A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names7" Text="All profiles (HFP/A2DP)"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Accepted" Text="Received"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Dialed" Text="Dialed"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Missed" Text="Missed"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Mixed" Text="All"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes0" Text="Dialed"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes1" Text="Received"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes2" Text="Missed"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes3" Text="All"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_TextLabel" Text="Calls"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty0" Text="No entries available."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty1" Text="No entries available."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty2" Text="No entries available."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty3" Text="No entries available."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Update" Text="Loading list..."/>
+    <LangID ID="LANG_PHONE_CONTACTS_Button_Download" Text="Import contacts again"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_Contacts" Text="Contacts"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_ContactsLoading" Text="Contacts"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_NoContacts" Text="Contacts"/>
+    <LangID ID="LANG_PHONE_CONTACTS_List_Empty" Text="No contacts with phone\nnumbers available. Please reimport\nthe contacts and take note of any\nmessages and potential problems\non your mobile."/>
+    <LangID ID="LANG_PHONE_CONTACTS_List_Empty_Download_Ongoing" Text="Importing contacts...\nPlease check the mobile device\nto see if the import must be\nconfirmed or if it failed."/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Multiple" Text="(Multiple numbers)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option0" Text="%1"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option1" Text="%1 (private)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option10_CN" Text="%1 (home)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option2" Text="%1 (business)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option3" Text="%1 (cell phone)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option4" Text="%1 (landline)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option5" Text="%1 (private cell phone)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option6" Text="%1 (private landline)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option7" Text="%1 (business cell phone)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option8" Text="%1 (business landline)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option9_CN" Text="%1 (general)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_PHONE_CONTACTS_BACKSIDE_Callstack" Text="Calls"/>
+    <LangID ID="LANG_PHONE_CONTACTS_PHONE_CONTACTS_BACKSIDE_Callstack_NewNumber" Text="New contact"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_Button_Match_Default_TextLabel" Text="**"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_Headline_TextLabel" Text="Enter name"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Messages" Text="Text SMS"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_EmergencyCall" Text="Emergency call"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_InformationCall" Text="Info call"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_Mailbox" Text="Mailbox"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_NoMatch" Text="No matching\ncontact found."/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_ServiceCall" Text="Roadside assistance"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_VoiceDial" Text="Voice op."/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names0" Text="An error has occurred."/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names1" Text="No network"/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names2" Text="Number invalid."/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names3" Text="The phone number is too long."/>
+    <LangID ID="LANG_PHONE_DOMAIN_ERROR_Text_StatusInformation" Text="Phone is currently not available."/>
+    <LangID ID="LANG_PHONE_DOMAIN_NOT_AVAILABLE_Text_StatusInformation" Text="Starting phone..."/>
+    <LangID ID="LANG_PHONE_Date_Today" Text="Today"/>
+    <LangID ID="LANG_PHONE_Date_Yesterday" Text="Yesterday"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel0" Text="1"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel1" Text="2"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel2" Text="3"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel3" Text="4"/>
+    <LangID ID="LANG_PHONE_INIT_BT_SWITCHED_OFF_Button_EnableBluetooth" Text="Switch on Bluetooth"/>
+    <LangID ID="LANG_PHONE_INIT_BT_SWITCHED_OFF_Textarea_StatusInformation" Text="Please switch on Bluetooth."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_CALL_REJECTED" Text="Rejected"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_HANGED_UP" Text="Ending call..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_NOLINE" Text="No connection"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_NUMBER_TEMP_FORBIDDEN" Text="Number blocked"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_REMOTE_BUSY" Text="Busy"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_REMOTE_NOT_ANSWERING" Text="No answer"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Disconnecting" Text="Ending call..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Incoming" Text="incoming call..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Incoming_on_hold" Text="on hold..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Emergency" Text="Emergency call"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Info" Text="Info call"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Mailbox" Text="Mailbox"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Service" Text="Roadside assistance"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_unknown" Text="Unknown number"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Call" Text="Calls"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Contacts" Text="Contacts"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_DialNumber" Text="Dial no."/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_EmergencyCall" Text="Emergency call"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Setup" Text="Setup"/>
+    <LangID ID="LANG_PHONE_MAIN_DIAL_Headline_TextLabel" Text="Enter phone number"/>
+    <LangID ID="LANG_PHONE_MAIN_DIAL_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_PHONE_MAIN_NOCALLS_Preset_ListItem_Text_AddFavorite" Text="Add\nfavorite"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_AccessDenied" Text="Rejected by network."/>
+    <LangID ID="LANG_PHONE_MAIN_Network_EmergencyNetwork" Text="Emergency call only"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_NotAvailable" Text="No network."/>
+    <LangID ID="LANG_PHONE_MAIN_Network_ProviderUnknown" Text="Unknown network."/>
+    <LangID ID="LANG_PHONE_MAIN_Network_Searching" Text="Network search"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECTED_CarPlay_Textarea_StatusInformation" Text="Please disconnect Apple CarPlay\nfirst in order to connect a\ndifferent cell phone."/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Button_NoPhone" Text="No phone connected."/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Button_SearchNewPhone" Text="Find phone"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Textarea_StatusInformation" Text="Please find and connect a phone."/>
+    <LangID ID="LANG_PHONE_RECONNECT_Button_SearchNewPhone" Text="Find phone"/>
+    <LangID ID="LANG_PHONE_RECONNECT_Textarea_StatusInformation" Text="Connecting automatically..."/>
+    <LangID ID="LANG_PHONE_SETUP_Headline_TextLabel" Text="Phone settings"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_Headline_TextLabel" Text="Select ring tone"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names0" Text="Bim Bam"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names5" Text="Orchestral"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names7" Text="Ring Ring"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names8" Text="Sweet Soft"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names9" Text="Tut Tut"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_BluetoothSetup" Text="Bluetooth"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_HandsfreeMode" Text="Hands-free"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_InternalRingtone" Text="Select ring tone"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneProfile" Text="User profile"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneReminder" Text="Phone reminder"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneSelection" Text="Select phone"/>
+    <LangID ID="LANG_PHONE_SETUP_MAILBOX_NUMBER_HeadLine_Text" Text="Enter mailbox number"/>
+    <LangID ID="LANG_PHONE_SETUP_PHONE_SELECTION_Headline_TextLabel" Text="Select phone"/>
+    <LangID ID="LANG_PHONE_SETUP_PHONE_SELECTION_SearchNewPhone" Text="Find phone"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_FAVORITES_ADD_Headline_Text" Text="Add favorite"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_FAVORITES_SEL_Preset_ListItem_Text_AddFavorite" Text="Add\nfavorite"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_Headline_TextLabel" Text="User profile settings"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_SPEED_DIAL_KEYS_SEL_Headline_TextLabel" Text="Manage favorites"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_Button_DeleteAll_TextLabel" Text="All"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_Headline_TextLabel" Text="Delete other profiles"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_ListItem_Profiles_DownloadedContacts" Text="%1/%2"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder0" Text="Last name"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder0_open" Text="Last name"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder1" Text="First name"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder1_open" Text="First name"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DeleteOtherProfiles" Text="Delete other profiles"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DownloadContacts" Text="Import contacts:"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DownloadContacts_Value" Text="%1/%2"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_EditFavorites" Text="Manage favorites"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_GlobalSortingOrder" Text="Sort by:"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_MailboxNumber" Text="Mailbox no.:"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_MailboxNumber_Empty" Text="Enter here"/>
+    <LangID ID="LANG_PHONE_SMS_CONTENT_LOADING" Text="Please wait..."/>
+    <LangID ID="LANG_PHONE_SMS_CONTENT_NOT_AVAILABLE" Text="SMS could not be loaded."/>
+    <LangID ID="LANG_PHONE_SMS_Headline_TextLabel" Text="Text message"/>
+    <LangID ID="LANG_PHONE_SMS_MAIN_NO_MESSAGE" Text="No text messages available."/>
+    <LangID ID="LANG_PHONE_UPDATE_IN_PROGRESS_Text_StatusInformation" Text="Phone is currently not available.\nUpdating Bluetooth..."/>
+    <LangID ID="LANG_PHONE_VOICE_DIAL_Headline_TextLabel" Text="Voice operation"/>
+    <LangID ID="LANG_PHONE_VOICE_DIAL_Waiting" Text="Please follow the instructions\non your phone."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_A2DP_NOT_ENABLED" Text="Could not switch on Bluetooth audio."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_A2DP_NOT_ENABLED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CAR_IS_DRIVING_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CAR_IS_DRIVING_Textarea_StatusInformation" Text="Your device requires you\nto enter a PIN. For your\nown safety, it is not possible\nto enter a PIN while driving."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_CarLifeAndroid_StatusInformation" Text="Could not connect to mobile device.\nThe device is already connected through Baidu CarLife."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_CarPlay_StatusInformation" Text="Could not connect to mobile device.\nThe device is already connected through Apple CarPlay."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_GAL_StatusInformation" Text="Could not connect to mobile device.\nThe device is already connected through Android Auto."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_GENERAL_ERROR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_GENERAL_ERROR_Textarea_StatusInformation" Text="%1\nUnable to connect."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_GENERAL_ERROR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_GENERAL_ERROR_Textarea_StatusInformation" Text="%1\nUnable to pair."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_PASSKEY_ERROR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_PASSKEY_ERROR_Textarea_StatusInformation" Text="%1\nCould not pair.\nPassword is incorrect."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_TIMEOUT_ERROR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_TIMEOUT_ERROR_Textarea_StatusInformation" Text="%1\nCould not pair.\nInput timed out."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Button_Help" Text="Help"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Textarea_StatusInformation" Text="%1\nNot connected. The selected profile is\nnot supported or is not activated."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_USER_ABORT_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_USER_ABORT_Textarea_StatusInformation" Text="%1\nPairing has been canceled."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_DEVICE_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_DEVICE_Textarea_StatusInformation" Text="%1\nConnection canceled."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_Textarea_StatusInformation" Text="%1\nProfile:\n%2\nConnection was canceled."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_GENERAL_ERR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_GENERAL_ERR_Textarea_StatusInformation" Text="%1\nUnable to connect."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_USER_ABORT_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_USER_ABORT_Textarea_StatusInformation" Text="%1\nConnection canceled."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DENY_ROLE_CHANGE_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DENY_ROLE_CHANGE_Textarea_StatusInformation" Text="%1\nis incompatible. Connections will be canceled."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DEVICE_DISCONNECT_FAILED_Button_OK" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DEVICE_DISCONNECT_FAILED_Textarea_StatusInformation" Text="%1\nUnable to disconnect."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_DISABLED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_DISABLED_Textarea_StatusInformation" Text="Unable to switch off Bluetooth."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_ENABLED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_ENABLED_Textarea_StatusInformation" Text="Unable to switch on Bluetooth."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_ALL_FAILED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_ALL_FAILED_Textarea_StatusInformation" Text="Unable to delete the pairings."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_FAILED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_FAILED_Textarea_StatusInformation" Text="%1\nUnable to delete the pairing."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_DISCONNECT_FAILED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_DISCONNECT_FAILED_Textarea_StatusInformation" Text="%1\nCould not disconnect profile from device\n%2."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_NOT_AVAILABLE_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_NOT_AVAILABLE_Textarea_StatusInformation" Text="%1\nBluetooth profile is currently not available."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_GENERAL_Textarea_StatusInformation" Text="To use Bluetooth, please switch on the ignition."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_Textarea_StatusInformation" Text="To use Bluetooth, please switch on the ignition."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Button_Retry" Text="Retry"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Textarea_StatusInformation" Text="Software update failed.\nPlease try again."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_ACTIVE_CALL_HANDOVER_WARNING_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_ACTIVE_CALL_HANDOVER_WARNING_Textarea_StatusInformation" Text="Please continue the call on\nyour phone in\n%1 minutes."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_DIALING_FAILED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_DIALING_FAILED_Textarea_StatusInformation" Text="%1\nCall failed.\n%2"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NOT_INSTALLED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NOT_INSTALLED_Textarea_StatusInformation" Text="Phone is not available."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NO_LINE_FREE_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NO_LINE_FREE_Textarea_StatusInformation" Text="Please end the\ncurrent active call in\norder to start this call."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_TEMP_DO_NOT_FORGET_PHONE_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_TEMP_DO_NOT_FORGET_PHONE_Textarea_StatusInformation" Text="Please do not forget your phone."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LANGUAGE_LOADING_ERROR_001_Accept_Label" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_SHUTDOWN_000_TextLabel" Text="12V battery almost drained.\nSwitching off Infotainment system."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_WARNING_001_Accept_Label" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_WARNING_TextLabel_text" Text="Attention: 12V battery low. Please start the\nengine or switch off the Infotainment system."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_OPS_ERROR_Accept_Label" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_RVC_ERROR_Accept_Label" Text="OK"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_RVC_ERROR_TextArea_Text" Text="The &quot;Rear View&quot; camera system\nis currently not available."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_SPELLER_DISCLAIMER_TextArea_text" Text="For your safety,\ndo not make any\nentries while driving."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_SPELLER_DISCLAIMER_WARNING_TextArea_text" Text="For your safety, text entry is not available while driving."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_000_TextLabel" Text="Outside of operating temperature range.\nSwitching Infotainment system off."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_001_TextLabel" Text="Outside of operating temperature range.\nSwitching Infotainment system off."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_002_TextLabel" Text="Outside of operating temperature range.\nSwitching screen off."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_BONDING_SSP_Textarea_StatusInformation" Text="Does this password\n%1\nmatch the password on\n%2?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Button_Retry" Text="Retry"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Textarea_StatusInformation" Text="Import failed. Please try again\nand check whether the BT device \n%1\nallows connections."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Disable" Text="Switch off"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Text" Text="Are you sure you want to\nswitch off Bluetooth audio?\nIt will not be possible to connect audio."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Button_Ok" Text="Switch off"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Textarea_StatusInformation" Text="Do you want to switch on Bluetooth audio?\nConnection problems may occur."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Enable" Text="Switch on"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Text" Text="Are you sure you want to switch on Bluetooth audio?\nConnection problems may occur."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Cancel2" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Ok" Text="Connect"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Ok2" Text="Connect"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Textarea_StatusInformation" Text="%1\nDo you want to connect?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Textarea_StatusInformation2" Text="%1\nDo you want to connect?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Textarea_EU_else_StatusInformation" Text="Please check if the profile is supported and activated.\nCompatibility information about your device is available from your dealer."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Textarea_else_StatusInformation" Text="Please check if the profile is\nsupported and activated. Also\ncheck if your device is compatible\nwith the Infotainment system."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Button_Ok" Text="Replace"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Textarea_StatusInformation" Text="%1\nReplace this connection with\n%2?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Button_DeleteAll" Text="Delete"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Textarea_StatusInformation" Text="Are you sure you want to delete\nall paired devices?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_Button_Delete" Text="Delete"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_StatusInformation" Text="Are you sure you want to delete\n%1?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Button_Disconnect" Text="Disconnect"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Textarea_StatusInformation_BluetoothDeviceName" Text="%1\nDo you want to disconnect the device?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Textarea_StatusInformation_Profile" Text="%1\nAre you sure you want\nto disconnect the profile?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_SWDL_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_SWDL_Textarea_StatusInformation" Text="Bluetooth: Function is currently not available.\nUpdating..."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_UNABLE_CONNECT_A2DP_Button_OK" Text="OK"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_UNABLE_CONNECT_A2DP_Textarea_StatusInformation" Text="%1\nUnable to connect.\nAnother connection was already\nestablished with this device."/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_BTN_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_BTN_Confirm" Text="Select"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_Text" Text="%1\nAre you sure you want to select this account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_BTN_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_BTN_Copy" Text="Copy"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_Text" Text="%1\nDo you want to copy the current account settings to this account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Button_Cancel_Text" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Button_Confirm_Text" Text="Assign"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Confirm_Text" Text="Do you want to assign the vehicle key\nto the current account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_BTN_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_BTN_Confirm" Text="Select"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_Text" Text="%1\nAre you sure you want to select this account?\nVarious settings, such as the seat position,\nmay change."/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Button_Cancel_Text" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Button_Confirm_Text" Text="Deactivate"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Confirm_Text" Text="Are you sure you want to deactivate the personalization?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_BTN_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_BTN_Reset" Text="Reset"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_Text" Text="Are you sure you want to\nreset all personalization\nand account settings?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_BTN_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_BTN_Reset" Text="Reset"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text0" Text="%1\nAre you sure you want to reset the account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text1" Text="Driver 1\nAre you sure you want to reset the account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text2" Text="Driver 2\nAre you sure you want to reset the account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text3" Text="Driver 3\nAre you sure you want\nto reset the account?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text4" Text="Guest\nAre you sure you want to reset the account?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Button_Delete" Text="Delete"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Textarea_StatusInformation" Text="Are you sure you want\nto delete all favorites?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Button_Delete" Text="Delete"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Textarea_StatusInformation" Text="%1\nAre you sure you want\nto delete this favorite?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Button_Delete" Text="Delete"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Textarea_StatusInformation" Text="Do you want to delete all user profiles?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Button_Delete" Text="Delete"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Textarea_StatusInformation" Text="%1\nDo you want to delete the user profile?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_VOICE_DIAL_Error" Text="Voice operation on the cell phone could not be started."/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_VOICE_DIAL_NoSupport" Text="Voice operation not supported."/>
+    <LangID ID="LANG_PO_CONFIRM_SYSTEM_RESET_001_Cancel_CancelLabel" Text="Cancel"/>
+    <LangID ID="LANG_PO_CONFIRM_SYSTEM_RESET_002_Reset_Delete" Text="Reset"/>
+    <LangID ID="LANG_PO_DIAGNOSIS_000_TextLabel" Text="Remote control is active."/>
+    <LangID ID="LANG_PO_DISCLAIMER_CLIMATE_SETUP_NOT_AVAILABLE_InfoText_text" Text="Climate control settings:\nThis function is currently\nnot available."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_BATTERY_WARNING_Textarea_StatusInformation" Text="%1\nBattery almost drained."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_BONDING_SUCCESS_Textarea_StatusInformation" Text="Paired: %1"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_CONTACTS_AVAILABLE_Textarea_StatusInformation" Text="Contacts have been imported."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_CONTACTS_INCOMPLETE_Textarea_StatusInformation" Text="Contact import is not complete."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_SERVICE_CONNECTION_LOST_Textarea_StatusInformation" Text="%1\nConnection ended."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_EINGINE_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ENGINE_Text" Text="The function is only available\nwhen the engine is running."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ERROR_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ERROR_Text" Text="This function is currently not available."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_KL15OFF_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_KL15OFF_Text" Text="Can only use this function\nwhen the ignition is switched on."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_SPEED_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_SPEED_Text" Text="The function is currently not available.\nSpeed too high."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_STANDSTILL_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_STANDSTILL_Text" Text="Can only use this function\nwhen the vehicle is stationary."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_TRAILER_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_TRAILER_Text" Text="Trailer: Function is currently not available."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_UNDEFINED_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_UNDEFINED_Text" Text="This function is currently not available."/>
+    <LangID ID="LANG_PO_INFO_CAR_FPA_FUNCTION_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_PO_INFO_CAR_FPA_FUNCTION_Text" Text="Please switch to the\ndriving mode selection\nto adjust the setting."/>
+    <LangID ID="LANG_PO_INFO_CAR_SETUP_PERSONAL_KEY_ERROR_Text" Text="No vehicle key detected. Assignment was canceled."/>
+    <LangID ID="LANG_PO_INFO_CAR_SETUP_PERSONAL_KEY_SUCCESS_Text" Text="Vehicle key was assigned to the current account."/>
+    <LangID ID="LANG_PO_INFO_PHONE_CALL_EXT_InfoText_text" Text="Making emergency call...\nBluetooth and App-Connect are ended and\nare not available during the emergency call."/>
+    <LangID ID="LANG_PO_INFO_PHONE_USER_CONNECTED_Textarea_StatusInformation" Text="%1\nis connected."/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_REGION_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_REGION_Text" Text="App is not available while driving.\nApp is not enabled for this country."/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_Text" Text="App is not available while driving.\nApp is not certified\nor the certification restricts\nuse while driving."/>
+    <LangID ID="LANG_PO_MIRROR_DEVICE_NOT_SUPP_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_DEVICE_NOT_SUPP_Text" Text="Device is not supported."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_DEVICE_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_DEVICE_Text" Text="App cannot be started or is not functioning."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_NOT_COMPATIBLE_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_NOT_COMPATIBLE_Text" Text="App is not compatible."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_AUDIO_LOST_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_AUDIO_LOST_Text" Text="Audio connection was interrupted."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_Text" Text="Error"/>
+    <LangID ID="LANG_PO_MIRROR_LIMITED_COMPATIBLE_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_LIMITED_COMPATIBLE_Text" Text="The mobile device has limited availability."/>
+    <LangID ID="LANG_PO_MIRROR_USB_CONNECTION_LOST_OK_Button" Text="OK"/>
+    <LangID ID="LANG_PO_MIRROR_USB_CONNECTION_LOST_Text" Text="MirrorLink® USB connection was interrupted."/>
+    <LangID ID="LANG_PO_MISC_FPA_MAIN_AbortButton_Label" Text="Close"/>
+    <LangID ID="LANG_PO_MISC_FPA_MAIN_Setup_Label" Text="Setup"/>
+    <LangID ID="LANG_PO_OVERLAY_MIRROR_DEV_NO_DAP_Text" Text="The mobile device has limited availability."/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Button_Ok" Text="Emergency call"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Textarea_StatusInformation" Text="Are you sure you want to make an emergency call?"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_FAILED_Button_Ok" Text="OK"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_FAILED_Textarea_StatusInformation" Text="Emergency call: Call failed."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_REQUEST_Button_Ok" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_REQUEST_Textarea_StatusInformation" Text="%1\nPlease enter the password:\n%2\nand confirm the connection."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_VERIFY_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_VERIFY_Textarea_StatusInformation" Text="%1\nVerifying password...\nPlease check whether\nconfirmation is necessary."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_Button_Ok" Text="Yes"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_ENTER_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_ENTER_Textarea_StatusInformation" Text="%1\nPlease enter the password:\n%2"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_BOND_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_BOND_Textarea_StatusInformation" Text="%1\nPairing in progress..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_Button_Cancel" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_DE_Textarea_StatusInformation" Text="Connecting with %1..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_Textarea_StatusInformation" Text="%1\nConnecting with:\n%2\n..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_SERV_REQ_Cancel_Button" Text="Cancel"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_SERV_REQ_Textarea_StatusInformation" Text="%1\nRequesting available profiles..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_EDIT_COPY_WAIT_Text0" Text="Copying settings..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_KEY_PRESS_Text" Text="Please press the open button\non the vehicle key."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_KEY_WAIT_Text" Text="Assigning vehicle key to the current account..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_RESET_ALL_WAIT_Text" Text="Resetting all settings..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_RESET_WAIT_Text0" Text="Resetting all settings..."/>
+    <LangID ID="LANG_PO_PROGRESS_WAITING_Textarea_StatusInformation" Text="Please wait..."/>
+    <LangID ID="LANG_PO_Progress_Unmount_SD_Correct_TextLabel_text" Text="The SD card can be removed."/>
+    <LangID ID="LANG_PO_Progress_Unmount_SD_InCorrect_TextLabel_text" Text="SD card not removed safely."/>
+    <LangID ID="LANG_PO_Progress_Unmount_USB_Correct_TextLabel_text" Text="USB device can be removed."/>
+    <LangID ID="LANG_PO_Progress_Unmount_USB_InCorrect_TextLabel_text" Text="USB device not removed safely."/>
+    <LangID ID="LANG_PO_Progress_Unmount_Waiting_TextLabel_text" Text="Please wait..."/>
+    <LangID ID="LANG_PO_Progress_Unmount_iPod_Correct_TextLabel_text" Text="iPod can be removed."/>
+    <LangID ID="LANG_PO_Progress_Unmount_iPod_InCorrect_TextLabel_text" Text="iPod not removed safely."/>
+    <LangID ID="LANG_PO_SAFECODE_INCORRECT_Incorrect_text" Text="Code incorrect."/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_ENTERTAINMENT_Label_text" Text="Audio"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_PHONE_Label_text" Text="Telephone"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_SDS_Label_text" Text="Voice oper."/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_RadioMonitors_Label_Text" Text="Radio monitors"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_SWDownload_Label_Text" Text="Software update/versions"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_Title_Text" Text="Service mode"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_AntennaLable_Text_Entry" Text="Antenna: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_FSLabel_Text" Text="Field strength:"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Frequency_Text_Entry" Text="Frequency: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Multipath_Label_Text_Entry" Text="Multipath: ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_NKLabel_Text_Entry" Text="NK: ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_PSLabel_Text_Entry" Text="PS:  ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_QualityLabel_Text_Entry" Text="Quality: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Title_Text" Text="AM monitor"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_AntennaLable_Text_Entry" Text="Antenna: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_FSLabel_Text" Text="Field strength:"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Frequency_Text_Entry" Text="Frequency: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Multipath_Label_Text_Entry" Text="Multipath: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_NKLabel_Text_Entry" Text="NK: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_PSLabel_Text_Entry" Text="PS: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_QualityLabel_Text_Entry" Text="Quality: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Title_Text" Text="FM monitor"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_AMMonitor_Label_Text" Text="AM monitor"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_FMMonitor_Label_Text" Text="FM monitor"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_Title_Text" Text="Radio monitors"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist0" Text="Minimum"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist0_open" Text="Minimum"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist1" Text="Medium"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist1_open" Text="Medium"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist2" Text="Maximum"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist2_open" Text="Maximum"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_TextArea_text" Text="Available update: %1"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_TitelLabel_text" Text="Software update"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_start_text" Text="Start update"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_Confirm_text" Text="OK"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_ERROR1_TextArea_text" Text="Error: Software update.\nPlease start the software update again."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_ERROR_TextArea_text" Text="Error: Software update.\nPlease start the software update again."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_FINISHED_TextArea_text" Text="Software update ended."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_NOT_AVAILABLE_StatusInformatio_text" Text="No data available.\nPlease insert a source or check the source."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_NOT_AVAILABLE_TitelLabel_text" Text="Software update"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_PERFORMING_MAIN_Percent_formatter" Text="%1 %"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_PERFORMING_MAIN_TitelLabel_text" Text="Updating software..."/>
+    <LangID ID="LANG_SWDL_DISCLAIMER_001_Cancel_TextLabel" Text="Cancel"/>
+    <LangID ID="LANG_SWDL_DISCLAIMER_text" Text="Attention: The software update\nmay take several minutes.\nPlease do not interrupt the\npower supply or start the engine."/>
+    <LangID ID="LANG_SWDL_MAIN_InstalledVersions_Bluetooth" Text="Bluetooth"/>
+    <LangID ID="LANG_SWDL_MAIN_InstalledVersions_Soft" Text="Software:"/>
+    <LangID ID="LANG_SWDL_MAIN_Partnumber_text" Text="Part number:"/>
+    <LangID ID="LANG_SWDL_MAIN_SWUpdate_text" Text="Update software"/>
+    <LangID ID="LANG_SWDL_MAIN_TitelLabel_text" Text="Software update"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts0" Text="Error: Source not available.\nThe meta info file could not be read."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts1" Text="Error: No releases available.\nThe meta info file could not be read."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts2" Text="Error: Reading/opening\nthe release info file.\nThe meta info file could not be read."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts3" Text="Error: The meta info file\ncould not be opened."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts4" Text="Error: The regions do not\nmatch (main unit)."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts5" Text="Error: Variant conflict"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_Abort" Text="Cancel"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_ConfirmInformation" Text="Are you sure you want to continue the\nsoftware update?"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_Continue" Text="Continue"/>
+    <LangID ID="LANG_SWDL_READING_METAINFO_Text_StatusInformation_text" Text="Meta info..."/>
+    <LangID ID="LANG_SWDL_READING_METAINFO_TitelLabel_text" Text="Release %1"/>
+    <LangID ID="LANG_SWDL_REBOOT_1_TextArea_text" Text="Software update will\ncontinue after restart..."/>
+    <LangID ID="LANG_SWDL_REBOOT_2_TextArea_text" Text="Restarting system..."/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_MAIN_TitelLabel_text" Text="Select release"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_Confirm_text" Text="OK"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_StatusInformation_text" Text="Error: No data available.\nPlease insert a source\ncontaining data for\nupdating the software,\nor check the source."/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_TitelLabel_text" Text="Software update"/>
+    <LangID ID="LANG_SWDL_Start_text" Text="Next"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList0" Text="DD.MM.YYYY"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList0_open" Text="DD.MM.YYYY"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList1" Text="YYYY-MM-DD"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList1_open" Text="YYYY-MM-DD"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList2" Text="MM-DD-YYYY"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList2_open" Text="MM-DD-YYYY"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList0" Text="Brightest"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList0_open" Text="Brightest"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList1" Text="Brighter"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList1_open" Text="Brighter"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList2" Text="Moderate"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList2_open" Text="Moderate"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList3" Text="Darker"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList3_open" Text="Darker"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList4" Text="Darkest"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList4_open" Text="Darkest"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList0" Text="km"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList0_open" Text="km"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList1" Text="mi"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList1_open" Text="mi"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile1_Title" Text="Comfort"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile2_Title" Text="Sport"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile3_Title" Text="Offroad"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile4_Title" Text="Eco"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile5_Title" Text="Race"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile6Title" Text="Custom"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile7_Title" Text="Normal"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile8_Title" Text="Eco+"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList0" Text="l/100km"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList0_open" Text="l/100km"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList1" Text="km/l"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList1_open" Text="km/l"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList2" Text="mpg (US)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList2_open" Text="mpg (US)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList3" Text="mpg (UK)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList3_open" Text="mpg (UK)"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList0" Text="kPa"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList0_open" Text="kPa"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList1" Text="bar"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList1_open" Text="bar"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList2" Text="psi"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList2_open" Text="psi"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Button_OK_Text" Text="OK"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_InputField_HideTypingChar_text" Text="Code"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Speller_InfoText" Text="*"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Title_text" Text="Anti-theft code"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Incorrect_text" Text="Code incorrect."/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Locked_text" Text="Infotainment system is locked.\nPlease wait %1 min."/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Unlock_text" Text="Infotainment system is locked.\nRemaining attempts: %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_ADDITIONAL_SPELLER_LANGUAGES_Title_text" Text="Additional keyboard languages"/>
+    <LangID ID="LANG_SYSTEM_SETUP_COPYRIGHTS_Title_text" Text="Copyright information"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_008_Day" Text="Day"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_009_Month" Text="Month"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_010_Year" Text="Year"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview0" Text="Mo"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview1" Text="Tu"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview2" Text="We"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview3" Text="Th"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview4" Text="Fr"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview5" Text="Sa"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview6" Text="Su"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month10_Year" Text="October %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month11_Year" Text="November %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month12_Year" Text="December %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month1_Year" Text="January %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month2_Year" Text="February %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month3_Year" Text="March %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month4_Year" Text="April %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month5_Year" Text="May %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month6_Year" Text="June %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month7_Year" Text="July %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month8_Year" Text="August %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month9_Year" Text="September %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Title_text" Text="Set date"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_AcousticTouchscreenFeedback_text" Text="Touchscreen tone"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_Brightness_text" Text="Brightness:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_ShowClock_text" Text="Display time in standby"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_Title_text" Text="Screen settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_REQUEST_ConcatString" Text="Are you sure you want to reset\nthe settings for &quot;%1&quot;?"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_REQUEST_ConcatString_ALL" Text="Are you sure you want to reset\nall settings and data?"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList0" Text="Reset all"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList10" Text="App-Connect"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList10_SKODA" Text="SmartLink"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList13" Text="System"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList2" Text="Sound"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList3" Text="Radio"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList5" Text="Phone"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList6" Text="Media"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Subheadline_1" Text="All settings and data"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Subheadline_2" Text="Individual settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Title_text" Text="Factory settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANGUAGE_MAIN_Title_text" Text="Select language"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANG_ERROR_TextArea_text" Text="The selected language is not available."/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANG_LOADING_DATA_TextArea_text" Text="Loading language..."/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_AutomaticLanguage_text" Text="Automatic"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text0" Text="ABC"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text0_open" Text="ABC"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text1" Text="QWERTY"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text1_open" Text="QWERTY"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList12" Text="Русский"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList16" Text="English (US)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList18" Text="Español (MEX)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList20" Text="Português (BR)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList37" Text="中文"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemBTDevices_text" Text="Bluetooth"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemCopyrights_text" Text="Copyright"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemDisplay_text" Text="Screen"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemFactorySettings_text" Text="Factory settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemLanguage_CN_English_text" Text="Language/语言"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemLanguage_text" Text="Language"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemSpellerLayout_text" Text="Keyboard:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemSwitchOffDisplay_text" Text="Screen off (in 10 s)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemTime_text" Text="Time and date"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemTone_text" Text="Sound"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemUnits_text" Text="Units"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemVersions" Text="System information"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Listitem_AdditionalSpellerLayout_text" Text="Additional keyboard languages"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Title_text" Text="System settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option0" Text="SD card"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option1" Text="USB"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option4" Text="iPod"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_text" Text="Select"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_text_Title" Text="Safely remove:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_002_ButtonSwitchAM_PM_TextArea" Text="am"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_003_ButtonSwitchPM_AM_TextArea" Text="pm"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_008_Hour" Text="Hour"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_009_Minute" Text="Minute"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_010_AM_PM" Text="am/pm"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text0" Text="12h"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text0_open" Text="12h"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text1" Text="24h"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text1_open" Text="24h"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Date_text" Text="Date:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Dateformat_text" Text="Date format:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Summertime_text" Text="Daylight-saving time"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Time_text" Text="Time:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Timeformat_text" Text="Time format:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Title_text" Text="Time and date settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_Title_text" Text="Set time"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Distance_text" Text="Distance:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_PetrolConsumtion_text" Text="Consumption:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Pressure_text" Text="Pressure:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Speed_TextLabel_text" Text="Speed:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Temperature_text" Text="Temperature:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Title_text" Text="Unit settings"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Volume_text" Text="Volume:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIIONS_AndroidAuto" Text="Android Auto"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_Bluetooth" Text="Bluetooth:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_CarPlay" Text="Apple CarPlay"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_DevicePartnumber" Text="Device part number:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_HardwarePartnumber" Text="Hardware:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_SoftwarePartnumber" Text="Software:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_Title_text" Text="System information"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_UpdateSW_text" Text="Update software"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList0" Text="km/h"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList0_open" Text="km/h"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList1" Text="mph"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList1_open" Text="mph"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList0" Text="°C"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList0_open" Text="°C"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList1" Text="°F"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList1_open" Text="°F"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList0" Text="l"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList0_open" Text="l"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList1" Text="gal (US)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList1_open" Text="gal (US)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList2" Text="gal (UK)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList2_open" Text="gal (UK)"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_AppConnect_text" Text="App-Connect"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_AppConnect_text_SKODA" Text="SmartLink"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_Relaunch_text" Text="Baidu CarLife restart"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_text" Text="CarLife: No data transfer.\nTo use CarLife, please unlock the mobile\ndevice or have the app run in the foreground."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_GAL_FIRST_RUN_EXPERIENCE_ConfirmButton_text" Text="OK"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_GAL_FIRST_RUN_EXPERIENCE_text" Text="Please check if confirmation is\nrequired on the mobile device.\nPlease note: For your safety, do not\noperate the mobile device while driving."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_ConfirmButton_text" Text="OK"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_InfoTextCarplayOnly_text" Text="Please try again or change\nthe USB connection if possible."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_InfoTextGeneral_text" Text="Could not connect.\nPlease check if the\nmobile device supports\n%1."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_CancelLabel_text" Text="Cancel"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_DeactivateTPLabel_text" Text="Connect"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_TextLabel_text" Text="Apple CarPlay: New device detected.\nDo you want to connect with Apple CarPlay?\nPlease note that you are allowing\ndata transfer between the vehicle and the mobile device."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_CancelLabel_text" Text="Cancel"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_ConfirmLabel_text" Text="OK"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_text" Text="Please note that data will be transferred when\nthe vehicle and mobile device are connected."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_CONNECTION_FAILED_TextArea_text" Text="Connection failed.\nPlease check if your mobile device is unlocked."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_DISCONNECT_TextArea_text" Text="App-Connect:\n%1\nConnection was canceled."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_DISCONNECT_TextArea_text_SKODA" Text="SmartLink:\n%1\nConnection was canceled."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_NO_CONNECTION_DURING_CALL_TextArea_text" Text="App-Connect:\nPlease note that this function is not\navailable when a call is in progress."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_NO_CONNECTION_DURING_CALL_TextArea_text_SKODA" Text="SmartLink:\nPlease note that this function is not\navailable during an active call."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_START_CONNECTION_TextLabel_text" Text="%1\nConnecting through %2.\nThe device can no longer be\nused as a source in &quot;Media&quot;."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_Headline_TextLabel_text" Text="App-Connect information"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_Headline_TextLabel_text_SKODA" Text="SmartLink information"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_InfoText_ROW_Text" Text="An overview of other\napps can be found at\nwww.volkswagen.com/apps\nor by scanning the code\nwith your mobile device."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_InfoText_text" Text="An overview of other\napps can be found at\nwww.volkswagen.com/apps\nor by scanning the code\nwith your mobile device."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_Controlbar_Btn_Info_text" Text="Info"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_WelcomeText_text" Text="Welcome to App-Connect.\nPlease select a device."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_WelcomeText_text_SKODA" Text="Welcome to SmartLink.\nPlease select a device."/>
+    <LangID ID="LANG_TEXT_Version" Text="MIBG_GP_22_17_M5"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist0" Text="Manual"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist0_open" Text="Manual"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist1" Text="Rock"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist1_open" Text="Rock"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist2" Text="Pop"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist2_open" Text="Pop"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist3" Text="Classical"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist3_open" Text="Classical"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist4" Text="Jazz"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist4_open" Text="Jazz"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist5" Text="Speech"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist5_open" Text="Speech"/>
+    <LangID ID="LANG_TONE_SETUP_BALANCE_FADER_000_title" Text="Balance - Fader"/>
+    <LangID ID="LANG_TONE_SETUP_BALANCE_FADER_001_title" Text="Balance"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_AccousticTouchscreenFeedback_text" Text="Touchscreen tone"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Balance_SettingName" Text="Balance"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Equalizer_Title_text" Text="Equalizer:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Textlabel_TMB" Text="Bass - Mid - Treble"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_000_Title" Text="Volume settings"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_AudioLowering_LabelOff" Text="Off"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_AudioLowering_ValueFormat" Text="%1"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_BalanceFader_Title_text" Text="Balance - Fader"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List3" Text="Maximum start-up volume"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List4" Text="Speed-dependent volume increase"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List5" Text="AUX volume:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List6" Text="BT audio:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List7" Text="Audio lowering"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List8" Text="iPod volume:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List9" Text="Voice operation"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_Title_text" Text="Volume"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_title_text" Text="Sound settings"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Bass_SettingName" Text="Bass"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Mid_SettingName" Text="Mid"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Treble_SettingName" Text="Treble"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_Headline_Title_text" Text="Bass - Mid - Treble"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_SettingValueMax_text" Text="+9"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_SettingValueMin_text" Text="-9"/>
+    <LangID ID="LANG_TUNER_AM_LIST_MAIN_TextArea_Updating_text" Text="Please wait..."/>
+    <LangID ID="LANG_TUNER_AM_LIST_MAIN_TextLabel_Text" Text="AM station list"/>
+    <LangID ID="LANG_TUNER_AM_MAIN_003_Scan_TextArea" Text="Scan"/>
+    <LangID ID="LANG_TUNER_AM_SETUP_MAIN_SetupButtons_ListContainer_ListItem_Tone_long_ToneSettings_TextLabel_Text" Text="Sound"/>
+    <LangID ID="LANG_TUNER_AM_StoreStation_Title" Text="Store: &quot;%1&quot;"/>
+    <LangID ID="LANG_TUNER_AM_TUNE_kHz_Text" Text="kHz"/>
+    <LangID ID="LANG_TUNER_AM_TUNE_kHz_Text_2" Text="kHz"/>
+    <LangID ID="LANG_TUNER_BandChange_AM" Text="AM"/>
+    <LangID ID="LANG_TUNER_BandChange_FM" Text="FM"/>
+    <LangID ID="LANG_TUNER_DOMAIN_ERROR_DomainNotAvailable_text" Text="&quot;Radio&quot; is currently not available."/>
+    <LangID ID="LANG_TUNER_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="Starting &quot;radio&quot;..."/>
+    <LangID ID="LANG_TUNER_FM_LIST_MAIN_TextArea_Updating_text" Text="Please wait..."/>
+    <LangID ID="LANG_TUNER_FM_SETUP_DELETE_PRESETS_002_HeadlineLabel" Text="Do you want to delete all stored presets?"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_MAIN_005_ScanBTN_TextLabel" Text="Scan"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_MAIN_010_ToneSettings_TextLabel" Text="Sound"/>
+    <LangID ID="LANG_TUNER_FM_Scan_CN" Text="Scan"/>
+    <LangID ID="LANG_TUNER_FM_TUNE_MHz_Text" Text="MHz"/>
+    <LangID ID="LANG_TUNER_FM_TUNE_MHz_Text_2" Text="MHz"/>
+    <LangID ID="LANG_TUNER_Formater_AM" Text="%1 kHz"/>
+    <LangID ID="LANG_TUNER_Formater_FM" Text="%1 MHz"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Band" Text="Band"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Manual" Text="Tune"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Setup" Text="Setup"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_StationList" Text="Station list"/>
+    <LangID ID="LANG_TUNER_OVERLAY_INITIAL_AUTOSTORE_001_Cancel_CancelLabel" Text="Cancel"/>
+    <LangID ID="LANG_TUNER_OVERLAY_INITIAL_AUTOSTORE_TextLabel_text" Text="Storing automatically..."/>
+    <LangID ID="LANG_TUNER_OVERLAY_SETUP_DELETE_PRESETS_004_Button_Delete_TextLabel" Text="Delete"/>
+    <LangID ID="LANG_TUNER_OVERLAY_SETUP_DELETE_PRESETS_005_Button_Cancel_TextLabel" Text="Cancel"/>
+    <LangID ID="LANG_TUNER_OverlaySetupDeletePresets_InfoText" Text="Do you want to delete the stored preset?"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text0" Text="1"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text1" Text="2"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text10" Text="11"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text11" Text="12"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text12" Text="13"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text13" Text="14"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text14" Text="15"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text2" Text="3"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text3" Text="4"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text4" Text="5"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text5" Text="6"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text6" Text="7"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text7" Text="8"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text8" Text="9"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text9" Text="10"/>
+    <LangID ID="LANG_TUNER_PresetList_NoPresetStoredText" Text="Empty"/>
+    <LangID ID="LANG_TUNER_SETUP_AM_ButtonList_DeleteAMPresetsBTN_Label_Text" Text="Delete presets"/>
+    <LangID ID="LANG_TUNER_SETUP_AM_Title_Label_Text" Text="AM settings"/>
+    <LangID ID="LANG_TUNER_SETUP_DELETE_AM_PRESETS_Headline_Text" Text="AM presets list"/>
+    <LangID ID="LANG_TUNER_SETUP_DELETE_PRESETS_Title_Text" Text="FM presets list"/>
+    <LangID ID="LANG_TUNER_SETUP_DeleteAllBTN_Label_Text" Text="All"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_ButtonList_DeleteFMPresetsBTN_Label_Text" Text="Delete presets"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_Label_Text" Text="Station sorting:"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List0" Text="Alphabet"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List0_open" Text="Alphabet"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List2" Text="Frequency"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List2_open" Text="Frequency"/>
+    <LangID ID="LANG_TUNER_SETUP_MAIN_ScopeOfArrowKeys_Button_Label_Text" Text="Arrow keys:"/>
+    <LangID ID="LANG_TUNER_SETUP_MAIN_TunerSetupLabel_Text" Text="FM settings"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0" Text="Presets"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_gr" Text="Presets"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_gr_open" Text="Presets"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_open" Text="Presets"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2" Text="Seek station"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_gr" Text="Seek station"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_gr_open" Text="Seek station"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_open" Text="Seek station"/>
+    <LangID ID="LANG_TUNER_Store_Text" Text="Empty"/>
+    <LangID ID="LANG_TUNER_TUNER_FM_LIST_MAIN_TextLabel_Text" Text="FM station list"/>
+    <LangID ID="LANG_Tuner_FM_StoreStation_Title" Text="Store: &quot;%1&quot;"/>
+    <LangID ID="PO_Alert_Climate_Error_Accept" Text="OK"/>
+    <LangID ID="PO_Alert_Climate_Error_Text" Text="Climate control settings:\nFunction is currently not available."/>
+    <LangID ID="PO_Alert_OPS_Error_Text" Text="The Optical Parking System (OPS)\nis currently not available."/>
+    <LangID ID="SWDL_Disclaimer_Title" Text="Software update"/>
+    <LangID ID="Tone_Setup_GALA_EL_Off" Text="Off"/>
+    <LangID ID="Tuner_Station_List_AM_Preset_Frequency" Text="%1 kHz"/>
+    <LangID ID="Tuner_Station_List_AM_Update_Unsuccessful" Text="No stations"/>
+    <LangID ID="Tuner_Station_List_FM_Update_Unsuccessful" Text="No stations"/>
+    <LangID ID="_&lt;SWDL_CUSTOMER_DOWNLOAD&gt;" Text="-1"/>
+</LangDef>

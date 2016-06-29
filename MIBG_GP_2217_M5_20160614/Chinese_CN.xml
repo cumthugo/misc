@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangDef langCode="0804" xsi:schemaLocation="VWXML2.0 ./../XSD/VWXML_Texts.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="VWXML2.0">
+    <LangID ID="AM_Monitor_Fieldstrength_Value_Entry" Text="%1 dBµV"/>
+    <LangID ID="ANG_CAR_ASSIST_DRIVE_ListItem_Vibration_Label" Text="振动已激活"/>
+    <LangID ID="FM_Monitor_Fieldstrength_Value_Entry" Text="%1 dBµV"/>
+    <LangID ID="LAND_MEDIA_BT_DEVICE_SETUP_MAIN_Item_Device_Text" Text="蓝牙设备"/>
+    <LangID ID="LAND_MEDIA_BT_DEVICE_SETUP_MAIN_Item_Search_Text" Text="查找设备"/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_ERROR_Text" Text="MirrorLink® 当前不可用。"/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_ERROR_Text_SKODA" Text="SmartLink 当前不可用。"/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_NOT_AVAILABLE_Text" Text="正在启动 MirrorLink®..."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_NOT_AVAILABLE_Text_SKODA" Text="正在启动 SmartLink..."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PK_SPELLER_REQ_Headline_TextLabel" Text="输入密码"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PK_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PROFILE_SELECTION_Headline_TextLabel" Text="配置文件：%1"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_DEVICES_FOUND_Title" Text="蓝牙设备"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Button_Help" Text="帮助"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Button_Proceed" Text="结果"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_Additional" Text="请检查是否已打开蓝牙功能且您的移动蓝牙设备（移动电话,\n音频播放器等）是否已设置为可见。"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_BTAudioCodedActivated" Text="正在查找设备...\n蓝牙音频已中止。"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_BTAudioNoCodedOrDeactive" Text="正在查找设备..."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Title" Text="蓝牙设备"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_ListItem_Help" Text="帮助"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Text_SearchFailure" Text="未找到蓝牙设备。"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Text_SearchFailure_Additional" Text="请检查是否已打开蓝牙功能且您的移动设备 (移动电话,\n音频播放器等) 已设置为可见。另外还请检查设备是否\n支持系统的蓝牙配置文件以及它们是否已启用\n(参阅用户手册)."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Title" Text="蓝牙设备"/>
+    <LangID ID="LANG_BLUETOOTH_PIN_SPELLER_REQ_Headline_TextLabel" Text="请输入用户 PIN 码"/>
+    <LangID ID="LANG_BLUETOOTH_PIN_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_Headline_TextLabel" Text="蓝牙设置"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_AudioProfilesEnabled" Text="蓝牙音频 (A2DP/AVRCP)"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_BluetoothEnabled" Text="蓝牙"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName" Text="名称："/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName_Name1" Text="VW Radio"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName_Name2" Text="Skoda Radio"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_PairedDevices" Text="已配对的设备"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_SearchDevices" Text="查找设备"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility" Text="可见性："/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown0" Text="可见"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown0_open" Text="可见"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown1" Text="不可见"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown1_open" Text="不可见"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_NAME_Headline_TextLabel" Text="输入名称"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_NAME_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_Headline_Button_DeleteAll" Text="全部"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_Headline_TextLabel" Text="已配对的设备"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_TextArea_List_Empty" Text="没有配对的蓝牙设备。"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_TextArea_List_Empty_Additional" Text="请检查是否已打开蓝牙功能且您的移动设备\n(移动电话, 音频播放器等) 已设置为可见。\n然后开始设备查找，以便与设备配对。"/>
+    <LangID ID="LANG_BLUETOOTH_UID_SPELLER_REQ_Headline_TextLabel" Text="输入用户名"/>
+    <LangID ID="LANG_BLUETOOTH_UID_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_ButtonUnderstood_TextLabel_text" Text="确定"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Roof_ExpListItem_Label_Value_Format_" Text="%1%"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Roof_ExpListItem_Slider_Label_Off_" Text="关闭"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Title_Roof_Label" Text="车顶"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Distance_Warning_Label" Text="显示距离报警"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_EmergencyBraking_Label" Text="市区紧急制动功能"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Enabled_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Pedestrian_Protection_Label" Text="行人识别"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Label" Text="预警："/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option0" Text="提前"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option0_open" Text="提前"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option1" Text="适时"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option1_open" Text="适时"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option2" Text="延后"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option2_open" Text="延后"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option3" Text="关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option3_open" Text="关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_Label" Text="预警"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_BlindSpotDetectionWarning_Label" Text="报警音"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_BlindSpotDetection_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_CityEmergencyBraking_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels0" Text="经济"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels0_open" Text="经济"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels1" Text="标准"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels1_open" Text="标准"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels2" Text="运动"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels2_open" Text="运动"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels3" Text="舒适"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels3_open" Text="舒适"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels0" Text="最小"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels0_open" Text="最小"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels1" Text="小"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels1_open" Text="小"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels2" Text="中等"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels2_open" Text="中等"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels3" Text="大"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels3_open" Text="大"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels4" Text="最大"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels4_open" Text="最大"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0_open" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0_open" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1" Text="驱动防滑控制系统 (ASR) 关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1_open" Text="ASR 关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1_open" Text="ASR 关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2" Text="ESC 运动模式"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2_open" Text="ESC 运动模式"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2_open" Text="ESC 运动模式"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3" Text="ESC 关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3_open" Text="ESC 关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3_open" Text="ESC 关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels0" Text="弱"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels0_open" Text="弱"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels1" Text="中"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels1_open" Text="中等"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels2" Text="强"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels2_open" Text="强"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_HCA_Enabled_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACCProgram_Label" Text="行驶程序："/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACC_Distance_Label" Text="车距："/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACC_Distance_last_Label" Text="上次选择的车距"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ESP_Label" Text="ESC 程序:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_HCA_Strength_Label" Text="报警强度："/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_HCA_WarnTime_Label" Text="自适应车道导向"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssistWarning_Label" Text="预警"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Label" Text="预警："/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option0" Text="提前"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option0_open" Text="提前"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option1" Text="适时"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option1_open" Text="适时"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option2" Text="延后"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option2_open" Text="延后"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option3" Text="关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option3_open" Text="关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PreCrash_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Brightness_Label" Text="亮度"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Brightness_Value" Text="%1"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Enabled_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title" Text="驾驶辅助系统设置"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_ACC_Label" Text="自适应巡航 (ACC)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_BlindSpotDetection_Label" Text="盲区监控"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_CityEmergencyBrake_Label" Text="市区紧急制动功能"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_FrontAssist_Label" Text="前部辅助系统 (车前测距监控系统)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_LaneAssist_Label" Text="车道保持辅助系统"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_PedestrianAssist_Label" Text="行人识别"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_PreCrash_Label" Text="预防式乘员保护系统"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_SideAssist_Label" Text="变道辅助系统"/>
+    <LangID ID="LANG_CAR_ASSIST_INFO_ListItem_MKE_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_INFO_Title_MKE_Label" Text="疲劳驾驶识别系统"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_ExpListItem_Label_Value_Format" Text="%1"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_ManeuverAssiet_Operation_Label" Text="已激活"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCActivation_Label" Text="自动激活"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCAudioLowering_ExpListItem_Label_Off" Text="关闭"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCAudioLowering_Label" Text="娱乐系统音量抑制"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels0" Text="前部提示音量"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels1" Text="前部提示音调"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels2" Text="后部提示音量"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels3" Text="后部提示音调"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Settings_Title" Text="泊车和驶出辅助设置"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Title_ManeuverAssist_Label" Text="泊车制动功能"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Title_ParkPilot_Label" Text="泊车雷达系统"/>
+    <LangID ID="LANG_CAR_BMA_Profile_Labels_Emode" Text="E-MODE"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title" Text="方向盘加热装置设置"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title_SteeringWheelHeater_AutomaticActivation" Text="自动激活"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title_SteeringWheelHeater_Label" Text="方向盘加热"/>
+    <LangID ID="LANG_CAR_DOMAIN_ERROR_DomainNotAvailable_text" Text="车辆菜单当前不可用。"/>
+    <LangID ID="LANG_CAR_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="正在启动车辆菜单..."/>
+    <LangID ID="LANG_CAR_ESCOFF_Cancel" Text="取消"/>
+    <LangID ID="LANG_CAR_ESCOFF_Confirm" Text="停用"/>
+    <LangID ID="LANG_CAR_ESCOFF_Text" Text="不建议完全关闭\n电子稳定程序 (ESC)。\n是否确定关闭 ESC?"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels0" Text="舒适"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels1" Text="标准"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels2" Text="运动"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels3" Text="越野"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels4" Text="竞赛"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels5" Text="经济"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels6" Text="个性化"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels7" Text="经济+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ACC_Label" Text="自适应巡航 (ACC)："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AFS_Label" Text="动态大灯随动："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AirCondition_Label" Text="空调："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AirSuspension_Label" Text="空气悬架："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AntiRollBar_Label" Text="自适应侧倾平衡："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AntiSlipControl_Label" Text="驱动防滑控制 (ASR)："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_BeltTensioner_Label" Text="安全带预紧："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_BrakeControl_Label" Text="电子稳定程序 (ESC)："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CenterDifferential_Label" Text="中央差速锁："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CenterRearAxleDifferential_Label" Text="四轮驱动："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Chassis_Label" Text="底盘："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CurveAssist_Label" Text="弯道辅助："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Label" Text="自适应底盘调节系统 (DCC)"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Comfort" Text="舒适"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Normal" Text="标准"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Sport" Text="运动"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DisplaySetup1_Label" Text="组合仪表："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DisplaySetup2_Label" Text="信息娱乐系统："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveAssist2_Label" Text="驻车辅助："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveAssist_Label" Text="坡道起步辅助："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveTrain_Label" Text="驱动装置："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriverSeat_Label" Text="驾驶员座椅："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DynEngineMount_Label" Text="Aggregatelagerung (Audi-Text)"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ESound_Label" Text="e-Sound："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EcoAssist_Label" Text="经济运行提示："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Electrictrorquevectoring_Label" Text="Electric torque vectoring (Audi-Text)"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EnergoACC_Label" Text="车速调整"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EnergoDisplaySetup_Label" Text="经济驾驶提示："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EngineSound_Label" Text="内部发动机声音："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Engine_Label" Text="发动机："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ExhaustFlap_Label" Text="排气风门："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ExhaustSystemSound_Label" Text="外部发动机声音："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_FreeRolling_Label" Text="DSG 滑行模式："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_FrontAxleDifferential_Label" Text="前轴差速锁："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_GearboxDrivingPosition_Label" Text="变速箱："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_HillDescentControl_Label" Text="下坡辅助系统："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_HybridComponents_Label" Text="混合动力驱动："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_InteriorLight_Label" Text="环境照明："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_LaneAssist_Label" Text="车道保持辅助系统："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_MagneticRide_Label" Text="Magnetic ride"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_MatrixBeam_Label" Text="点阵大灯："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Navigation2_Label" Text="导航"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Navigation_Label" Text="导航"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_PassengerCabin_Label" Text="车内空间："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Profile7_Title" Text="个性化"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit0" Text="-"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit0_DD_open" Text="-"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit1" Text="舒适"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit1_DD_open" Text="舒适"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit2" Text="标准"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit2_DD_open" Text="标准"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit3" Text="运动"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit3_DD_open" Text="运动"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit4" Text="越野"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit4_DD_open" Text="越野"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit5" Text="经济"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit5_DD_open" Text="经济"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit6" Text="竞赛"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit6_DD_open" Text="竞赛"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit7" Text="经济+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit7_DD_open" Text="经济+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Off" Text="关闭"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Off_DD_open" Text="关闭"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_On" Text="打开"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_On_DD_open" Text="打开"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RESET_Popup_Text" Text="是否确定复位该模式?"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearAxleDifferential_Label" Text="后轴差速锁："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearAxleSteering_Label" Text="后轴转向："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearSpoiler_Label" Text="后扰流板："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ResetButton_Label" Text="模式复位"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Reset_Popup_Button_Cancel_Text" Text="取消"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Reset_Popup_Button_Reset_Text" Text="复位"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SeatSidebolsterAdjustment_Label" Text="座椅包围调整"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SoundComponents_Label" Text="发动机声音："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_StartStop_Label" Text="自动启停系统："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Steering_Label" Text="转向系统："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SuperpositionSteering_Label" Text="渐进式转向："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SwitchableDamper_Label" Text="运动模式可选底盘"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_TPMS_Label" Text="直接式胎压监测："/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Transmission_Label" Text="变速箱："/>
+    <LangID ID="LANG_CAR_FPA_Title_Label_Text" Text="驾驶模式选择"/>
+    <LangID ID="LANG_CAR_LIGHT_AFS_Label" Text="动态大灯随动"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels0" Text="提前"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels0_open" Text="提前"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels1" Text="适时"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels1_open" Text="适时"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels2" Text="延后"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels2_open" Text="延后"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLight_Label" Text="打开时间："/>
+    <LangID ID="LANG_CAR_LIGHT_AutoRainLight_Label" Text="自动行车灯 (雨天)"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label" Text="前部环境照明"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_ComfortTurnLights_Label" Text="变道转向灯"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Label_Value_Format" Text="%1 s"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Label_Value_Off" Text="关闭"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Slider_Label_Off" Text="关闭"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_Labels0" Text="回家照明功能"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_Labels1" Text="离家照明功能"/>
+    <LangID ID="LANG_CAR_LIGHT_DayDrivingLight_Label" Text="日间行车灯"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label" Text="车门环境照明"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label" Text="脚部空间照明"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_HeadlampLeveling_Label_Value_text" Text="%1"/>
+    <LangID ID="LANG_CAR_LIGHT_MDF_Label" Text="动态灯光辅助"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_AmbienceLight_Label" Text="车顶环境照明灯"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_AutoLightSystem_Label" Text="灯光辅助"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_ComingLeavingHome_Label" Text="回家/离家照明功能"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_HeadlampLeveling_Label" Text="大灯照明距离调节"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_PanelLighting_Label" Text="仪表/开关照明"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Label" Text="旅行模式："/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value0" Text="右侧"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value0_open" Text="右侧"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value1" Text="左侧"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value1_open" Text="左侧"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Max" Text="最大"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Min" Text="最小"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Off" Text="关闭"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValu_time_default_Entry" Text="--:--"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_Format" Text="%1 %2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_avgConsumption_Format_Entry" Text="ø %1.%2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_avgSpeed_Format_Entry" Text="ø %1"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_consumption_default_Entry" Text="--.-"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_default_Entry" Text="---"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_time_Format_Entry" Text="%1:%2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits0" Text="km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits1" Text="mi"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits10" Text="kg/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits11" Text="m³/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits12" Text="kg/100km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits13" Text="m³/100km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits14" Text="km/kg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits15" Text="km/m³"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits16" Text="mi/kg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits17" Text="mi/m³"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits2" Text="h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits3" Text="km/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits4" Text="mph"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits5" Text="l/100km"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits6" Text="km/l"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits7" Text="mpg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits8" Text="mpg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits9" Text="l/h"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Reset_BCmenu1_Label" Text="复位 &quot;自启动起&quot; 的数据"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Reset_BCmenu2_Label" Text="复位 &quot;累计&quot; 的数据"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Fuelcycle_Label" Text="自上次加油后"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Longterm_Label" Text="累计"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Trip_Label" Text="自启动起"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Media" Text="媒体"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Parkheater" Text="驻车加热"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Radio" Text="收音机"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Setup" Text="设置"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_SteeringWheelHeater" Text="方向盘加热"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_View" Text="视图"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_WindshieldHeater" Text="前窗玻璃加热"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_MAIN_StartStop" Text="自动启停"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_MAIN_Title_Label" Text="本车状态"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver1" Text="驾驶员 1"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver2" Text="驾驶员 2"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver3" Text="驾驶员 3"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver4" Text="访客"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_Individual" Text="0,01"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label1" Text="驾驶员 1"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label2" Text="驾驶员 2"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label3" Text="驾驶员 3"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label4" Text="访客"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Text_Label" Text="0,01"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_RKA_CheckTirePressure_Title" Text="检查/调节轮胎压力"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_RKA_Instructions_text" Text="为使间接式胎压监测能够\n正常工作，必须检查全部\n4 个轮胎的压力并正确调节。\n轮胎压力视车辆型号位于\n燃油箱盖内侧或驾驶员\n车门框架的一张贴签上。\n关于轮胎压力和间接式\n胎压监测的更多详情\n请参阅用户手册。\n如果您检查了全部 4 个\n轮胎的压力并在需要时\n作了调整，请在 &quot;间接式\n胎压监测&quot; 屏中按 &quot;SET&quot; 键。\n然后车辆开始学习过程。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Headline_Titel" Text="自动启停系统状态"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels1" Text="未识别到驾驶员。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels10" Text="带挂车行驶"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels11" Text="前窗玻璃可能蒙上了雾。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels12" Text="未保持正常工作温度。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels13" Text="未识别到驾驶员。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels14" Text="变速箱需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels15" Text="车辆能量需求高。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels16" Text="正在启动自动启停系统..."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels17" Text="需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels18" Text="过于倾斜。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels19" Text="自动启停系统当前不可用。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels2" Text="提示：请关闭驾驶员车门。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels20" Text="紧急制动功能干预。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels21" Text="制动器需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels22" Text="车辆能量需求高。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels23" Text="提示：未达到舒适车内温度。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels24" Text="提示：请减小转向角度。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels25" Text="提示：泊车模式。需要向前行驶。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels26" Text="除霜功能已打开。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels27" Text="提示：请系好驾驶员安全带。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels28" Text="提示：请关闭驾驶员车门。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels29" Text="提示：请松开油门踏板。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels3" Text="发动机舱盖已打开。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels30" Text="前窗玻璃加热已打开。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels31" Text="提示：请关闭 maxA/C 功能。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels32" Text="发动机舱盖已打开。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels33" Text="当前无法停止发动机。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels34" Text="提示：请关闭越野模式。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels35" Text="提示：启动进程过多。需要向前行驶。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels36" Text="提示：请退出挡位。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels37" Text="提示：请激活自动启停系统。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels38" Text="车内空气湿度过高。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels39" Text="路况看板"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels4" Text="提示：请系好驾驶员安全带。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels40" Text="提示：请关闭泊车转向辅助系统。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels41" Text="提示：请打开电子稳定程序 (ESC)。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels42" Text="车辆能量需求高。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels43" Text="自动启停系统需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels5" Text="未识别到驾驶员。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels6" Text="系统保护干预。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels7" Text="系统原因导致无法启动发动机。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels8" Text="提示：请手动启动发动机。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels9" Text="提示：请退出挡位。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels1" Text="上一次重新启动：电子稳定程序 (ESC) 已关闭。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels10" Text="上一次重新启动：前窗玻璃可能蒙上了雾。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels11" Text="上一次重新启动：车辆能量需求高。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels12" Text="上一次重新启动：需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels13" Text="上一次重新启动：前方车辆已起步"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels14" Text="上一次重新启动：越野模式已启用。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels15" Text="上一次重新启动：制动器需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels16" Text="上一次重新启动：车辆能量需求高。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels17" Text="上一次重新启动：座椅通风需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels18" Text="上一次重新启动：自动启停系统需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels2" Text="上一次重新启动：已按下自动启停按钮。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels3" Text="上一次重新启动：已挂入倒车挡。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels4" Text="上一次重新启动：根据驾驶员意愿。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels5" Text="上一次重新启动：除霜功能已打开。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels6" Text="上一次重新启动：前窗玻璃加热装置已接通。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels7" Text="上一次重新启动：空调需要发动机运行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels8" Text="上一次重新启动：\n空调满功率 &quot;maxA/C&quot; 功能已打开。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels9" Text="上一次重新启动：通过滑行。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels0" Text="自动启停系统已激活。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels1" Text="自动启停系统可用。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels2" Text="发动机停转已激活。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels3" Text="驾驶员车门已打开。未准确识别到驾驶员。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels4" Text="提示：请踩下制动踏板。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels5" Text="提示：请踩下离合器踏板。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels6" Text="提示：请激活自动启停系统。"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels7" Text="故障：自动启停系统"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels8" Text="自动启停系统不可用。"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_SizeS_Source_BT_Audio_Label" Text="蓝牙音频"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_Error_text" Text="故障：媒体源"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_NoFile_text" Text="无可播放文件"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_loading_text" Text="正在载入..."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_noSource_text" Text="无可用\n媒体源。"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_TitleName_Mirrorlink_text" Text="MirrorLink®"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_TitleName_TrackNumber" Text="曲目 %1"/>
+    <LangID ID="LANG_CAR_MAIN_PU_TUNER_FrequencyFormater_MHz" Text="%1 MHz"/>
+    <LangID ID="LANG_CAR_MAIN_PU_TUNER_FrequencyFormater_kHZ" Text="%1 kHz"/>
+    <LangID ID="LANG_CAR_MAIN_PU_View_Button_Labels0" Text="行驶数据"/>
+    <LangID ID="LANG_CAR_MAIN_PU_View_Button_Labels2" Text="本车状态"/>
+    <LangID ID="LANG_CAR_MFA_Labels0" Text="当前消耗"/>
+    <LangID ID="LANG_CAR_MFA_Labels1" Text="平均消耗量"/>
+    <LangID ID="LANG_CAR_MFA_Labels10" Text="机油温度"/>
+    <LangID ID="LANG_CAR_MFA_Labels2" Text="可加注量"/>
+    <LangID ID="LANG_CAR_MFA_Labels3" Text="舒适性用电器消耗"/>
+    <LangID ID="LANG_CAR_MFA_Labels4" Text="经济运行提示"/>
+    <LangID ID="LANG_CAR_MFA_Labels5" Text="行驶时间"/>
+    <LangID ID="LANG_CAR_MFA_Labels6" Text="行驶里程"/>
+    <LangID ID="LANG_CAR_MFA_Labels7" Text="平均车速"/>
+    <LangID ID="LANG_CAR_MFA_Labels8" Text="数字式车速显示"/>
+    <LangID ID="LANG_CAR_MFA_Labels9" Text="车速报警"/>
+    <LangID ID="LANG_CAR_MFA_MFA_Label" Text="多功能显示"/>
+    <LangID ID="LANG_CAR_MFA_Reset_longterm_Popup_Button_Cancel_Text" Text="取消"/>
+    <LangID ID="LANG_CAR_MFA_Reset_longterm_Popup_Button_Reset_Text" Text="复位"/>
+    <LangID ID="LANG_CAR_MFA_Title" Text="组合仪表设置"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels0" Text="全部"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels0_open" Text="全部"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels1" Text="单个车门"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels1_open" Text="单个车门"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels2" Text="单侧车门"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels2_open" Text="单侧车门"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels0" Text="全部"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels0_open" Text="全部"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels1" Text="仅驾驶员侧"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels1_open" Text="仅驾驶员侧"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels2" Text="关闭"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels2_open" Text="关闭"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_AutoLock_Label" Text="自动上锁"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_AutoUnlock_Label" Text="自动解锁"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_BootCover_Label" Text="自动打开行李厢盖板"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_CloseAutoLock_Label" Text="上锁时自动关闭"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_DWA_Label" Text="声音确认"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_EasyEntry_Label" Text="&quot;Easy Entry&quot; 登车辅助"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_Int_Monitoring_System_Label" Text="车内监控"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_ManualUnlock_Label" Text="车门解锁："/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_RainProtection_Label" Text="雨天自动关闭"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_TrunkOpener_Label" Text="感应式行李厢盖"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_WindowOpen_Label" Text="便捷开启："/>
+    <LangID ID="LANG_CAR_OPEN_Title_Doors_Label" Text="门锁控制"/>
+    <LangID ID="LANG_CAR_OPEN_Title_Windows_Label" Text="车窗便捷控制"/>
+    <LangID ID="LANG_CAR_OPS_Disclaimer_HardWarning_Label" Text="功能受限。请安全驾驶!"/>
+    <LangID ID="LANG_CAR_OPS_Disclaimer_IceMud_Label" Text="清洁传感器! 请安全驾驶!"/>
+    <LangID ID="LANG_CAR_OPS_RVC_Disclaimer_Label" Text="注意! 请安全驾驶!"/>
+    <LangID ID="LANG_CAR_OPS_Title" Text="泊车雷达系统 (ParkPilot)"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_BeltTensionerLeft_Label" Text="左侧"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_BeltTensionerRight_Label" Text="右侧"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_SeatPosition_Label" Text="遥控钥匙已激活"/>
+    <LangID ID="LANG_CAR_SEATS_Title" Text="座椅设置"/>
+    <LangID ID="LANG_CAR_SEATS_Title_AutoBelts_Label" Text="安全带自动预紧"/>
+    <LangID ID="LANG_CAR_SEATS_Title_Seats_Label" Text="存储座椅位置"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Error_Label" Text="--- 或 ---"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_1" Text="还有 %1 %2 或 %3 天"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_2" Text="还有 %1 %2 或 %3 天"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_3" Text="自 %1 %2 或 %3 天起"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_4" Text="自 %1 %2 或 %3 天起"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Subtitle" Text="距离下次更换机油保养："/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Error_Label" Text="--- 或 ---"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_1" Text="还有 %1 %2 或 %3 天"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_2" Text="还有 %1 %2 或 %3 天"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_3" Text="自 %1 %2 或 %3 天起"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_4" Text="自 %1 %2 或 %3 天起"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Subtitle" Text="距离下次车况检查："/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_notAvailable_Label" Text="无可用保养数据。"/>
+    <LangID ID="LANG_CAR_SERVICE_VehicleID_Error_Label" Text="---"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_ACC_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_AWV_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_ESP_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_HCA_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_MKE_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_PreCrash_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_SWA_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Popup_Text" Text="是否确定复位\n&quot;%1&quot;\n的设置?"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RESET_Popup_Button_Cancel_Text" Text="取消"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RESET_Popup_Button_Reset_Text" Text="复位"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RestoreAll_Label" Text="复位所有的设置/数据"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RestoreIndividual_Label" Text="复位单项设置/数据"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings0" Text="复位所有"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings1" Text="驾驶辅助系统"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings14" Text="方向盘加热"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings15" Text="个性化"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings2" Text="泊车和驶出辅助设置"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings3" Text="灯光"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings4" Text="后视镜和刮水器"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings5" Text="门窗开/关"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings6" Text="座椅"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings7" Text="组合仪表"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Title" Text="出厂设置"/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_ComingLeavingHome_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_ExteriorLight_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_InteriorLight_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_Title" Text="灯光设置"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels0" Text="驾驶辅助系统"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels1" Text="泊车和驶出辅助"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels10" Text="单位"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels11" Text="出厂设置"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels12" Text="个性化"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels2" Text="车灯"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels20" Text="方向盘加热"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels3" Text="后视镜和刮水器"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels4" Text="门窗开/关"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels5" Text="座椅"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels6" Text="轮胎"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels7" Text="保养"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels8" Text="组合仪表"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels9" Text="时间和日期"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_Title" Text="车辆设置"/>
+    <LangID ID="LANG_CAR_SETUP_MFA_RESET_LONG_Popup_Text" Text="是否复位 &quot;累计&quot; 的行驶数据?"/>
+    <LangID ID="LANG_CAR_SETUP_MFA_RESET_TRIP_Popup_Text" Text="是否复位 &quot;自启动起&quot; 的行驶数据?"/>
+    <LangID ID="LANG_CAR_SETUP_OPEN_Title" Text="门窗开/关设置"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label0" Text="驾驶员 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label1" Text="驾驶员 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label2" Text="驾驶员 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label3" Text="访客"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label0" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label1" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label2" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label3" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Title" Text="将设置复制到其他账号"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Copy_Text" Text="将设置复制到其他账号"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title1" Text="驾驶员 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title2" Text="驾驶员 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title3" Text="驾驶员 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title4" Text="访客"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Rename_Text" Text="重命名为："/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Reset_Text" Text="复位用户账号"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Title" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_InputField_HideTypingChar" Text="-1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title0" Text="重命名为："/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title1" Text="重命名为："/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title2" Text="重命名为："/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title3" Text="重命名为："/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label1" Text="驾驶员 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label2" Text="驾驶员 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label3" Text="驾驶员 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label4" Text="访客"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label1" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label2" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label3" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label4" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Subtitle" Text="选择用户账号"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option1" Text="自动"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option1_open" Text="自动"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option2" Text="手动"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option2_open" Text="手动"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Text" Text="钥匙分配："/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_ManualAssigning_Text" Text="将钥匙分配到当前用户账号"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_ResetAll_Text" Text="全部复位"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_Subtitle" Text="设置"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Personalization_Operation_Text" Text="激活"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Personalization_Subtitle" Text="个性化"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Title" Text="个性化"/>
+    <LangID ID="LANG_CAR_SETUP_SEATS_SETTINGS_Belts_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_SEATS_SETTINGS_Seats_Label_notAvailable_text" Text="功能当前不可用。"/>
+    <LangID ID="LANG_CAR_SETUP_SERVICE_Title" Text="保养"/>
+    <LangID ID="LANG_CAR_SETUP_SERVICE_VehicleID_Label_2" Text="车辆识别代号："/>
+    <LangID ID="LANG_CAR_SETUP_SIGHT_Title" Text="后视镜和刮水器设置"/>
+    <LangID ID="LANG_CAR_SETUP_TIRES_Title" Text="轮胎设置"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_AutoRearWiping_Label" Text="倒车挡时后窗玻璃刮水"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorAdjust_Label" Text="同步调节"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorFold_Label" Text="驻车后外后视镜内折"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorLow_Label" Text="倒车时外后视镜下转"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_RainSensor_Label" Text="雨天自动刮水"/>
+    <LangID ID="LANG_CAR_SIGHT_Title_Mirrors_Label" Text="后视镜"/>
+    <LangID ID="LANG_CAR_SIGHT_Title_Wipers_Label" Text="车窗玻璃刮水器"/>
+    <LangID ID="LANG_CAR_SliderLabel_Off" Text="关闭"/>
+    <LangID ID="LANG_CAR_TIRES_ListItem_Calibration_Label" Text="SET"/>
+    <LangID ID="LANG_CAR_TIRES_RKA_CAL_ERROR" Text="轮胎压力无法保存。"/>
+    <LangID ID="LANG_CAR_TIRES_RKA_CAL_SUCCESS" Text="轮胎压力已保存。"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Confirm" Text="确认"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Help" Text="帮助"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_CorrectPressure_text" Text="四个轮胎的胎压是否全部与\n要求的数值相符?"/>
+    <LangID ID="LANG_CAR_TIRES_Title_TPMS_Label" Text="轮胎压力监控"/>
+    <LangID ID="LANG_CLIMATE_AIRFLOW_FUNCTIONS_REAR_Manual" Text="手动"/>
+    <LangID ID="LANG_CLIMATE_AIRFLOW_FUNCTIONS_REAR_Title" Text="预设"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_FRONT_Temp_High_text" Text="HI"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_FRONT_Temp_Low_text" Text="LO"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_000_RearTemp_Low" Text="LO"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_001_RearTemp_High" Text="HI"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_RearTemp_Eco" Text="ECO"/>
+    <LangID ID="LANG_CLIMATE_DESKTOP_CB_Setup" Text="设置"/>
+    <LangID ID="LANG_CLIMATE_DOMAIN_ERROR_DomainNotAvailable_text" Text="空调菜单目前不可用。"/>
+    <LangID ID="LANG_CLIMATE_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="正在启动空调菜单..."/>
+    <LangID ID="LANG_CLIMATE_OVERLAY_FUNCTION_ERROR_Continue_Label_text" Text="确定"/>
+    <LangID ID="LANG_CLIMATE_OVERLAY_FUNCTION_ERROR_Label_text" Text="此功能不可用。"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DD_Off" Text="关闭"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Duration" Text="时长 %1 分钟"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Info_Climatic_text" Text="指从激活出发时间或按下立即加热按键\n或者遥控器 ON 键直到驻车加热\n自动关闭的时间段。"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Info_Climatronic_text" Text="指从按下立即加热按键或者\n远程遥控器 ON 键开始直到\n将近达到设定温度的时间段。"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_TitleLabel_text" Text="运行时间设置"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts1" Text="燃料不足。\n驻车加热无法激活。"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts2" Text="蓄电池电量不足。\n驻车加热无法激活。"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts3" Text="燃料及蓄电池\n电量不足。\n驻车加热无法激活。"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts4" Text="故障：驻车加热"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStartManual_TextFormatter" Text="%1，\n%2 分钟"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts0" Text="在"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts0_b" Text="在"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts1" Text="周一"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts1_b" Text="周一"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts2" Text="周二"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts2_b" Text="周二"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts3" Text="周三"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts3_b" Text="周三"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts4" Text="周四"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts4_b" Text="周四"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts5" Text="周五"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts5_b" Text="周五"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts6" Text="周六"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts6_b" Text="周六"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts7" Text="周日"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts7_b" Text="周日"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short0" Text="在 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short1" Text="周一 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short2" Text="周二 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short3" Text="周三 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short4" Text="周四 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short5" Text="周五 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short6" Text="周六 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short7" Text="周日 %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter" Text="出发时间：\n%1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter1" Text="出发时间：\n今天 %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter2" Text="出发时间：\n明天 %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts0" Text="出发时间：\n关闭"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts1" Text="加热"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts2" Text="通风"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts0" Text="加热"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts0_open" Text="加热"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts1" Text="通风"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts1_open" Text="通风"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingOff_text" Text="关闭"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_TimerAdjust_text" Text="设置"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_TitelLabel_text" Text="驻车加热"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_NoTimer" Text="出发时间：关闭"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_Activate_text" Text="激活"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_12hformat_AM" Text="am"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_12hformat_PM" Text="pm"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Headline_suffixes1" Text="出发时间 %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Hour_text" Text="小时"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Minute_text" Text="分钟"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Weekday_text" Text="出发日"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_ampm_text" Text="am/pm"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_SetupDuration_text" Text="运行时间"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer1_text" Text="出发时间 1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer2_text" Text="出发时间 2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer3_text" Text="出发时间 3"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_TitelLabel_text" Text="设置驻车加热"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_1" Text="弱"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_2" Text="中"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_3" Text="强"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_000_ButtonClose_SEAT_Label" Text="车门, 车窗或车顶未关好。"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_AirCleaning" Text="已激活"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_Headline" Text="净化空气全自动空调"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_ViewContainer_Info_text" Text=""/>
+    <LangID ID="LANG_CLIMATE_SETUP_AutoAir_text" Text="自动车内空气循环"/>
+    <LangID ID="LANG_CLIMATE_SETUP_AutomaticWindowHeater_text" Text="车窗自动加热"/>
+    <LangID ID="LANG_CLIMATE_SETUP_AuxHeater_text" Text="自动辅助加热"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList0" Text="弱"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList0_open" Text="弱"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList1" Text="中"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList1_open" Text="中"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList2" Text="强"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList2_open" Text="强"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyle_text" Text="空调模式："/>
+    <LangID ID="LANG_CLIMATE_SETUP_CouplingSeatWithSteeringWheel_text" Text="座椅和方向盘同步加热"/>
+    <LangID ID="LANG_CLIMATE_SETUP_Headline_text" Text="空调设置"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ManualRunningTime_value" Text="%1 分钟"/>
+    <LangID ID="LANG_CLIMATE_SETUP_NOT_AVAILABLE_Continue_Label_text" Text="确定"/>
+    <LangID ID="LANG_CLIMATE_SETUP_SteeringWheelHeater_text" Text="方向盘加热"/>
+    <LangID ID="LANG_CLIMATE_SETUP_WindowHeater_text" Text="车窗加热"/>
+    <LangID ID="LANG_MEDIA_AUX_MAIN_Text" Text="AUX"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label0" Text="曲目列表"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label1" Text="艺术家"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label2" Text="专辑"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label3" Text="曲目"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label4" Text="播客"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label5" Text="流派"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label6" Text="作曲家"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label7" Text="有声读物"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label_AllAlbum" Text="所有专辑"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label_AllTitle" Text="所有曲目"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_CategoryEmpty_Text" Text="没有可播放的文件。"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_DeviceDisconnectInfo_Text" Text="设备未连接。"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_Element_Button_File_ErrorText" Text="错误：文件"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_Element_Button_File_MissingText" Text="该文件不存在。"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_NoAudioFileInfo_Text" Text="没有可播放的文件。"/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_Loading" Text="正在载入..."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoFiles" Text="没有可播放的文件。"/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoTrackList_AUX" Text="不支持曲目列表。"/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoTrackList_BT" Text="没有可用的曲目列表。"/>
+    <LangID ID="LANG_MEDIA_BT_AUDIO_A2DP_MAIN_BTAudioText" Text="蓝牙音频"/>
+    <LangID ID="LANG_MEDIA_BT_AUDIO_MAIN_StatusText_text" Text="连接中断。"/>
+    <LangID ID="LANG_MEDIA_COMPRESSED_AUDIO_BROWSER_PlaybackWait" Text="正在载入..."/>
+    <LangID ID="LANG_MEDIA_COMPRESSED_AUDIO_SOURCES_Headline_Path_Text" Text="媒体源"/>
+    <LangID ID="LANG_MEDIA_DEVICE_NOT_RESPONSED_Text" Text="设备未响应。"/>
+    <LangID ID="LANG_MEDIA_DOMAIN_ERROR_DomainNotAvailable_text" Text="&quot;媒体&quot; 当前不可用。"/>
+    <LangID ID="LANG_MEDIA_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="正在启动 &quot;媒体&quot;..."/>
+    <LangID ID="LANG_MEDIA_INFO_InfoText_Device_Error" Text="故障：设备"/>
+    <LangID ID="LANG_MEDIA_INFO_InfoText_Device_Not_Connected" Text="设备未连接。"/>
+    <LangID ID="LANG_MEDIA_INFO_LoadingText_text" Text="正在载入..."/>
+    <LangID ID="LANG_MEDIA_INFO_LoadingText_text_1" Text="正在载入 %1..."/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Next" Text="下一个"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Pause" Text="暂停"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Play" Text="播放"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Previous" Text="上一个"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Selection" Text="选择"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Setup" Text="设置"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Source" Text="媒体源"/>
+    <LangID ID="LANG_MEDIA_MAIN_OVERVIEW_MEDIA_NO_SOURCE_AVAILABLE_text" Text="无该媒体源。"/>
+    <LangID ID="LANG_MEDIA_NO_AUDIO_FILES_text" Text="%1：没有可播放的文件。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_MIX_REPEAT_FOLDER_Button_Cancel_Text" Text="取消"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_MIX_REPEAT_FOLDER_Text_StatusInformation_text" Text="未激活 &quot;包含子文件夹的\n随机播放/重复播放&quot;。\n是否激活此功能?"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_PLAYBACK_WAIT_StatusInformation_text" Text="请稍候..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_AVAILABLE_Text" Text="设备不可用。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_SUPPORTED_Hub_Text" Text="不支持 USB 集线器。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_SUPPORTED_Text" Text="设备不支持。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_ERROR_Text" Text="故障：%1"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_FUNCTION_NOT_AVAILABLE_TextArea_Text" Text="功能不可用。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_ACTIVE_CALL_StatusInformation_Text" Text="在通话期间此功能不可用。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_DOMAIN_ERROR_StatusInformation_Text" Text="电话功能当前不可用。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_DOMAIN_NOT_AVAILABLE_StatusInformation_Text" Text="当前无法激活蓝牙音频设备。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PO_PROGRESS_MEDIA_PLAYBACK_WAIT_Text" Text="请稍候..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONNECTING_Text" Text="正在连接设备..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONTAINS_NO_AUDIO_FILES_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONTAINS_NO_AUDIO_FILES_Text" Text="无可播放文件。"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_ERROR_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames2" Text="SD 卡"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames3" Text="AUX"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames6" Text="蓝牙音频"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames7" Text="iPod"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames8" Text="USB"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Bluetooth_Setup_Text" Text="蓝牙"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_IncludeSubfolders_Text" Text="随机/重复，包含子文件夹"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Ipod_Settings_Text" Text="iPod"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_SD_Settings_Text" Text="SD 卡"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Source_Settings_Text" Text="选择"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Tone_Settings_Text" Text="声音"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_USB_Settings_Text" Text="USB"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Unmount_Settings_Text" Text="安全移除："/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Title" Text="媒体设置"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames2" Text="SD 卡"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames3" Text="AUX"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames6" Text="蓝牙音频"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames7" Text="iPod"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames8" Text="USB"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_CloseApps_text" Text="关闭应用"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_CloseConnection_text" Text="断开连接"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_Phoneview_text" Text="1:1"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Device_locked_text" Text="移动设备被禁用。\n要使用 MirrorLink®，请取消禁用移动设备。"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_1" Text="应用程序未获本国许可。"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_2" Text="应用程序在行驶过程中不可用。"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_3" Text="故障：MirrorLink®"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_4" Text="应用程序不兼容。"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_5" Text="故障：视频数据传输"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_Loading_Text" Text="正在加载应用程序..."/>
+    <LangID ID="LANG_MIRROR_LINK_CLOSE_APPS_Close_All_Button" Text="全部关闭"/>
+    <LangID ID="LANG_MIRROR_LINK_CLOSE_APPS_Label" Text="关闭已启动的应用程序"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECTION_Text" Text="正在建立连接..."/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECT_Button_OK" Text="确定"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECT_Text" Text="未找到 USB 连接。\n请通过您的移动设备建立连接。"/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_APPLICATION_ERROR_Text" Text="故障：MirrorLink®"/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_DEVICE_FATAL_ERROR_Text" Text="请重新连接移动设备。"/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_DEVICE_UNTRUSTED_Text" Text="移动设备未得到授权。"/>
+    <LangID ID="LANG_MIRROR_LINK_MAIN_InfoML_Text" Text="兼容 MirrorLink® 的应用程序"/>
+    <LangID ID="LANG_MIRROR_LINK_MAIN_Text" Text="设备上未找到兼容的应用程序。\n可能设备不支持。"/>
+    <LangID ID="LANG_MIRROR_LINK_SPELLER_OK_Button" Text="确定"/>
+    <LangID ID="LANG_MIRROR_LINK_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_MiniPlayer_Media_ErrorMessage_Device_Not_Connected" Text="设备未连接。"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_AndroidAuto_text" Text="Android Auto"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_BaiduCarLife_text" Text="Baidu CarLife"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_Carplay_text" Text="Apple CarPlay"/>
+    <LangID ID="LANG_OverlayPopup_Button_Activate_Text" Text="激活"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_AUDIO_SOURCE" Text="蓝牙音频 (A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_All_Profile" Text="所有配置文件 (HFP/A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_HFP" Text="免提电话 (HFP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names2" Text="免提电话 (HFP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names5" Text="蓝牙音频 (A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names7" Text="所有配置文件 (HFP/A2DP)"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Accepted" Text="已接来电"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Dialed" Text="已拨号码"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Missed" Text="未接来电"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Mixed" Text="全部"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes0" Text="已拨号码"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes1" Text="已接来电"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes2" Text="未接来电"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes3" Text="全部"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_TextLabel" Text="通话记录"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty0" Text="无条目。"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty1" Text="无条目。"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty2" Text="无条目。"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty3" Text="无条目。"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Update" Text="正在导入通话记录..."/>
+    <LangID ID="LANG_PHONE_CONTACTS_Button_Download" Text="重新导入联系人"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_Contacts" Text="联系人"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_ContactsLoading" Text="联系人"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_NoContacts" Text="联系人"/>
+    <LangID ID="LANG_PHONE_CONTACTS_List_Empty" Text="没有含电话号码的联系人。\n请重新导入联系人\n并注意移动设备上出现的提示\n以及可能发生的问题。"/>
+    <LangID ID="LANG_PHONE_CONTACTS_List_Empty_Download_Ongoing" Text="正在导入联系人...\n请在移动设备上检查是否必须\n确认导入或导入是否可能失败。"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Multiple" Text="(多个号码)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option0" Text="%1"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option1" Text="%1 (私人)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option10_CN" Text="%1 (家庭)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option2" Text="%1 (办公室)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option3" Text="%1 (移动电话)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option4" Text="%1 (固定电话)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option5" Text="%1 (私人移动电话)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option6" Text="%1 (私人固定电话)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option7" Text="%1 (办公室移动电话)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option8" Text="%1 (办公室固定电话)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option9_CN" Text="%1 (常用)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_PHONE_CONTACTS_BACKSIDE_Callstack" Text="通话记录"/>
+    <LangID ID="LANG_PHONE_CONTACTS_PHONE_CONTACTS_BACKSIDE_Callstack_NewNumber" Text="新建联系人"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_Button_Match_Default_TextLabel" Text="**"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_Headline_TextLabel" Text="输入姓名"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Messages" Text="短消息"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_EmergencyCall" Text="紧急呼叫"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_InformationCall" Text="信息呼叫"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_Mailbox" Text="语音信箱"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_NoMatch" Text="没有对应的联系人。"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_ServiceCall" Text="道路救援"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_VoiceDial" Text="语音操作"/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names0" Text="出现错误。"/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names1" Text="无网络。"/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names2" Text="号码无效。"/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names3" Text="电话号码过长。"/>
+    <LangID ID="LANG_PHONE_DOMAIN_ERROR_Text_StatusInformation" Text="电话功能当前不可用。"/>
+    <LangID ID="LANG_PHONE_DOMAIN_NOT_AVAILABLE_Text_StatusInformation" Text="正在启动电话..."/>
+    <LangID ID="LANG_PHONE_Date_Today" Text="今天"/>
+    <LangID ID="LANG_PHONE_Date_Yesterday" Text="昨天"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel0" Text="1"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel1" Text="2"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel2" Text="3"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel3" Text="4"/>
+    <LangID ID="LANG_PHONE_INIT_BT_SWITCHED_OFF_Button_EnableBluetooth" Text="启用蓝牙"/>
+    <LangID ID="LANG_PHONE_INIT_BT_SWITCHED_OFF_Textarea_StatusInformation" Text="请启用蓝牙。"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_CALL_REJECTED" Text="拒绝接听"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_HANGED_UP" Text="结束通话..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_NOLINE" Text="无连接"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_NUMBER_TEMP_FORBIDDEN" Text="号码被阻止"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_REMOTE_BUSY" Text="占线"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_REMOTE_NOT_ANSWERING" Text="无人接听"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Disconnecting" Text="结束通话..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Incoming" Text="来电..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Incoming_on_hold" Text="保持通话..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Emergency" Text="紧急呼叫"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Info" Text="信息呼叫"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Mailbox" Text="语音信箱"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Service" Text="道路救援"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_unknown" Text="未知号码"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Call" Text="呼叫列表"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Contacts" Text="联系人"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_DialNumber" Text="拨打号码"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_EmergencyCall" Text="紧急呼叫"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Setup" Text="设置"/>
+    <LangID ID="LANG_PHONE_MAIN_DIAL_Headline_TextLabel" Text="输入电话号码"/>
+    <LangID ID="LANG_PHONE_MAIN_DIAL_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_PHONE_MAIN_NOCALLS_Preset_ListItem_Text_AddFavorite" Text="添加\n收藏"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_AccessDenied" Text="被网络拒绝。"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_EmergencyNetwork" Text="仅能紧急呼叫"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_NotAvailable" Text="无网络"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_ProviderUnknown" Text="未知网络。"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_Searching" Text="正在查找网络..."/>
+    <LangID ID="LANG_PHONE_NOT_CONNECTED_CarPlay_Textarea_StatusInformation" Text="请先断开 Apple CarPlay 以便连接其他移动电话。"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Button_NoPhone" Text="无电话连接。"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Button_SearchNewPhone" Text="查找电话"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Textarea_StatusInformation" Text="请查找移动电话并连接。"/>
+    <LangID ID="LANG_PHONE_RECONNECT_Button_SearchNewPhone" Text="查找电话"/>
+    <LangID ID="LANG_PHONE_RECONNECT_Textarea_StatusInformation" Text="自动连接中..."/>
+    <LangID ID="LANG_PHONE_SETUP_Headline_TextLabel" Text="电话设置"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_Headline_TextLabel" Text="选择电话铃音"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names0" Text="Bim Bam"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names5" Text="Orchestral"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names7" Text="Ring Ring"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names8" Text="Sweet Soft"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names9" Text="Tut Tut"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_BluetoothSetup" Text="蓝牙"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_HandsfreeMode" Text="免提"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_InternalRingtone" Text="选择电话铃音"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneProfile" Text="用户档案"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneReminder" Text="提醒：不要遗忘移动电话"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneSelection" Text="选择电话"/>
+    <LangID ID="LANG_PHONE_SETUP_MAILBOX_NUMBER_HeadLine_Text" Text="输入语音信箱号码"/>
+    <LangID ID="LANG_PHONE_SETUP_PHONE_SELECTION_Headline_TextLabel" Text="选择电话"/>
+    <LangID ID="LANG_PHONE_SETUP_PHONE_SELECTION_SearchNewPhone" Text="查找电话"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_FAVORITES_ADD_Headline_Text" Text="添加收藏"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_FAVORITES_SEL_Preset_ListItem_Text_AddFavorite" Text="添加\n收藏"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_Headline_TextLabel" Text="用户档案设置"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_SPEED_DIAL_KEYS_SEL_Headline_TextLabel" Text="管理收藏夹"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_Button_DeleteAll_TextLabel" Text="全部"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_Headline_TextLabel" Text="删除其他用户档案"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_ListItem_Profiles_DownloadedContacts" Text="%1/%2"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder0" Text="姓"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder0_open" Text="姓"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder1" Text="名"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder1_open" Text="名"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DeleteOtherProfiles" Text="删除其他用户档案"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DownloadContacts" Text="导入联系人："/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DownloadContacts_Value" Text="%1/%2"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_EditFavorites" Text="管理收藏夹"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_GlobalSortingOrder" Text="排序按："/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_MailboxNumber" Text="邮箱号："/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_MailboxNumber_Empty" Text="请输入"/>
+    <LangID ID="LANG_PHONE_SMS_CONTENT_LOADING" Text="请稍候..."/>
+    <LangID ID="LANG_PHONE_SMS_CONTENT_NOT_AVAILABLE" Text="短消息加载失败。"/>
+    <LangID ID="LANG_PHONE_SMS_Headline_TextLabel" Text="短消息"/>
+    <LangID ID="LANG_PHONE_SMS_MAIN_NO_MESSAGE" Text="没有短消息。"/>
+    <LangID ID="LANG_PHONE_UPDATE_IN_PROGRESS_Text_StatusInformation" Text="电话功能当前不可用。\n正在更新蓝牙..."/>
+    <LangID ID="LANG_PHONE_VOICE_DIAL_Headline_TextLabel" Text="语音操作"/>
+    <LangID ID="LANG_PHONE_VOICE_DIAL_Waiting" Text="请遵循移动电话上的提示。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_A2DP_NOT_ENABLED" Text="蓝牙音频无法启用。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_A2DP_NOT_ENABLED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CAR_IS_DRIVING_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CAR_IS_DRIVING_Textarea_StatusInformation" Text="您的设备要求输入 PIN 码，\n为了您的安全，在行驶过程中\n该项操作不可用。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_CarLifeAndroid_StatusInformation" Text="未能与移动设备建立连接。\n已通过 Baidu CarLife 连接设备。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_CarPlay_StatusInformation" Text="未能与移动设备建立连接。\n已通过 Apple CarPlay 连接设备。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_GAL_StatusInformation" Text="未能与移动设备建立连接。\n已通过 Android Auto 连接设备。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_GENERAL_ERROR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_GENERAL_ERROR_Textarea_StatusInformation" Text="%1\n无法建立连接。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_GENERAL_ERROR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_GENERAL_ERROR_Textarea_StatusInformation" Text="%1\n无法建立配对。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_PASSKEY_ERROR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_PASSKEY_ERROR_Textarea_StatusInformation" Text="%1\n未能建立配对。密码错误。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_TIMEOUT_ERROR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_TIMEOUT_ERROR_Textarea_StatusInformation" Text="%1\n未能建立配对。输入超时。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Button_Help" Text="帮助"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Textarea_StatusInformation" Text="%1\n未建立连接。\n不支持或未激活选中的配置文件。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_USER_ABORT_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_USER_ABORT_Textarea_StatusInformation" Text="%1\n配对已取消。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_DEVICE_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_DEVICE_Textarea_StatusInformation" Text="%1\n连接已取消。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_Textarea_StatusInformation" Text="%1\n配置文件：\n%2\n连接已取消。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_GENERAL_ERR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_GENERAL_ERR_Textarea_StatusInformation" Text="%1\n无法建立连接。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_USER_ABORT_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_USER_ABORT_Textarea_StatusInformation" Text="%1\n连接已取消。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DENY_ROLE_CHANGE_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DENY_ROLE_CHANGE_Textarea_StatusInformation" Text="%1\n不兼容。\n连接取消。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DEVICE_DISCONNECT_FAILED_Button_OK" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DEVICE_DISCONNECT_FAILED_Textarea_StatusInformation" Text="%1\n无法断开连接。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_DISABLED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_DISABLED_Textarea_StatusInformation" Text="无法关闭蓝牙。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_ENABLED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_ENABLED_Textarea_StatusInformation" Text="无法启用蓝牙。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_ALL_FAILED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_ALL_FAILED_Textarea_StatusInformation" Text="无法删除配对。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_FAILED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_FAILED_Textarea_StatusInformation" Text="%1\n配对无法删除。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_DISCONNECT_FAILED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_DISCONNECT_FAILED_Textarea_StatusInformation" Text="%1\n配置文件无法从设备\n%2\n上断开。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_NOT_AVAILABLE_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_NOT_AVAILABLE_Textarea_StatusInformation" Text="%1\n蓝牙配置文件当前不可用。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_GENERAL_Textarea_StatusInformation" Text="要使用蓝牙功能，请接通点火开关。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_Textarea_StatusInformation" Text="要使用蓝牙功能，请接通点火开关。"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Button_Retry" Text="重试"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Textarea_StatusInformation" Text="软件更新失败。请重试。"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_ACTIVE_CALL_HANDOVER_WARNING_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_ACTIVE_CALL_HANDOVER_WARNING_Textarea_StatusInformation" Text="请在 %1 分钟后通过您的\n移动电话继续呼叫。"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_DIALING_FAILED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_DIALING_FAILED_Textarea_StatusInformation" Text="%1\n呼叫失败。\n%2"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NOT_INSTALLED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NOT_INSTALLED_Textarea_StatusInformation" Text="无可用电话。"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NO_LINE_FREE_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NO_LINE_FREE_Textarea_StatusInformation" Text="开始呼叫前请结束一个当前通话。"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_TEMP_DO_NOT_FORGET_PHONE_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_TEMP_DO_NOT_FORGET_PHONE_Textarea_StatusInformation" Text="不要遗忘移动电话。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LANGUAGE_LOADING_ERROR_001_Accept_Label" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_SHUTDOWN_000_TextLabel" Text="12 伏蓄电池电量即将耗尽。\n信息娱乐系统将关闭。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_WARNING_001_Accept_Label" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_WARNING_TextLabel_text" Text="注意：12 伏蓄电池电量低。\n请启动发动机或关闭信息娱乐系统。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_OPS_ERROR_Accept_Label" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_RVC_ERROR_Accept_Label" Text="确定"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_RVC_ERROR_TextArea_Text" Text="摄像头-驻车系统当前不可用。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_SPELLER_DISCLAIMER_TextArea_text" Text="为了您的安全，\n在行驶过程中请停止输入。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_SPELLER_DISCLAIMER_WARNING_TextArea_text" Text="为了您的安全，\n在行驶过程中请停止输入。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_000_TextLabel" Text="不在工作温度范围内。\n信息娱乐系统即将关闭。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_001_TextLabel" Text="不在工作温度范围内。\n信息娱乐系统即将关闭。"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_002_TextLabel" Text="不在工作温度范围内。\n屏幕即将关闭。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_BONDING_SSP_Textarea_StatusInformation" Text="%1\n此密码是否与\n%2\n相符?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Button_Retry" Text="重试"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Textarea_StatusInformation" Text="导入失败。\n请重试并检查蓝牙设备\n%1\n是否允许连接。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Disable" Text="关闭"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Text" Text="是否确定关闭蓝牙音频?\n将无法进行音频连接。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Button_Ok" Text="关闭"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Textarea_StatusInformation" Text="是否确定关闭蓝牙?\n将断开所有的连接。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Enable" Text="打开"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Text" Text="是否确定打开蓝牙音频?\n可能会出现连接故障。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Cancel2" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Ok" Text="连接"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Ok2" Text="连接"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Textarea_StatusInformation" Text="%1\n是否建立连接?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Textarea_StatusInformation2" Text="%1\n是否建立连接?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Textarea_EU_else_StatusInformation" Text="请检查是否支持且激活了\n该配置文件。您的设备兼容性\n相关信息请咨询经销商。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Textarea_else_StatusInformation" Text="请检查是否支持且激活了\n该配置文件。也请检查您的设备\n是否与信息娱乐系统兼容。"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Button_Ok" Text="替换"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Textarea_StatusInformation" Text="%1\n是否将此连接替换为\n%2?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Button_DeleteAll" Text="删除"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Textarea_StatusInformation" Text="是否确定删除所有已配对的设备?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_Button_Delete" Text="删除"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_StatusInformation" Text="是否确定删除\n%1?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Button_Disconnect" Text="断开"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Textarea_StatusInformation_BluetoothDeviceName" Text="%1\n是否确定断开蓝牙设备?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Textarea_StatusInformation_Profile" Text="%1\n是否确定断开配置文件?"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_SWDL_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_SWDL_Textarea_StatusInformation" Text="蓝牙：功能当前不可用。\n正在更新..."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_UNABLE_CONNECT_A2DP_Button_OK" Text="确定"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_UNABLE_CONNECT_A2DP_Textarea_StatusInformation" Text="%1\n未能建立连接。\n已与同一个设备建立了其他连接。"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_BTN_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_BTN_Confirm" Text="选择"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_Text" Text="%1\n是否确定选择此用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_BTN_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_BTN_Copy" Text="复制"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_Text" Text="%1\n是否想要将当前用户账号的设置复制到该账户?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Button_Cancel_Text" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Button_Confirm_Text" Text="分配"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Confirm_Text" Text="是否希望将遥控钥匙分配给当前用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_BTN_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_BTN_Confirm" Text="选择"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_Text" Text="%1\n是否确定选择此用户账号?各种设置都可能会改变，尤其是座椅位置。"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Button_Cancel_Text" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Button_Confirm_Text" Text="停用"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Confirm_Text" Text="是否确定停用个性化设置?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_BTN_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_BTN_Reset" Text="复位"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_Text" Text="是否确定复位所有的个性化设置\n和用户账号设置?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_BTN_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_BTN_Reset" Text="复位"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text0" Text="%1\n是否确定复位用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text1" Text="驾驶员 1\n是否确定复位用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text2" Text="驾驶员 2\n是否确定复位用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text3" Text="驾驶员 3\n是否确定复位用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text4" Text="访客\n是否确定复位用户账号?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Button_Delete" Text="删除"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Textarea_StatusInformation" Text="是否确定删除所有收藏?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Button_Delete" Text="删除"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Textarea_StatusInformation" Text="%1\n是否确定删除此项收藏?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Button_Delete" Text="删除"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Textarea_StatusInformation" Text="是否确定删除所有用户档案?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Button_Delete" Text="删除"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Textarea_StatusInformation" Text="%1\n是否确定删除用户档案?"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_VOICE_DIAL_Error" Text="未能在移动电话上启动语音操作。"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_VOICE_DIAL_NoSupport" Text="不支持语音操作。"/>
+    <LangID ID="LANG_PO_CONFIRM_SYSTEM_RESET_001_Cancel_CancelLabel" Text="取消"/>
+    <LangID ID="LANG_PO_CONFIRM_SYSTEM_RESET_002_Reset_Delete" Text="复位"/>
+    <LangID ID="LANG_PO_DIAGNOSIS_000_TextLabel" Text="远程控制已激活。"/>
+    <LangID ID="LANG_PO_DISCLAIMER_CLIMATE_SETUP_NOT_AVAILABLE_InfoText_text" Text="空调设置：功能当前不可用。"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_BATTERY_WARNING_Textarea_StatusInformation" Text="%1\n电池电量不足。"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_BONDING_SUCCESS_Textarea_StatusInformation" Text="已配对：%1"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_CONTACTS_AVAILABLE_Textarea_StatusInformation" Text="已导入联系人。"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_CONTACTS_INCOMPLETE_Textarea_StatusInformation" Text="联系人导入不完整。"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_SERVICE_CONNECTION_LOST_Textarea_StatusInformation" Text="%1\n连接已断开。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_EINGINE_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ENGINE_Text" Text="仅在发动机运行时此功能才可用。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ERROR_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ERROR_Text" Text="此功能当前不可用。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_KL15OFF_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_KL15OFF_Text" Text="仅在接通点火开关后此功能才可用。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_SPEED_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_SPEED_Text" Text="此功能当前不可用。车速过高。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_STANDSTILL_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_STANDSTILL_Text" Text="仅在汽车停止时此功能才可用。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_TRAILER_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_TRAILER_Text" Text="挂车：此功能当前不可用。"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_UNDEFINED_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_UNDEFINED_Text" Text="此功能当前不可用。"/>
+    <LangID ID="LANG_PO_INFO_CAR_FPA_FUNCTION_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_PO_INFO_CAR_FPA_FUNCTION_Text" Text="要设置，请切换到驾驶模式选择。"/>
+    <LangID ID="LANG_PO_INFO_CAR_SETUP_PERSONAL_KEY_ERROR_Text" Text="未识别到遥控钥匙。分配已取消。"/>
+    <LangID ID="LANG_PO_INFO_CAR_SETUP_PERSONAL_KEY_SUCCESS_Text" Text="遥控钥匙已分配给当前用户账号。"/>
+    <LangID ID="LANG_PO_INFO_PHONE_CALL_EXT_InfoText_text" Text="正在拨打紧急电话...\n蓝牙和 App-Connect 将停止且在紧急呼叫期间不可用。"/>
+    <LangID ID="LANG_PO_INFO_PHONE_USER_CONNECTED_Textarea_StatusInformation" Text="已连接\n%1"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_REGION_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_REGION_Text" Text="应用程序在行驶过程中无法使用。\n该应用程序未获本国许可。"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_Text" Text="应用程序在行驶过程中无法使用。\n应用程序未得到授权或其授权对\n行驶过程中的使用有所限制。"/>
+    <LangID ID="LANG_PO_MIRROR_DEVICE_NOT_SUPP_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_DEVICE_NOT_SUPP_Text" Text="设备不支持。"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_DEVICE_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_DEVICE_Text" Text="应用程序无法启动或不能正常工作。"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_NOT_COMPATIBLE_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_NOT_COMPATIBLE_Text" Text="应用程序不兼容。"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_AUDIO_LOST_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_AUDIO_LOST_Text" Text="音频连接已中断。"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_Text" Text="故障"/>
+    <LangID ID="LANG_PO_MIRROR_LIMITED_COMPATIBLE_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_LIMITED_COMPATIBLE_Text" Text="移动设备的可用性受限。"/>
+    <LangID ID="LANG_PO_MIRROR_USB_CONNECTION_LOST_OK_Button" Text="确定"/>
+    <LangID ID="LANG_PO_MIRROR_USB_CONNECTION_LOST_Text" Text="MirrorLink® USB 连接已中断。"/>
+    <LangID ID="LANG_PO_MISC_FPA_MAIN_AbortButton_Label" Text="关闭"/>
+    <LangID ID="LANG_PO_MISC_FPA_MAIN_Setup_Label" Text="设置"/>
+    <LangID ID="LANG_PO_OVERLAY_MIRROR_DEV_NO_DAP_Text" Text="移动设备的可用性受限。"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Button_Ok" Text="拨打紧急电话"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Textarea_StatusInformation" Text="是否确定拨打紧急电话?"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_FAILED_Button_Ok" Text="确定"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_FAILED_Textarea_StatusInformation" Text="紧急呼叫：呼叫失败。"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_REQUEST_Button_Ok" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_REQUEST_Textarea_StatusInformation" Text="%1\n请输入密码：\n%2\n然后确认连接。"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_VERIFY_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_VERIFY_Textarea_StatusInformation" Text="%1\n正在验证密码...\n请检查是否需要确认。"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_Button_Ok" Text="是"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_ENTER_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_ENTER_Textarea_StatusInformation" Text="%1\n请输入密码：\n%2"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_BOND_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_BOND_Textarea_StatusInformation" Text="%1\n正在建立配对..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_Button_Cancel" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_DE_Textarea_StatusInformation" Text="正在建立与：\n%1\n的连接..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_Textarea_StatusInformation" Text="%1\n正在建立与：\n%2\n的连接..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_SERV_REQ_Cancel_Button" Text="取消"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_SERV_REQ_Textarea_StatusInformation" Text="%1\n正在查询可用的配置文件..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_EDIT_COPY_WAIT_Text0" Text="正在复制设置..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_KEY_PRESS_Text" Text="请按遥控钥匙上的打开按钮。"/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_KEY_WAIT_Text" Text="正在分配遥控钥匙..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_RESET_ALL_WAIT_Text" Text="正在复位所有设置..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_RESET_WAIT_Text0" Text="正在复位所有设置..."/>
+    <LangID ID="LANG_PO_PROGRESS_WAITING_Textarea_StatusInformation" Text="请稍候..."/>
+    <LangID ID="LANG_PO_Progress_Unmount_SD_Correct_TextLabel_text" Text="SD 卡可安全取出。"/>
+    <LangID ID="LANG_PO_Progress_Unmount_SD_InCorrect_TextLabel_text" Text="SD 卡未安全移除。"/>
+    <LangID ID="LANG_PO_Progress_Unmount_USB_Correct_TextLabel_text" Text="USB 设备可安全移除。"/>
+    <LangID ID="LANG_PO_Progress_Unmount_USB_InCorrect_TextLabel_text" Text="USB 设备未安全断开。"/>
+    <LangID ID="LANG_PO_Progress_Unmount_Waiting_TextLabel_text" Text="请稍候..."/>
+    <LangID ID="LANG_PO_Progress_Unmount_iPod_Correct_TextLabel_text" Text="iPod 可安全移除。"/>
+    <LangID ID="LANG_PO_Progress_Unmount_iPod_InCorrect_TextLabel_text" Text="iPod 未安全断开。"/>
+    <LangID ID="LANG_PO_SAFECODE_INCORRECT_Incorrect_text" Text="代码错误。"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_ENTERTAINMENT_Label_text" Text="音频"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_PHONE_Label_text" Text="电话"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_SDS_Label_text" Text="语音操作"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_RadioMonitors_Label_Text" Text="收音机监视器"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_SWDownload_Label_Text" Text="软件更新/版本"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_Title_Text" Text="服务模式"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_AntennaLable_Text_Entry" Text="天线：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_FSLabel_Text" Text="场强："/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Frequency_Text_Entry" Text="频率：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Multipath_Label_Text_Entry" Text="多路径：---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_NKLabel_Text_Entry" Text="NK：---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_PSLabel_Text_Entry" Text="PS： ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_QualityLabel_Text_Entry" Text="质量：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Title_Text" Text="AM 监视器"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_AntennaLable_Text_Entry" Text="天线：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_FSLabel_Text" Text="场强："/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Frequency_Text_Entry" Text="频率：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Multipath_Label_Text_Entry" Text="多路径：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_NKLabel_Text_Entry" Text="NK：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_PSLabel_Text_Entry" Text="PS：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_QualityLabel_Text_Entry" Text="质量：%1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Title_Text" Text="FM 监视器"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_AMMonitor_Label_Text" Text="AM 监视器"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_FMMonitor_Label_Text" Text="FM 监视器"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_Title_Text" Text="收音机监视器"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist0" Text="小"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist0_open" Text="小"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist1" Text="中等"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist1_open" Text="中等"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist2" Text="大"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist2_open" Text="大"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_TextArea_text" Text="可用的更新：%1"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_TitelLabel_text" Text="软件更新"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_start_text" Text="开始更新"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_Confirm_text" Text="确定"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_ERROR1_TextArea_text" Text="错误：软件更新。\n请重新启动软件更新。"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_ERROR_TextArea_text" Text="错误：软件更新。请重新启动软件更新。"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_FINISHED_TextArea_text" Text="软件更新已完成。"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_NOT_AVAILABLE_StatusInformatio_text" Text="没有可用的文件。\n请放入数据源或检查数据源。"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_NOT_AVAILABLE_TitelLabel_text" Text="软件更新"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_PERFORMING_MAIN_Percent_formatter" Text="%1 %"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_PERFORMING_MAIN_TitelLabel_text" Text="正在更新软件..."/>
+    <LangID ID="LANG_SWDL_DISCLAIMER_001_Cancel_TextLabel" Text="取消"/>
+    <LangID ID="LANG_SWDL_DISCLAIMER_text" Text="警告：软件升级需要较长时间。\n请不要在软件升级过程中\n断电或启动发动机。"/>
+    <LangID ID="LANG_SWDL_MAIN_InstalledVersions_Bluetooth" Text="蓝牙"/>
+    <LangID ID="LANG_SWDL_MAIN_InstalledVersions_Soft" Text="软件："/>
+    <LangID ID="LANG_SWDL_MAIN_Partnumber_text" Text="零件号："/>
+    <LangID ID="LANG_SWDL_MAIN_SWUpdate_text" Text="软件更新"/>
+    <LangID ID="LANG_SWDL_MAIN_TitelLabel_text" Text="软件更新"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts0" Text="错误：数据源不可用。\n无法读取元信息文件。"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts1" Text="错误：无可用版本。\n无法读取元信息文件。"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts2" Text="错误：读取/打开版本信息文件。\n无法读取元信息文件。"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts3" Text="错误：无法打开元信息文件。"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts4" Text="错误：区域不一致 (主机)。"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts5" Text="错误：变量冲突"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_Abort" Text="取消"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_ConfirmInformation" Text="是否确定继续更新软件?"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_Continue" Text="继续"/>
+    <LangID ID="LANG_SWDL_READING_METAINFO_Text_StatusInformation_text" Text="元信息..."/>
+    <LangID ID="LANG_SWDL_READING_METAINFO_TitelLabel_text" Text="版本 %1"/>
+    <LangID ID="LANG_SWDL_REBOOT_1_TextArea_text" Text="软件将在重新启动后继续更新..."/>
+    <LangID ID="LANG_SWDL_REBOOT_2_TextArea_text" Text="正在重新启动系统..."/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_MAIN_TitelLabel_text" Text="选择版本"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_Confirm_text" Text="确定"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_StatusInformation_text" Text="错误：没有可用的文件。\n请放入带有软件更新文件的数据源\n或检查数据源。"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_TitelLabel_text" Text="软件更新"/>
+    <LangID ID="LANG_SWDL_Start_text" Text="继续"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList0" Text="日.月.年"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList0_open" Text="日.月.年"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList1" Text="年-月-日"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList1_open" Text="年-月-日"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList2" Text="月-日-年"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList2_open" Text="月-日-年"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList0" Text="最亮"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList0_open" Text="最亮"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList1" Text="较亮"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList1_open" Text="较亮"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList2" Text="中等"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList2_open" Text="中等"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList3" Text="较暗"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList3_open" Text="较暗"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList4" Text="最暗"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList4_open" Text="最暗"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList0" Text="km"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList0_open" Text="km"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList1" Text="mi"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList1_open" Text="mi"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile1_Title" Text="舒适"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile2_Title" Text="运动"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile3_Title" Text="越野"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile4_Title" Text="经济"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile5_Title" Text="竞赛"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile6Title" Text="个性化"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile7_Title" Text="标准"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile8_Title" Text="经济+"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList0" Text="l/100km"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList0_open" Text="l/100km"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList1" Text="km/l"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList1_open" Text="km/l"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList2" Text="mpg (美)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList2_open" Text="mpg (美)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList3" Text="mpg (英)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList3_open" Text="mpg (英)"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList0" Text="kPa"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList0_open" Text="kPa"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList1" Text="bar"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList1_open" Text="bar"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList2" Text="psi"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList2_open" Text="psi"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Button_OK_Text" Text="确定"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_InputField_HideTypingChar_text" Text="密码"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Speller_InfoText" Text="*"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Title_text" Text="防盗代码"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Incorrect_text" Text="代码错误。"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Locked_text" Text="信息娱乐系统已锁定。\n请等待 %1 分钟。"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Unlock_text" Text="信息娱乐系统已锁定。\n剩余尝试次数：%1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_ADDITIONAL_SPELLER_LANGUAGES_Title_text" Text="其他键盘语言"/>
+    <LangID ID="LANG_SYSTEM_SETUP_COPYRIGHTS_Title_text" Text="版权信息"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_008_Day" Text="日"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_009_Month" Text="月"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_010_Year" Text="年"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview0" Text="一"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview1" Text="二"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview2" Text="三"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview3" Text="四"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview4" Text="五"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview5" Text="六"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview6" Text="日"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month10_Year" Text="十月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month11_Year" Text="十一月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month12_Year" Text="十二月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month1_Year" Text="一月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month2_Year" Text="二月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month3_Year" Text="三月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month4_Year" Text="四月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month5_Year" Text="五月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month6_Year" Text="六月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month7_Year" Text="七月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month8_Year" Text="八月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month9_Year" Text="九月 %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Title_text" Text="日期设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_AcousticTouchscreenFeedback_text" Text="按键音"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_Brightness_text" Text="亮度等级："/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_ShowClock_text" Text="待机时显示时间"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_Title_text" Text="屏幕设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_REQUEST_ConcatString" Text="是否确定复位\n&quot;%1&quot;\n的设置?"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_REQUEST_ConcatString_ALL" Text="是否确定复位所有的设置和数据?"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList0" Text="全部复位"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList10" Text="App-Connect"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList10_SKODA" Text="SmartLink"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList13" Text="系统"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList2" Text="声音"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList3" Text="收音机"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList5" Text="电话"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList6" Text="媒体"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Subheadline_1" Text="复位所有的设置/数据"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Subheadline_2" Text="复位单项设置/数据"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Title_text" Text="出厂设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANGUAGE_MAIN_Title_text" Text="选择语言"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANG_ERROR_TextArea_text" Text="选择的语言不可用。"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANG_LOADING_DATA_TextArea_text" Text="正在载入语言..."/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_AutomaticLanguage_text" Text="自动"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text0" Text="ABC"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text0_open" Text="ABC"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text1" Text="标准"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text1_open" Text="标准"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList12" Text="Русский"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList16" Text="English (US)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList18" Text="Español (MEX)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList20" Text="Português (BR)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList37" Text="中文"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemBTDevices_text" Text="蓝牙"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemCopyrights_text" Text="版权信息"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemDisplay_text" Text="屏幕"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemFactorySettings_text" Text="出厂设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemLanguage_CN_English_text" Text="语言/Language"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemLanguage_text" Text="语言 / Language"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemSpellerLayout_text" Text="键盘："/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemSwitchOffDisplay_text" Text="显示屏关闭 (10 秒后)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemTime_text" Text="时间和日期"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemTone_text" Text="声音"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemUnits_text" Text="单位"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemVersions" Text="系统信息"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Listitem_AdditionalSpellerLayout_text" Text="其他键盘语言"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Title_text" Text="系统设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option0" Text="SD 卡"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option1" Text="USB"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option4" Text="iPod"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_text" Text="选择"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_text_Title" Text="安全移除："/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_002_ButtonSwitchAM_PM_TextArea" Text="am"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_003_ButtonSwitchPM_AM_TextArea" Text="pm"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_008_Hour" Text="小时"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_009_Minute" Text="分钟"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_010_AM_PM" Text="am/pm"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text0" Text="12 小时"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text0_open" Text="12 小时"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text1" Text="24 小时"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text1_open" Text="24 小时"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Date_text" Text="日期："/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Dateformat_text" Text="日期格式："/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Summertime_text" Text="夏令时间"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Time_text" Text="时间："/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Timeformat_text" Text="时间格式："/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Title_text" Text="时间和日期设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_Title_text" Text="时间设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Distance_text" Text="距离："/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_PetrolConsumtion_text" Text="消耗量："/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Pressure_text" Text="轮胎压力："/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Speed_TextLabel_text" Text="速度："/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Temperature_text" Text="温度："/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Title_text" Text="单位设置"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Volume_text" Text="容积："/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIIONS_AndroidAuto" Text="Android Auto"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_Bluetooth" Text="蓝牙："/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_CarPlay" Text="Apple CarPlay"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_DevicePartnumber" Text="设备零件号："/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_HardwarePartnumber" Text="硬件："/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_SoftwarePartnumber" Text="软件："/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_Title_text" Text="系统信息"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_UpdateSW_text" Text="软件更新"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList0" Text="km/h"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList0_open" Text="km/h"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList1" Text="mph"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList1_open" Text="mph"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList0" Text="°C"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList0_open" Text="°C"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList1" Text="°F"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList1_open" Text="°F"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList0" Text="l"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList0_open" Text="l"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList1" Text="gal (美)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList1_open" Text="gal (美)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList2" Text="gal (英)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList2_open" Text="gal (英)"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_AppConnect_text" Text="App-Connect"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_AppConnect_text_SKODA" Text="SmartLink"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_Relaunch_text" Text="重新启动百度 CarLife"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_text" Text="CarLife：没有数据传输。\n要使用 CarLife，请取消禁用移动设备或\n在前台运行应用程序。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_GAL_FIRST_RUN_EXPERIENCE_ConfirmButton_text" Text="确定"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_GAL_FIRST_RUN_EXPERIENCE_text" Text="请在移动设备上检查是否需要确认。\n请注意：为了您的安全，在行驶过程中\n请勿操作移动设备。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_ConfirmButton_text" Text="确定"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_InfoTextCarplayOnly_text" Text="请重试或在可能的情况下更换 USB 接口。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_InfoTextGeneral_text" Text="未能建立连接。请检查移动设备是否支持\n%1。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_CancelLabel_text" Text="取消"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_DeactivateTPLabel_text" Text="连接"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_TextLabel_text" Text="Apple CarPlay：识别到新设备。\n是否希望连接 Apple CarPlay?\n请注意，建立连接会允许在车辆和\n移动设备之间传输数据。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_CancelLabel_text" Text="取消"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_ConfirmLabel_text" Text="确定"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_text" Text="请注意，车辆和移动设备之间的\n连接正在传输数据。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_CONNECTION_FAILED_TextArea_text" Text="连接失败。\n请检查您的移动设备是否已解锁。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_DISCONNECT_TextArea_text" Text="App-Connect：\n%1\n连接已断开。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_DISCONNECT_TextArea_text_SKODA" Text="SmartLink：\n%1\n连接已中断。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_NO_CONNECTION_DURING_CALL_TextArea_text" Text="App-Connect：\n请注意，在通话期间此功能不可用。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_NO_CONNECTION_DURING_CALL_TextArea_text_SKODA" Text="SmartLink：\n请注意，在通话期间此功能不可用。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_START_CONNECTION_TextLabel_text" Text="%1\n正在通过 %2 建立连接。\n该设备在 &quot;媒体&quot; 中无法再作为媒体源使用。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_Headline_TextLabel_text" Text="App-Connect 信息"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_Headline_TextLabel_text_SKODA" Text="SmartLink 信息"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_InfoText_ROW_Text" Text="您可从网址\nwww.volkswagen.com/apps\n或使用移动设备扫描二维码\n获取更多应用程序的一览表。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_InfoText_text" Text="您可从网址\nwww.volkswagen.com/apps\n或使用移动设备扫描二维码\n获取更多应用程序的一览表。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_Controlbar_Btn_Info_text" Text="信息"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_WelcomeText_text" Text="欢迎使用 App-Connect\n请选择一个设备。"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_WelcomeText_text_SKODA" Text="欢迎使用 SmartLink。\n请选择一个设备。"/>
+    <LangID ID="LANG_TEXT_Version" Text="MIBG_GP_22_17_M5"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist0" Text="手动"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist0_open" Text="手动"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist1" Text="摇滚"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist1_open" Text="摇滚"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist2" Text="流行"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist2_open" Text="流行"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist3" Text="古典"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist3_open" Text="古典"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist4" Text="爵士"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist4_open" Text="爵士"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist5" Text="演说"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist5_open" Text="演说"/>
+    <LangID ID="LANG_TONE_SETUP_BALANCE_FADER_000_title" Text="音量左右 - 前后分配"/>
+    <LangID ID="LANG_TONE_SETUP_BALANCE_FADER_001_title" Text="音量左右分配"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_AccousticTouchscreenFeedback_text" Text="按键音"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Balance_SettingName" Text="音量左右分配"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Equalizer_Title_text" Text="均衡器："/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Textlabel_TMB" Text="低音 - 中音 - 高音"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_000_Title" Text="音量设置"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_AudioLowering_LabelOff" Text="关闭"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_AudioLowering_ValueFormat" Text="%1"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_BalanceFader_Title_text" Text="音量左右 - 前后分配"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List3" Text="最大开机音量"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List4" Text="音量随速调节"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List5" Text="AUX 音量："/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List6" Text="蓝牙音频："/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List7" Text="娱乐系统音量抑制"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List8" Text="iPod 音量:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List9" Text="语音操作"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_Title_text" Text="音量"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_title_text" Text="声音设置"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Bass_SettingName" Text="低音"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Mid_SettingName" Text="中音"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Treble_SettingName" Text="高音"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_Headline_Title_text" Text="低音 - 中音 - 高音"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_SettingValueMax_text" Text="+9"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_SettingValueMin_text" Text="-9"/>
+    <LangID ID="LANG_TUNER_AM_LIST_MAIN_TextArea_Updating_text" Text="请稍候..."/>
+    <LangID ID="LANG_TUNER_AM_LIST_MAIN_TextLabel_Text" Text="AM 电台列表"/>
+    <LangID ID="LANG_TUNER_AM_MAIN_003_Scan_TextArea" Text="试播"/>
+    <LangID ID="LANG_TUNER_AM_SETUP_MAIN_SetupButtons_ListContainer_ListItem_Tone_long_ToneSettings_TextLabel_Text" Text="声音"/>
+    <LangID ID="LANG_TUNER_AM_StoreStation_Title" Text="保存：&quot;%1&quot;"/>
+    <LangID ID="LANG_TUNER_AM_TUNE_kHz_Text" Text="kHz"/>
+    <LangID ID="LANG_TUNER_AM_TUNE_kHz_Text_2" Text="kHz"/>
+    <LangID ID="LANG_TUNER_BandChange_AM" Text="AM"/>
+    <LangID ID="LANG_TUNER_BandChange_FM" Text="FM"/>
+    <LangID ID="LANG_TUNER_DOMAIN_ERROR_DomainNotAvailable_text" Text="&quot;收音机&quot; 当前不可用。"/>
+    <LangID ID="LANG_TUNER_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="正在启动 &quot;收音机&quot; ..."/>
+    <LangID ID="LANG_TUNER_FM_LIST_MAIN_TextArea_Updating_text" Text="请稍候…"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_DELETE_PRESETS_002_HeadlineLabel" Text="是否确定删除所有预置电台?"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_MAIN_005_ScanBTN_TextLabel" Text="试播"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_MAIN_010_ToneSettings_TextLabel" Text="声音"/>
+    <LangID ID="LANG_TUNER_FM_Scan_CN" Text="试播"/>
+    <LangID ID="LANG_TUNER_FM_TUNE_MHz_Text" Text="MHz"/>
+    <LangID ID="LANG_TUNER_FM_TUNE_MHz_Text_2" Text="MHz"/>
+    <LangID ID="LANG_TUNER_Formater_AM" Text="%1 kHz"/>
+    <LangID ID="LANG_TUNER_Formater_FM" Text="%1 MHz"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Band" Text="波段"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Manual" Text="手动"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Setup" Text="设置"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_StationList" Text="电台列表"/>
+    <LangID ID="LANG_TUNER_OVERLAY_INITIAL_AUTOSTORE_001_Cancel_CancelLabel" Text="取消"/>
+    <LangID ID="LANG_TUNER_OVERLAY_INITIAL_AUTOSTORE_TextLabel_text" Text="正在自动保存..."/>
+    <LangID ID="LANG_TUNER_OVERLAY_SETUP_DELETE_PRESETS_004_Button_Delete_TextLabel" Text="删除"/>
+    <LangID ID="LANG_TUNER_OVERLAY_SETUP_DELETE_PRESETS_005_Button_Cancel_TextLabel" Text="取消"/>
+    <LangID ID="LANG_TUNER_OverlaySetupDeletePresets_InfoText" Text="是否确定删除该预置电台?"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text0" Text="1"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text1" Text="2"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text10" Text="11"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text11" Text="12"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text12" Text="13"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text13" Text="14"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text14" Text="15"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text2" Text="3"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text3" Text="4"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text4" Text="5"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text5" Text="6"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text6" Text="7"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text7" Text="8"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text8" Text="9"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text9" Text="10"/>
+    <LangID ID="LANG_TUNER_PresetList_NoPresetStoredText" Text="空"/>
+    <LangID ID="LANG_TUNER_SETUP_AM_ButtonList_DeleteAMPresetsBTN_Label_Text" Text="删除预置电台"/>
+    <LangID ID="LANG_TUNER_SETUP_AM_Title_Label_Text" Text="AM 设置"/>
+    <LangID ID="LANG_TUNER_SETUP_DELETE_AM_PRESETS_Headline_Text" Text="AM 预置电台列表"/>
+    <LangID ID="LANG_TUNER_SETUP_DELETE_PRESETS_Title_Text" Text="FM 预置电台列表"/>
+    <LangID ID="LANG_TUNER_SETUP_DeleteAllBTN_Label_Text" Text="全部"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_ButtonList_DeleteFMPresetsBTN_Label_Text" Text="删除预置电台"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_Label_Text" Text="电台列表排序："/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List0" Text="字母"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List0_open" Text="字母"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List2" Text="频率"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List2_open" Text="频率"/>
+    <LangID ID="LANG_TUNER_SETUP_MAIN_ScopeOfArrowKeys_Button_Label_Text" Text="箭头按钮："/>
+    <LangID ID="LANG_TUNER_SETUP_MAIN_TunerSetupLabel_Text" Text="FM 设置"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0" Text="切换预置台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_gr" Text="切换预置台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_gr_open" Text="切换预置台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_open" Text="切换预置台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2" Text="搜索电台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_gr" Text="搜索电台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_gr_open" Text="搜索电台"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_open" Text="搜索电台"/>
+    <LangID ID="LANG_TUNER_Store_Text" Text="空"/>
+    <LangID ID="LANG_TUNER_TUNER_FM_LIST_MAIN_TextLabel_Text" Text="FM 电台列表"/>
+    <LangID ID="LANG_Tuner_FM_StoreStation_Title" Text="保存：&quot;%1&quot;"/>
+    <LangID ID="PO_Alert_Climate_Error_Accept" Text="确定"/>
+    <LangID ID="PO_Alert_Climate_Error_Text" Text="空调设置：功能当前不可用。"/>
+    <LangID ID="PO_Alert_OPS_Error_Text" Text="泊车雷达系统已停用。请安全驾驶!"/>
+    <LangID ID="SWDL_Disclaimer_Title" Text="软件更新"/>
+    <LangID ID="Tone_Setup_GALA_EL_Off" Text="关闭"/>
+    <LangID ID="Tuner_Station_List_AM_Preset_Frequency" Text="%1 kHz"/>
+    <LangID ID="Tuner_Station_List_AM_Update_Unsuccessful" Text="无电台"/>
+    <LangID ID="Tuner_Station_List_FM_Update_Unsuccessful" Text="无电台"/>
+    <LangID ID="_&lt;SWDL_CUSTOMER_DOWNLOAD&gt;" Text="-1"/>
+</LangDef>

@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LangDef langCode="0401" xsi:schemaLocation="VWXML2.0 ./../XSD/VWXML_Texts.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="VWXML2.0">
+    <LangID ID="AM_Monitor_Fieldstrength_Value_Entry" Text="%1 dBµV"/>
+    <LangID ID="ANG_CAR_ASSIST_DRIVE_ListItem_Vibration_Label" Text="الاهتزاز فعال"/>
+    <LangID ID="FM_Monitor_Fieldstrength_Value_Entry" Text="%1 dBµV"/>
+    <LangID ID="LAND_MEDIA_BT_DEVICE_SETUP_MAIN_Item_Device_Text" Text="أجهزة بلوتوث"/>
+    <LangID ID="LAND_MEDIA_BT_DEVICE_SETUP_MAIN_Item_Search_Text" Text="البحث عن أجهزة"/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_ERROR_Text" Text="تقنية MirrorLink® غير متوافرة حاليا."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_ERROR_Text_SKODA" Text="وظيفة SmartLink غير متاحة حاليا."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_NOT_AVAILABLE_Text" Text="جار تشغيل تقنية MirrorLink®..."/>
+    <LangID ID="LANG_APPCONNECT_DOMAIN_NOT_AVAILABLE_Text_SKODA" Text="جار تشغيل وظيفة SmartLink..."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PK_SPELLER_REQ_Headline_TextLabel" Text="إدخال كلمة المرور"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PK_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_PROFILE_SELECTION_Headline_TextLabel" Text="مجموعة الخصائص: ‪%1‎"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_DEVICES_FOUND_Title" Text="أجهزة بلوتوث"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Button_Help" Text="المساعدة"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Button_Proceed" Text="النتائج"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_Additional" Text="يرجى التأكد من تشغيل وظيفة\nبلوتوث ووظيفة ظهور أجهزة بلوتوث\nالجوالة (الهاتف الجوال،\nمشغل الصوتيات، وما شابه)."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_BTAudioCodedActivated" Text="جار البحث عن أجهزة...\nتم قطع صوتيات بلوتوث."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Text_Searching_BTAudioNoCodedOrDeactive" Text="جار البحث عن أجهزة..."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_INITIAL_Title" Text="أجهزة بلوتوث"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_ListItem_Help" Text="المساعدة"/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Text_SearchFailure" Text="لم يتم العثور على أجهزة بلوتوث."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Text_SearchFailure_Additional" Text="يرجى التأكد من تشغيل البلوتوث ووظيفة\nظهور جهازك الجوال (الهاتف الجوال، مشغل\nالصوتيات، وخلافه). تأكد أيضا أن الجهاز\nيدعم مجموعات خصائص بلوتوث للنظام\nوأنها مفعلة (انظر كتيب السيارة)."/>
+    <LangID ID="LANG_BLUETOOTH_BONDING_SEARCH_RESULT_NO_DEVICES_FOUND_Title" Text="أجهزة بلوتوث"/>
+    <LangID ID="LANG_BLUETOOTH_PIN_SPELLER_REQ_Headline_TextLabel" Text="إدخال رقم PIN الخاص بالمستخدم"/>
+    <LangID ID="LANG_BLUETOOTH_PIN_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_Headline_TextLabel" Text="أوضاع ضبط البلوتوث"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_AudioProfilesEnabled" Text="صوتيات بلوتوث (A2DP/AVRCP)"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_BluetoothEnabled" Text="بلوتوث"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName" Text="الاسم:"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName_Name1" Text="راديو فولكس فاجن"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_HUDeviceName_Name2" Text="راديو سكودا"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_PairedDevices" Text="أجهزة مقترنة"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_SearchDevices" Text="البحث عن أجهزة"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility" Text="خاصية الظهور:"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown0" Text="ظاهر"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown0_open" Text="ظاهر"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown1" Text="غير ظاهر"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_ListItem_Visibility_DropDown1_open" Text="غير ظاهر"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_NAME_Headline_TextLabel" Text="إدخال الاسم"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_NAME_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_Headline_Button_DeleteAll" Text="الكل"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_Headline_TextLabel" Text="أجهزة مقترنة"/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_TextArea_List_Empty" Text="لا توجد أجهزة بلوتوث مقترنة."/>
+    <LangID ID="LANG_BLUETOOTH_SETUP_PAIRINGS_MAIN_TextArea_List_Empty_Additional" Text="يرجى التأكد من تشغيل وظيفة\nبلوتوث ووظيفة ظهور أجهزة\nبلوتوث الجوالة (الهاتف الجوال،\nمشغل الصوتيات، وخلافه).\nثم ابدأ البحث عن أجهزة\nلعمل اقتران للجهاز."/>
+    <LangID ID="LANG_BLUETOOTH_UID_SPELLER_REQ_Headline_TextLabel" Text="إدخال اسم المستخدم"/>
+    <LangID ID="LANG_BLUETOOTH_UID_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_ButtonUnderstood_TextLabel_text" Text="موافق"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Roof_ExpListItem_Label_Value_Format_" Text="%1%"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Roof_ExpListItem_Slider_Label_Off_" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_AMBIANCE_LIGHT_Title_Roof_Label" Text="السقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Distance_Warning_Label" Text="عرض تحذير مسافة الأمان"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_EmergencyBraking_Label" Text="كبح طوارئ بالمدينة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Enabled_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Pedestrian_Protection_Label" Text="نظام التعرف على المشاة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Label" Text="تحذير أولي:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option0" Text="مبكر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option0_open" Text="مبكر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option1" Text="متوسط"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option1_open" Text="متوسط"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option2" Text="متأخر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option2_open" Text="متأخر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option3" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_DD_Option3_open" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_AWV_Warning_Label" Text="تحذير أولي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_BlindSpotDetectionWarning_Label" Text="إشارة تحذير صوتية"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_BlindSpotDetection_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_CityEmergencyBraking_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels0" Text="اقتصادي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels0_open" Text="اقتصادي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels1" Text="عادي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels1_open" Text="عادي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels2" Text="رياضي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels2_open" Text="رياضي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels3" Text="مريح"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACCProgram_Labels3_open" Text="مريح"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels0" Text="قصيرة جدا"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels0_open" Text="قصيرة جدا"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels1" Text="قصيرة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels1_open" Text="قصيرة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels2" Text="متوسطة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels2_open" Text="متوسطة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels3" Text="طويلة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels3_open" Text="طويلة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels4" Text="طويلة جدا"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ACC_Distance_Labels4_open" Text="طويلة جدا"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0" Text="مفعل"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0_open" Text="مفعلة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels0_open" Text="مفعل"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1" Text="نظام ASR متوقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1_open" Text="نظام ASR متوقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels1_open" Text="نظام ASR متوقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2" Text="برنامج ESC Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2_open" Text="برنامج ESC Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels2_open" Text="برنامج ESC Sport"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3" Text="برنامج ESC متوقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3_open" Text="برنامج ESC متوقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_ESP_Labels3_open" Text="برنامج ESC متوقف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels0" Text="ضعيف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels0_open" Text="ضعيف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels1" Text="متوسط"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels1_open" Text="متوسط"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels2" Text="قوي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_DDList_HCAStrength_Labels2_open" Text="قوي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_HCA_Enabled_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACCProgram_Label" Text="برنامج القيادة:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACC_Distance_Label" Text="مسافة الأمان:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ACC_Distance_last_Label" Text="آخر مسافة أمان مختارة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_ESP_Label" Text="نظام ESC:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_HCA_Strength_Label" Text="شدة التحذير:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_ListItem_HCA_WarnTime_Label" Text="موجه المسار المتوائم"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssistWarning_Label" Text="تحذير أولي"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Label" Text="تحذير أولي:"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option0" Text="مبكر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option0_open" Text="مبكر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option1" Text="متوسط"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option1_open" Text="متوسط"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option2" Text="متأخر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option2_open" Text="متأخر"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option3" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PedestrianAssist_Prewarning_DD_Option3_open" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_PreCrash_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Brightness_Label" Text="شدة الإضاءة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Brightness_Value" Text="%1"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_SWA_Enabled_Label" Text="فعال"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title" Text="أوضاع ضبط نظام مساعدة السائق"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_ACC_Label" Text="نظام ACC (تحكم أوتوماتيكي)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_BlindSpotDetection_Label" Text="مستشعر &quot;النقطة الميتة&quot;"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_CityEmergencyBrake_Label" Text="فرملة الطوارئ داخل المدينة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_FrontAssist_Label" Text="نظام Front assist (مراقبة النطاق الأمامي)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_LaneAssist_Label" Text="نظام Lane Assist (مساعد المسار)"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_PedestrianAssist_Label" Text="نظام التعرف على المشاة"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_PreCrash_Label" Text="نظام الحماية المبكرة للركاب"/>
+    <LangID ID="LANG_CAR_ASSIST_DRIVE_Title_SideAssist_Label" Text="نظام Side Assist (تغيير الحارة)"/>
+    <LangID ID="LANG_CAR_ASSIST_INFO_ListItem_MKE_Label" Text="فعالة"/>
+    <LangID ID="LANG_CAR_ASSIST_INFO_Title_MKE_Label" Text="وظيفة التعرف على الإرهاق"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_ExpListItem_Label_Value_Format" Text="%1"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_ManeuverAssiet_Operation_Label" Text="فعالة"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCActivation_Label" Text="التفعيل الأوتوماتيكي"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCAudioLowering_ExpListItem_Label_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCAudioLowering_Label" Text="خفض شدة صوت وسائل الترفيه"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels0" Text="شدة الصوت في الأمام"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels1" Text="حدة الصوت في الأمام"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels2" Text="شدة الصوت في الخلف"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_PDCSettings_Labels3" Text="حدة الصوت في الخلف"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Settings_Title" Text="صف السيارة والمناورة"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Title_ManeuverAssist_Label" Text="وظيفة الفرملة أثناء المناورة"/>
+    <LangID ID="LANG_CAR_ASSIST_PARK_Title_ParkPilot_Label" Text="نظام ParkPilot"/>
+    <LangID ID="LANG_CAR_BMA_Profile_Labels_Emode" Text="E-MODE"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title" Text="أوضاع ضبط تدفئة المقود"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title_SteeringWheelHeater_AutomaticActivation" Text="التفعيل الأوتوماتيكي"/>
+    <LangID ID="LANG_CAR_CLIMATE_Title_SteeringWheelHeater_Label" Text="تدفئة المقود"/>
+    <LangID ID="LANG_CAR_DOMAIN_ERROR_DomainNotAvailable_text" Text="قائمة السيارة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="جار تشغيل قائمة السيارة..."/>
+    <LangID ID="LANG_CAR_ESCOFF_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_CAR_ESCOFF_Confirm" Text="إيقاف فعالية"/>
+    <LangID ID="LANG_CAR_ESCOFF_Text" Text="لا ينصح بإيقاف\nبرنامج تعزيز الاتزان بشكل كامل.\nهل تريد فعلا إيقاف\nفعالية برنامج ESC؟"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels0" Text="مريح"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels1" Text="عادي"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels2" Text="رياضي"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels3" Text="وعرة"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels4" Text="سباق"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels5" Text="اقتصادي"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels6" Text="شخصي"/>
+    <LangID ID="LANG_CAR_FPA_Profiles_Labels7" Text="اقتصادي+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ACC_Label" Text="نظام ACC:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AFS_Label" Text="ضوء انعطاف دينامي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AirCondition_Label" Text="تكييف الهواء:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AirSuspension_Label" Text="تعليق هوائي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AntiRollBar_Label" Text="المعادل المتوائم:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_AntiSlipControl_Label" Text="نظام ASR:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_BeltTensioner_Label" Text="شد أوتوماتيكي مسبق للحزام"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_BrakeControl_Label" Text="نظام ESC:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CenterDifferential_Label" Text="قفل تفاضلي مركزي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CenterRearAxleDifferential_Label" Text="رباعي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Chassis_Label" Text="مجموعة التعليق:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_CurveAssist_Label" Text="مراعاة منعطفات:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Label" Text="نظام DCC"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Comfort" Text="مريح"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Normal" Text="عادي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DCC_Properties_Slider_open_Sport" Text="رياضي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DisplaySetup1_Label" Text="أجهزة قياس وبيان:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DisplaySetup2_Label" Text="معلومات وترفيه:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveAssist2_Label" Text="مساعد صف سيارة:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveAssist_Label" Text="مساعد الصعود:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriveTrain_Label" Text="المحرك:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DriverSeat_Label" Text="مقعد السائق:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_DynEngineMount_Label" Text="Aggregatelagerung (Audi-Text)"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ESound_Label" Text="صوت كهربائي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EcoAssist_Label" Text="نصائح اقتصادية:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Electrictrorquevectoring_Label" Text="Electric torque vectoring (Audi-Text)"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EnergoACC_Label" Text="مواءمة السرعة"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EnergoDisplaySetup_Label" Text="نصائح اقتصادية:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_EngineSound_Label" Text="الصوت بالداخل:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Engine_Label" Text="المحرك:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ExhaustFlap_Label" Text="صمامات العادم:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ExhaustSystemSound_Label" Text="صوت محرك بالخارج:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_FreeRolling_Label" Text="دوران حر لـ DSG:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_FrontAxleDifferential_Label" Text="قفل محور أمامي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_GearboxDrivingPosition_Label" Text="ناقل الحركة:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_HillDescentControl_Label" Text="مساعد المنحدرات:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_HybridComponents_Label" Text="المحرك الهجين:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_InteriorLight_Label" Text="إضاءة محيطة:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_LaneAssist_Label" Text="مساعد المسار:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_MagneticRide_Label" Text="Magnetic ride (Audi-Text)"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_MatrixBeam_Label" Text="كشاف ماتريكس:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Navigation2_Label" Text="الملاحة"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Navigation_Label" Text="الملاحة"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_PassengerCabin_Label" Text="مقصورة السيارة:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Profile7_Title" Text="شخصي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit0" Text="-"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit0_DD_open" Text="-"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit1" Text="مريح"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit1_DD_open" Text="مريح"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit2" Text="عادي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit2_DD_open" Text="عادي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit3" Text="رياضي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit3_DD_open" Text="رياضي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit4" Text="أراضي وعرة"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit4_DD_open" Text="أراضي وعرة"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit5" Text="اقتصادي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit5_DD_open" Text="اقتصادي"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit6" Text="سباق"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit6_DD_open" Text="سباق"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit7" Text="اقتصادي+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Bit7_DD_open" Text="اقتصادي+"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_Off_DD_open" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_On" Text="تشغيل"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Properties_On_DD_open" Text="تشغيل"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RESET_Popup_Text" Text="هل تريد فعلا إرجاع\nهذه الطريقة؟"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearAxleDifferential_Label" Text="قفل المحور الخلفي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearAxleSteering_Label" Text="توجيه محور خلفي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_RearSpoiler_Label" Text="إسبويلر خلفي:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_ResetButton_Label" Text="إرجاع ضبط الطريقة"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Reset_Popup_Button_Cancel_Text" Text="إلغاء"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Reset_Popup_Button_Reset_Text" Text="إرجاع الضبط"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SeatSidebolsterAdjustment_Label" Text="ضبط جوانب مقعد:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SoundComponents_Label" Text="صوت المحرك:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_StartStop_Label" Text="التشغيل والإيقاف:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Steering_Label" Text="جهاز التوجيه:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SuperpositionSteering_Label" Text="التوجيه المدرج:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_SwitchableDamper_Label" Text="تعليق &quot;رياضي&quot;"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_TPMS_Label" Text="مراقب الإطارات:"/>
+    <LangID ID="LANG_CAR_FPA_SETUP_Transmission_Label" Text="ناقل الحركة:"/>
+    <LangID ID="LANG_CAR_FPA_Title_Label_Text" Text="اختيار نمط القيادة"/>
+    <LangID ID="LANG_CAR_LIGHT_AFS_Label" Text="ضوء المنعطفات الديناميكي"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels0" Text="مبكر"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels0_open" Text="مبكر"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels1" Text="متوسط"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels1_open" Text="متوسط"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels2" Text="متأخر"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLightSensi_Labels2_open" Text="متأخر"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoLight_Label" Text="وقت التشغيل:"/>
+    <LangID ID="LANG_CAR_LIGHT_AutoRainLight_Label" Text="ضوء القيادة الأوتوماتيكي عند المطر"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label" Text="الإضاءة المحيطة أماما"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_Cockpit_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_ComfortTurnLights_Label" Text="التشغيل المريح لإشارات تغيير الاتجاه"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Label_Value_Format" Text="%1 s"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Label_Value_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_ExpListItem_Slider_Label_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_Labels0" Text="وظيفة &quot;أضواء وصول المنزل&quot;"/>
+    <LangID ID="LANG_CAR_LIGHT_ComingLeavingHome_Labels1" Text="وظيفة &quot;أضواء مغادرة المنزل&quot;"/>
+    <LangID ID="LANG_CAR_LIGHT_DayDrivingLight_Label" Text="ضوء القيادة النهاري"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label" Text="الإضاءة المحيطة بالأبواب"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_Doors_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label" Text="إضاءة حيز الأقدام"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_Min_text" Text="-"/>
+    <LangID ID="LANG_CAR_LIGHT_FootSpace_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_HeadlampLeveling_Label_Value_text" Text="%1"/>
+    <LangID ID="LANG_CAR_LIGHT_MDF_Label" Text="الضابط الديناميكي لمدى الضوء العالي"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_Max_text" Text="+"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_Min_text" Text="min"/>
+    <LangID ID="LANG_CAR_LIGHT_PanelLighting_Label_Value_text" Text="%1 %"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_AmbienceLight_Label" Text="الإضاءة المحيطة بالسقف"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_AutoLightSystem_Label" Text="مساعد الضوء"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_ComingLeavingHome_Label" Text="وظيفة &quot;وصول/مغادرة المنزل&quot;"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_HeadlampLeveling_Label" Text="ضابط مدى ضوء الكشافات"/>
+    <LangID ID="LANG_CAR_LIGHT_Title_PanelLighting_Label" Text="إضاءة أجهزة القياس والبيان"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Label" Text="طريقة السفر:"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value0" Text="يمينا"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value0_open" Text="يمينا"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value1" Text="يسارا"/>
+    <LangID ID="LANG_CAR_LIGHT_TravelMode_Value1_open" Text="يسارا"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Max" Text="الحد الأقصى"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Min" Text="الحد الأدنى"/>
+    <LangID ID="LANG_CAR_LIGHT_Value_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValu_time_default_Entry" Text="--:--"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_Format" Text="%1 %2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_avgConsumption_Format_Entry" Text="ø %1.%2"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_avgSpeed_Format_Entry" Text="ø %1"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_consumption_default_Entry" Text="--.-"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_default_Entry" Text="---"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_BCmenuValue_time_Format_Entry" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits0" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits1" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits10" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits11" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits12" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits13" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits14" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits15" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits16" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits17" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits2" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits3" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits4" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits5" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits6" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits7" Text="mpg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits8" Text="mpg"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_ListItemElements_LabelUnits9" Text=""/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Reset_BCmenu1_Label" Text="إرجاع البيانات لوضع &quot;منذ البدء&quot;"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Reset_BCmenu2_Label" Text="إرجاع البيانات لوضع &quot;طويل المدى&quot;"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Fuelcycle_Label" Text="منذ التزود بالوقود"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Longterm_Label" Text="فترة طويلة"/>
+    <LangID ID="LANG_CAR_MAIN_CARCOMPUTER_Title_Trip_Label" Text="منذ البدء"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Media" Text="الميديا"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Parkheater" Text="التدفئة"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Radio" Text="الراديو"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_Setup" Text="ضبط"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_SteeringWheelHeater" Text="تدفئة مقود"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_View" Text="منظر"/>
+    <LangID ID="LANG_CAR_MAIN_Controlbar_WindshieldHeater" Text="تدفئة زجاج"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_MAIN_StartStop" Text="بدء - إيقاف"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_MAIN_Title_Label" Text="حالة السيارة"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver1" Text="السائق 1"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver2" Text="السائق 2"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver3" Text="السائق 3"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_DefaultDriver4" Text="الضيف"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_BTN_Text_Individual" Text="0,01"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label1" Text="السائق 1"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label2" Text="السائق 2"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label3" Text="السائق 3"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Default_Text_Label4" Text="الضيف"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_Personalization_Text_Label" Text="0,01"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_RKA_CheckTirePressure_Title" Text="فحص قيم الضغط وضبطها"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_RKA_Instructions_text" Text="لضمان عمل مبين مراقبة\nالإطارات بلا مشاكل،\nيجب مراجعة قيم ضغط الهواء\nفي الإطارات الأربعة\nوضبطها بشكل صحيح. تجد\nقيم ضغط هواء الإطارات\nعلى ملصق تبعا لنوع السيارة\nإما بالجانب الداخلي للغطاء\nالخارجي لخزان الوقود أو\nعلى إطار باب السائق.\nتجد المزيد من المعلومات حول\nقيم ضغط هواء الإطارات\nومبين مراقبة الإطارات في\nمجموعة كتيبات السيارة.\nبعد مراجعة ضغط هواء الإطارات\nالأربعة ومواءمته عند اللزوم،\nاضغط في شاشة &quot;مبين مراقبة الإطارات&quot;\nعلى &quot;ضبط&quot;، فتبدأ السيارة\nفي عملية الموالفة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Headline_Titel" Text="حالة نظام Start-Stopp"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels1" Text="لم يتم التعرف على السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels10" Text="جر المقطورة"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels11" Text="يمكن أن يتكثف بخار الماء على الزجاج الأمامي."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels12" Text="لم يتم الحفاظ على درجة حرارة التشغيل."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels13" Text="لم يتم التعرف على السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels14" Text="يتطلب ناقل الحركة دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels15" Text="احتياج السيارة للطاقة كبير."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels16" Text="جار بدء تشغيل نظام التشغيل\nوالإيقاف المتكرر للمحرك..."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels17" Text="يلزم دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels18" Text="الميل كبير للغاية."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels19" Text="نظام التشغيل والإيقاف المتكرر\nللمحرك غير متوفر."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels2" Text="ملحوظة: يرجى إغلاق باب السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels20" Text="تدخل وظيفة فرملة الطوارئ."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels21" Text="تتطلب الفرملة دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels22" Text="احتياج السيارة للطاقة كبير."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels23" Text="ملحوظة: لم يتم الوصول لدرجة\nالحرارة المريحة بالمقصورة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels24" Text="ملحوظة: يرجى تقليل\nزاوية توجيه المقود."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels25" Text="ملحوظة: طريقة المناورة.\nيلزم السير للأمام."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels26" Text="وظيفة إزالة الصقيع مشغلة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels27" Text="ملحوظة: يرجى ربط حزام السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels28" Text="ملحوظة: يرجى إغلاق باب السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels29" Text="ملحوظة: ارفع قدمك من على دواسة الوقود."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels3" Text="تم فتح غطاء حيز المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels30" Text="تدفئة الزجاج الأمامي مشغلة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels31" Text="ملحوظة: يرجى إيقاف وظيفة maxA/C."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels32" Text="تم فتح غطاء حيز المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels33" Text="لا يمكن إيقاف المحرك حاليا."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels34" Text="ملحوظة: يرجى إيقاف طريقة الأراضي الوعرة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels35" Text="ملحوظة: عمليات إدارة كثيرة\nللغاية. يلزم السير للأمام."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels36" Text="ملحوظة: يرجى الخروج من التعشيقة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels37" Text="ملحوظة: يرجى تفعيل نظام التشغيل والإيقاف."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels38" Text="رطوبة الهواء بالداخل مرتفعة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels39" Text="الظروف المرورية"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels4" Text="ملحوظة: يرجى ربط حزام السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels40" Text="ملحوظة: يرجى إيقاف مساعد صف السيارة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels41" Text="ملحوظة: يرجى تشغيل برنامج ESC."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels42" Text="احتياج السيارة للطاقة كبير."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels43" Text="يتطلب نظام التشغيل والإيقاف\nالمتكرر للمحرك دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels5" Text="لم يتم التعرف على السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels6" Text="تدخل لحماية النظام."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels7" Text="لا يمكن إدارة المحرك لأسباب تتعلق بالنظام."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels8" Text="ملحوظة: يرجى إدارة المحرك يدويا."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_ProhibitReasons_Labels9" Text="ملحوظة: يرجى الخروج من التعشيقة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels1" Text="آخر إعادة تشغيل: تم إيقاف نظام ESC."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels10" Text="آخر إعادة تشغيل: قد يتكثف\nالبخار على الزجاج الأمامي."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels11" Text="آخر إعادة تشغيل:\nاحتياج السيارة للطاقة كبير."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels12" Text="آخر إعادة تشغيل: دوران المحرك ضروري."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels13" Text="آخر إعادة تشغيل:\nانطلقت السيارة الأمامية"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels14" Text="آخر إعادة تشغيل: تم تشغيل\nطريقة القيادة في الأراضي الوعرة."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels15" Text="آخر إعادة تشغيل:\nتتطلب الفرملة دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels16" Text="آخر إعادة تشغيل:\nاحتياج السيارة للطاقة كبير."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels17" Text="آخر إعادة تشغيل: تتطلب\nتدفئة المقاعد دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels18" Text="آخر إعادة تشغيل: يتطلب نظام التشغيل\nوالإيقاف المتكرر للمحرك دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels2" Text="آخر إعادة تشغيل: تم الضغط\nعلى زر التشغيل والإيقاف."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels3" Text="آخر إعادة تشغيل: تم\nتعشيق السرعة الخلفية."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels4" Text="آخر إعادة تشغيل:\nحسب رغبة السائق."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels5" Text="آخر إعادة تشغيل:\nتم تشغيل وظيفة إزالة الصقيع."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels6" Text="آخر إعادة تشغيل:\nتم تشغيل تدفئة الزجاج الأمامي."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels7" Text="آخر إعادة تشغيل: يتطلب\nتكييف الهواء دوران المحرك."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels8" Text="آخر إعادة تشغيل:\nتم تشغيل وظيفة maxA/C."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_List_RestartReasons_Labels9" Text="آخر إعادة تشغيل:\nعن طريق الاندفاع الذاتي."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels0" Text="نظام التشغيل والإيقاف المتكرر للمحرك مفعل."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels1" Text="نظام التشغيل والإيقاف\nالمتكرر للمحرك متوفر."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels2" Text="نظام إيقاف المحرك فعال."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels3" Text="تم فتح باب السائق.لم يتم\nالتعرف على السائق بشكل مؤكد."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels4" Text="ملحوظة: يرجى الضغط\nعلى دواسة الفرامل."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels5" Text="ملحوظة: يرجى تحرير القابض."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels6" Text="ملحوظة: يرجى تفعيل نظام التشغيل والإيقاف."/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels7" Text="خطأ: نظام التشغيل\nوالإيقاف المتكرر للمحرك"/>
+    <LangID ID="LANG_CAR_MAIN_FZGSTATUS_STARTSTOP_Status_Labels8" Text="نظام التشغيل والإيقاف المتكرر\nللمحرك غير متاح."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_SizeS_Source_BT_Audio_Label" Text="صوتيات BT"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_Error_text" Text="خطأ: المصدر"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_NoFile_text" Text="لا توجد\nملفات قابلة\nللتشغيل"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_loading_text" Text="تحميل..."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_StatusText_noSource_text" Text="لا يوجد\nمصدر متاح."/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_TitleName_Mirrorlink_text" Text="MirrorLink®"/>
+    <LangID ID="LANG_CAR_MAIN_PU_Audio_Media_TitleName_TrackNumber" Text="المقطع %1"/>
+    <LangID ID="LANG_CAR_MAIN_PU_TUNER_FrequencyFormater_MHz" Text="%1 MHz"/>
+    <LangID ID="LANG_CAR_MAIN_PU_TUNER_FrequencyFormater_kHZ" Text="%1 kHz"/>
+    <LangID ID="LANG_CAR_MAIN_PU_View_Button_Labels0" Text="بيانات القيادة"/>
+    <LangID ID="LANG_CAR_MAIN_PU_View_Button_Labels2" Text="حالة السيارة"/>
+    <LangID ID="LANG_CAR_MFA_Labels0" Text="الاستهلاك اللحظي"/>
+    <LangID ID="LANG_CAR_MFA_Labels1" Text="متوسط الاستهلاك"/>
+    <LangID ID="LANG_CAR_MFA_Labels10" Text="درجة حرارة الزيت"/>
+    <LangID ID="LANG_CAR_MFA_Labels2" Text="كمية ملء خزان الوقود"/>
+    <LangID ID="LANG_CAR_MFA_Labels3" Text="تجهيزات رفاهية مستهلكة للتيار"/>
+    <LangID ID="LANG_CAR_MFA_Labels4" Text="نصائح اقتصادية"/>
+    <LangID ID="LANG_CAR_MFA_Labels5" Text="زمن السير"/>
+    <LangID ID="LANG_CAR_MFA_Labels6" Text="مسافة السير"/>
+    <LangID ID="LANG_CAR_MFA_Labels7" Text="متوسط السرعة"/>
+    <LangID ID="LANG_CAR_MFA_Labels8" Text="بيان السرعة الرقمي"/>
+    <LangID ID="LANG_CAR_MFA_Labels9" Text="تحذير تجاوز السرعة"/>
+    <LangID ID="LANG_CAR_MFA_MFA_Label" Text="البيان متعدد الوظائف"/>
+    <LangID ID="LANG_CAR_MFA_Reset_longterm_Popup_Button_Cancel_Text" Text="إلغاء"/>
+    <LangID ID="LANG_CAR_MFA_Reset_longterm_Popup_Button_Reset_Text" Text="إرجاع الضبط"/>
+    <LangID ID="LANG_CAR_MFA_Title" Text="أوضاع ضبط أجهزة القياس"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels0" Text="الكل"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels0_open" Text="الكل"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels1" Text="باب واحد"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels1_open" Text="باب واحد"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels2" Text="جانب"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_ManualUnlock_Labels2_open" Text="جانب"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels0" Text="الكل"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels0_open" Text="الكل"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels1" Text="السائق"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels1_open" Text="السائق"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels2" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_OPEN_DDList_WindowOpenClose_Labels2_open" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_AutoLock_Label" Text="التأمين الأوتوماتيكي للأقفال"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_AutoUnlock_Label" Text="التحرير الأوتوماتيكي للأقفال"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_BootCover_Label" Text="فتح ساتر تغطية الأمتعة أوتوماتيكيا"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_CloseAutoLock_Label" Text="الغلق الأوتوماتيكي عند تأمين الأقفال"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_DWA_Label" Text="إشارة تأكيد صوتية"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_EasyEntry_Label" Text="معاون ركوب السيارة &quot;Easy Entry&quot;"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_Int_Monitoring_System_Label" Text="وظيفة مراقبة مقصورة السيارة"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_ManualUnlock_Label" Text="تحرير الأبواب:"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_RainProtection_Label" Text="الغلق الأوتوماتيكي عند سقوط الأمطار"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_TrunkOpener_Label" Text="خاصية &quot;الفتح المريح&quot;"/>
+    <LangID ID="LANG_CAR_OPEN_ListItem_WindowOpen_Label" Text="خاصية الفتح المريح:"/>
+    <LangID ID="LANG_CAR_OPEN_Title_Doors_Label" Text="التأمين المركزي للأقفال"/>
+    <LangID ID="LANG_CAR_OPEN_Title_Windows_Label" Text="استعمال النوافذ"/>
+    <LangID ID="LANG_CAR_OPS_Disclaimer_HardWarning_Label" Text="راقب مسار السير. الوظيفة مقيدة."/>
+    <LangID ID="LANG_CAR_OPS_Disclaimer_IceMud_Label" Text="راقب مسار السير. قم بتنظيف المستشعرات."/>
+    <LangID ID="LANG_CAR_OPS_RVC_Disclaimer_Label" Text="راقب مسار السير."/>
+    <LangID ID="LANG_CAR_OPS_Title" Text="نظام ParkPilot"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_BeltTensionerLeft_Label" Text="يسارا"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_BeltTensionerRight_Label" Text="يمينا"/>
+    <LangID ID="LANG_CAR_SEATS_ListItem_SeatPosition_Label" Text="مفتاح السيارة مفعل"/>
+    <LangID ID="LANG_CAR_SEATS_Title" Text="تخزين وضع المقعد"/>
+    <LangID ID="LANG_CAR_SEATS_Title_AutoBelts_Label" Text="شد أوتوماتيكي مسبق للحزام"/>
+    <LangID ID="LANG_CAR_SEATS_Title_Seats_Label" Text="حفظ وضع المقعد"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Error_Label" Text="--- أو ---"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_1" Text="خلال %1 %2 أو %3 أيام"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_2" Text="خلال %1 %2 أو %3 يوم"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_3" Text="منذ %1 %2 أو %3 أيام"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Label_4" Text="منذ %1 %2 أو %3 يوم"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Oil_Subtitle" Text="خدمة تغيير الزيت:"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Error_Label" Text="--- أو ---"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_1" Text="خلال %1 %2 أو %3 أيام"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_2" Text="خلال %1 %2 أو %3 يوم"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_3" Text="منذ %1 %2 أو %3 أيام"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Label_4" Text="منذ %1 %2 أو %3 يوم"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_Subtitle" Text="الفحص:"/>
+    <LangID ID="LANG_CAR_SERVICE_SIA_Service_notAvailable_Label" Text="لا توجد بيانات خدمة."/>
+    <LangID ID="LANG_CAR_SERVICE_VehicleID_Error_Label" Text="---"/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_ACC_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_AWV_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_ESP_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_HCA_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_MKE_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_PreCrash_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_ASSIST_DRIVE_SETTINGS_SWA_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Popup_Text" Text="هل تريد فعلا\nإرجاع أوضاع ضبط\n&quot;‪%1‬&quot;؟"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RESET_Popup_Button_Cancel_Text" Text="إلغاء"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RESET_Popup_Button_Reset_Text" Text="إرجاع الضبط"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RestoreAll_Label" Text="إرجاع كل أوضاع الضبط والبيانات"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_RestoreIndividual_Label" Text="إرجاع بعض أوضاع الضبط"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings0" Text="جميع أوضاع الضبط"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings1" Text="نظام مساعدة السائق"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings14" Text="تدفئة المقود"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings15" Text="الضبط الشخصي"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings2" Text="صف السيارة والمناورة"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings3" Text="الضوء"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings4" Text="المرايا والمساحات"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings5" Text="الفتح والغلق"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings6" Text="المقاعد"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Settings7" Text="مجموعة أجهزة القياس والبيان"/>
+    <LangID ID="LANG_CAR_SETUP_FACTORY_SETTINGS_Title" Text="أوضاع ضبط المصنع"/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_ComingLeavingHome_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_ExteriorLight_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_SETTINGS_InteriorLight_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_LIGHT_Title" Text="أوضاع ضبط الضوء"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels0" Text="نظام مساعدة السائق"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels1" Text="صف السيارة والمناورة"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels10" Text="وحدات القياس"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels11" Text="أوضاع ضبط المصنع"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels12" Text="الضبط الشخصي"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels2" Text="الضوء"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels20" Text="تدفئة المقود"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels3" Text="المرايا والمساحات"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels4" Text="الفتح والغلق"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels5" Text="المقاعد"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels6" Text="الإطارات"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels7" Text="الخدمة"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels8" Text="مجموعة أجهزة القياس والبيان"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_ListItem_Titels9" Text="الوقت والتاريخ"/>
+    <LangID ID="LANG_CAR_SETUP_MAIN_Title" Text="أوضاع ضبط السيارة"/>
+    <LangID ID="LANG_CAR_SETUP_MFA_RESET_LONG_Popup_Text" Text="هل تريد فعلا إرجاع\nبيانات القيادة الخاصة\nبوضع &quot;طويل المدى&quot;؟"/>
+    <LangID ID="LANG_CAR_SETUP_MFA_RESET_TRIP_Popup_Text" Text="هل تريد فعلا إرجاع\nبيانات القيادة\nالخاصة بوضع\n&quot;منذ البدء&quot;؟"/>
+    <LangID ID="LANG_CAR_SETUP_OPEN_Title" Text="الفتح والغلق"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label0" Text="السائق 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label1" Text="السائق 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label2" Text="السائق 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Default_Label3" Text="ضيف"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label0" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label1" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label2" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Driver_Label3" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_COPY_Title" Text="نسخ أوضاع الضبط في حساب آخر"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Copy_Text" Text="نسخ أوضاع الضبط في حساب آخر"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title1" Text="السائق 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title2" Text="السائق 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title3" Text="السائق 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Default_Title4" Text="الضيف"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Rename_Text" Text=""/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Reset_Text" Text="إرجاع حساب المستخدم"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_MAIN_Title" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_InputField_HideTypingChar" Text="-1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title0" Text="إعادة تسمية بـ:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title1" Text="إعادة تسمية بـ:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title2" Text="إعادة تسمية بـ:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_EDIT_NAME_SPELLER_Title3" Text="إعادة تسمية بـ:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label1" Text="السائق 1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label2" Text="السائق 2"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label3" Text="السائق 3"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Default_Label4" Text="ضيف"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label1" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label2" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label3" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Indivdual_Name_Label4" Text="%1"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_DriverSelection_Subtitle" Text="اختيار حساب المستخدم"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option1" Text="أوتوماتيكيا"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option1_open" Text="أوتوماتيكيا"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option2" Text="يدويا"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Option2_open" Text="يدويا"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_AssigningKey_Text" Text="تخصيص المفتاح:"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_ManualAssigning_Text" Text="إلحاق حساب مستخدم حالي بالمفتاح"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_ResetAll_Text" Text="إرجاع الكل"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_GeneralOptions_Subtitle" Text="الإعدادات"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Personalization_Operation_Text" Text="فعال"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Personalization_Subtitle" Text="الضبط الشخصي"/>
+    <LangID ID="LANG_CAR_SETUP_PERSONAL_SETTINGS_Title" Text="الضبط الشخصي"/>
+    <LangID ID="LANG_CAR_SETUP_SEATS_SETTINGS_Belts_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_SEATS_SETTINGS_Seats_Label_notAvailable_text" Text="الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_CAR_SETUP_SERVICE_Title" Text="الخدمة"/>
+    <LangID ID="LANG_CAR_SETUP_SERVICE_VehicleID_Label_2" Text="رقم الشاسيه:"/>
+    <LangID ID="LANG_CAR_SETUP_SIGHT_Title" Text="المرايا والمساحات"/>
+    <LangID ID="LANG_CAR_SETUP_TIRES_Title" Text="أوضاع ضبط الإطارات"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_AutoRearWiping_Label" Text="المسح الخلفي في السرعة الخلفية"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorAdjust_Label" Text="الضبط التزامني"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorFold_Label" Text="ضم المرايا بعد صف السيارة"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_MirrorLow_Label" Text="إمالة المرايا في السرعة الخلفية"/>
+    <LangID ID="LANG_CAR_SIGHT_ListItem_RainSensor_Label" Text="المسح الأوتوماتيكي عند المطر"/>
+    <LangID ID="LANG_CAR_SIGHT_Title_Mirrors_Label" Text="المرايا"/>
+    <LangID ID="LANG_CAR_SIGHT_Title_Wipers_Label" Text="مساحات الزجاج"/>
+    <LangID ID="LANG_CAR_SliderLabel_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CAR_TIRES_ListItem_Calibration_Label" Text="SET"/>
+    <LangID ID="LANG_CAR_TIRES_RKA_CAL_ERROR" Text="لا يمكن تخزين قيم ضغط هواء الإطارات."/>
+    <LangID ID="LANG_CAR_TIRES_RKA_CAL_SUCCESS" Text="تم تخزين قيم ضغط هواء الإطارات."/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Confirm" Text="تأكيد"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_Button_Help" Text="المساعدة"/>
+    <LangID ID="LANG_CAR_TIRES_SETUP_TPMS_CorrectPressure_text" Text="هل تطابق جميع قيم ضغط\nهواء الإطارات الأربعة القيم المقررة؟"/>
+    <LangID ID="LANG_CAR_TIRES_Title_TPMS_Label" Text="نظام مراقبة ضغط هواء الإطارات"/>
+    <LangID ID="LANG_CLIMATE_AIRFLOW_FUNCTIONS_REAR_Manual" Text="يدويا"/>
+    <LangID ID="LANG_CLIMATE_AIRFLOW_FUNCTIONS_REAR_Title" Text="ضبط مسبق"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_FRONT_Temp_High_text" Text="HI"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_FRONT_Temp_Low_text" Text="LO"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_000_RearTemp_Low" Text="LO"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_001_RearTemp_High" Text="HI"/>
+    <LangID ID="LANG_CLIMATE_CLIMATRONIC_REAR_RearTemp_Eco" Text="ECO"/>
+    <LangID ID="LANG_CLIMATE_DESKTOP_CB_Setup" Text="ضبط"/>
+    <LangID ID="LANG_CLIMATE_DOMAIN_ERROR_DomainNotAvailable_text" Text="قائمة المكيف غير متاحة حاليا."/>
+    <LangID ID="LANG_CLIMATE_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="جار تشغيل قائمة المكيف..."/>
+    <LangID ID="LANG_CLIMATE_OVERLAY_FUNCTION_ERROR_Continue_Label_text" Text="موافق"/>
+    <LangID ID="LANG_CLIMATE_OVERLAY_FUNCTION_ERROR_Label_text" Text="الوظيفة غير متاحة."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DD_Off" Text="إيقاف"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Duration" Text="المدة %1 min"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Info_Climatic_text" Text="ترتبط المدة بتفعيل وقت بدء السير\nوالضغط على زر التدفئة الفورية/\nجهاز التشغيل عن بعد."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_Info_Climatronic_text" Text="ترتبط المدة بالضغط\nعلى زر التدفئة الفورية/\nجهاز التشغيل عن بعد."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_DURATION_TitleLabel_text" Text="ضبط مدة التشغيل"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts1" Text="نقص الوقود.\nالتدفئة الإضافية غير مفعلة."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts2" Text="البطارية ضعيفة.\nالتدفئة المساعدة غير مفعلة."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts3" Text="الإمداد بالطاقة قليل.\nالتدفئة المساعدة غير مفعلة."/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_ErrorTexts4" Text="خطأ: التدفئة المساعدة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStartManual_TextFormatter" Text="%1,\n%2 min"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts0" Text="الساعة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts0_b" Text="الساعة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts1" Text="الاثنين"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts1_b" Text="الاثنين"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts2" Text="الثلاثاء"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts2_b" Text="الثلاثاء"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts3" Text="الأربعاء"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts3_b" Text="الأربعاء"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts4" Text="الخميس"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts4_b" Text="الخميس"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts5" Text="الجمعة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts5_b" Text="الجمعة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts6" Text="السبت"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts6_b" Text="السبت"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts7" Text="الأحد"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts7_b" Text="الأحد"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short0" Text="الساعة %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short1" Text="اث %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short2" Text="ثلا %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short3" Text="أر %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short4" Text="خم %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short5" Text="جم %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short6" Text="سب %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_Day_Texts_Short7" Text="أحد %1 %2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter" Text="وقت بدء السير:"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter1" Text="وقت بدء السير:\nاليوم %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_NextStart_TextFormatter2" Text="وقت بدء السير:\nغدا %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts0" Text="وقت بدء السير:\nإيقاف"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts1" Text="التدفئة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheaterActivity_texts2" Text="التهوية"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts0" Text="التدفئة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts0_open" Text="التدفئة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts1" Text="التهوية"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingMode_texts1_open" Text="التهوية"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_ParkheatingOff_text" Text="إيقاف"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_TimerAdjust_text" Text="الضبط"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_MAIN_TitelLabel_text" Text="التدفئة المساعدة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_NoTimer" Text="وقت البدء: إيقاف"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_Activate_text" Text="تفعيل"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_12hformat_AM" Text="am"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_12hformat_PM" Text="pm"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Headline_suffixes1" Text="وقت بدء السير %1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Hour_text" Text="ساعة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Minute_text" Text="دقيقة"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_Weekday_text" Text="يوم الأسبوع"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_PROG_TIME_ampm_text" Text="ص/م"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_SetupDuration_text" Text="مدة التشغيل"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer1_text" Text="وقت بدء سير 1"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer2_text" Text="وقت بدء السير 2"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_Timer3_text" Text="وقت بدء السير 3"/>
+    <LangID ID="LANG_CLIMATE_PARKHEATING_TIMER_SELECT_TitelLabel_text" Text="ضبط التدفئة المساعدة"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_1" Text="خفيف"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_2" Text="متوسط"/>
+    <LangID ID="LANG_CLIMATE_PROFILES_REAR_Profile_3" Text="قوي"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_000_ButtonClose_SEAT_Label" Text="تم فتح باب أو نافذة أو السقف."/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_AirCleaning" Text="فعال"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_Headline" Text="Air Care Climatronic"/>
+    <LangID ID="LANG_CLIMATE_PUREAIR_ViewContainer_Info_text" Text=""/>
+    <LangID ID="LANG_CLIMATE_SETUP_AutoAir_text" Text="تدوير الهواء أوتوماتيكيا"/>
+    <LangID ID="LANG_CLIMATE_SETUP_AutomaticWindowHeater_text" Text="تدفئة أوتوماتيكية للزجاج"/>
+    <LangID ID="LANG_CLIMATE_SETUP_AuxHeater_text" Text="وحدة التدفئة السريعة الأوتوماتيكية"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList0" Text="خفيف"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList0_open" Text="خفيف"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList1" Text="متوسط"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList1_open" Text="متوسط"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList2" Text="قوي"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyleList2_open" Text="قوي"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ClimateStyle_text" Text="خصائص مكيف هواء:"/>
+    <LangID ID="LANG_CLIMATE_SETUP_CouplingSeatWithSteeringWheel_text" Text="ربط تدفئة المقعد/المقود"/>
+    <LangID ID="LANG_CLIMATE_SETUP_Headline_text" Text="أوضاع ضبط تكييف الهواء"/>
+    <LangID ID="LANG_CLIMATE_SETUP_ManualRunningTime_value" Text="%1 min"/>
+    <LangID ID="LANG_CLIMATE_SETUP_NOT_AVAILABLE_Continue_Label_text" Text="موافق"/>
+    <LangID ID="LANG_CLIMATE_SETUP_SteeringWheelHeater_text" Text="تدفئة المقود"/>
+    <LangID ID="LANG_CLIMATE_SETUP_WindowHeater_text" Text="تدفئة النوافذ"/>
+    <LangID ID="LANG_MEDIA_AUX_MAIN_Text" Text="مقبس AUX"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label0" Text="لائحات مقاطع صوتية"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label1" Text="المطربون"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label2" Text="ألبومات"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label3" Text="مقاطع صوتية"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label4" Text="ملفات بودكاست"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label5" Text="أنواع الموسيقى"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label6" Text="الملحنون"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label7" Text="كتب صوتية"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label_AllAlbum" Text="جميع الألبومات"/>
+    <LangID ID="LANG_MEDIA_BROWSER_IpodCategory_Label_AllTitle" Text="جميع المقاطع الصوتية"/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_CategoryEmpty_Text" Text="لا توجد ملفات قابلة للتشغيل."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_DeviceDisconnectInfo_Text" Text="الجهاز غير متصل."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_Element_Button_File_ErrorText" Text="الملف محمي من النسخ."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_Element_Button_File_MissingText" Text="الملف غير موجود."/>
+    <LangID ID="LANG_MEDIA_BROWSER_Item_NoAudioFileInfo_Text" Text="لا توجد ملفات قابلة للتشغيل."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_Loading" Text="جار التحميل..."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoFiles" Text="لا توجد ملفات قابلة للتشغيل."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoTrackList_AUX" Text="قائمة المقاطع الصوتية غير مدعومة."/>
+    <LangID ID="LANG_MEDIA_BROWSER_StateText_NoTrackList_BT" Text="لائحة الأغنيات غير متاحة حاليا."/>
+    <LangID ID="LANG_MEDIA_BT_AUDIO_A2DP_MAIN_BTAudioText" Text="صوتيات بلوتوث"/>
+    <LangID ID="LANG_MEDIA_BT_AUDIO_MAIN_StatusText_text" Text="قطع الاتصال."/>
+    <LangID ID="LANG_MEDIA_COMPRESSED_AUDIO_BROWSER_PlaybackWait" Text="جار التحميل..."/>
+    <LangID ID="LANG_MEDIA_COMPRESSED_AUDIO_SOURCES_Headline_Path_Text" Text="المصادر"/>
+    <LangID ID="LANG_MEDIA_DEVICE_NOT_RESPONSED_Text" Text="الجهاز لا يستجيب."/>
+    <LangID ID="LANG_MEDIA_DOMAIN_ERROR_DomainNotAvailable_text" Text="&quot;الميديا&quot; غير متوافرة حاليا."/>
+    <LangID ID="LANG_MEDIA_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="جار تشغيل &quot;الميديا&quot;..."/>
+    <LangID ID="LANG_MEDIA_INFO_InfoText_Device_Error" Text="خطأ: جهاز"/>
+    <LangID ID="LANG_MEDIA_INFO_InfoText_Device_Not_Connected" Text="الجهاز غير متصل."/>
+    <LangID ID="LANG_MEDIA_INFO_LoadingText_text" Text="جار التحميل..."/>
+    <LangID ID="LANG_MEDIA_INFO_LoadingText_text_1" Text="جار تحميل %1..."/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Next" Text="تالي"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Pause" Text="وقف مؤقت"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Play" Text="تشغيل"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Previous" Text="سابق"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Selection" Text="اختيار"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Setup" Text="ضبط"/>
+    <LangID ID="LANG_MEDIA_MAIN_Controlbar_Source" Text="مصدر"/>
+    <LangID ID="LANG_MEDIA_MAIN_OVERVIEW_MEDIA_NO_SOURCE_AVAILABLE_text" Text="لا يوجد مصدر متاح."/>
+    <LangID ID="LANG_MEDIA_NO_AUDIO_FILES_text" Text="%1: لا توجد ملفات قابلة للتشغيل."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_MIX_REPEAT_FOLDER_Button_Cancel_Text" Text="إلغاء"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_MIX_REPEAT_FOLDER_Text_StatusInformation_text" Text="وظيفة &quot;التشغيل بترتيب عشوائي/التكرار\nشاملا المجلدات الفرعية&quot; غير مفعلة.\nهل تريد تفعيل الوظيفة؟"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_BROWSER_PLAYBACK_WAIT_StatusInformation_text" Text="يرجى الانتظار..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_AVAILABLE_Text" Text="الجهاز غير متاح."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_SUPPORTED_Hub_Text" Text="موزع USB غير مدعوم."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_DEVICE_NOT_SUPPORTED_Text" Text="الجهاز غير مدعوم."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_ERROR_Text" Text="خطأ: %1"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_FUNCTION_NOT_AVAILABLE_TextArea_Text" Text="الوظيفة غير متاحة."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_ACTIVE_CALL_StatusInformation_Text" Text="أثناء المكالمة الفعالة تكون الوظيفة متاحة."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_DOMAIN_ERROR_StatusInformation_Text" Text="الهاتف غير متاح حاليا."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PHONE_DOMAIN_NOT_AVAILABLE_StatusInformation_Text" Text="لا يمكن تفعيل الجهاز الصوتي بلوتوث حاليا."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_PO_PROGRESS_MEDIA_PLAYBACK_WAIT_Text" Text="يرجى الانتظار..."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONNECTING_Text" Text="جار توصيل الجهاز…"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONTAINS_NO_AUDIO_FILES_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_CONTAINS_NO_AUDIO_FILES_Text" Text="لا توجد ملفات قابلة للتشغيل."/>
+    <LangID ID="LANG_MEDIA_OVERLAY_RCP_ERROR_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames2" Text="بطاقة SD"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames3" Text="مقبس AUX"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames6" Text="صوتيات BT"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames7" Text="جهاز iPod"/>
+    <LangID ID="LANG_MEDIA_Pushup_SourceList_SourceNames8" Text="مقبس USB"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Bluetooth_Setup_Text" Text="بلوتوث"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_IncludeSubfolders_Text" Text="عشوائي/تكرار مع مجلدات فرعية"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Ipod_Settings_Text" Text="جهاز iPod"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_SD_Settings_Text" Text="بطاقة SD"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Source_Settings_Text" Text="اختيار"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Tone_Settings_Text" Text="الصوت"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_USB_Settings_Text" Text="مقبس USB"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Item_Unmount_Settings_Text" Text="إزالة:"/>
+    <LangID ID="LANG_MEDIA_SETUP_MAIN_Title" Text="أوضاع ضبط الميديا"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames2" Text="بطاقة SD"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames3" Text="مقبس AUX"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames6" Text="صوتيات بلوتوث"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames7" Text="جهاز iPod"/>
+    <LangID ID="LANG_MEDIA_SOURCES_BROWSER_ListItem_SourceNames8" Text="مقبس USB"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_CloseApps_text" Text="غلق التطبيق"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_CloseConnection_text" Text="فصل الاتصال"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Controlbar_Phoneview_text" Text="1:1"/>
+    <LangID ID="LANG_MIRRORLINK_MAIN_Device_locked_text" Text="الغ حظر الجهاز الجوال لاستخدام MirrorLink®."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_1" Text="التطبيق غير مصرح به في هذه الدولة."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_2" Text="التطبيق غير متاح أثناء السير."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_3" Text="خطأ: تقنية MirrorLink®"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_4" Text="التطبيق غير متوافق."/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_5" Text="خلل: نقل بيانات الفيديو"/>
+    <LangID ID="LANG_MIRROR_LINK_APP_VIEW_Loading_Text" Text="جار تحميل التطبيق..."/>
+    <LangID ID="LANG_MIRROR_LINK_CLOSE_APPS_Close_All_Button" Text="الكل"/>
+    <LangID ID="LANG_MIRROR_LINK_CLOSE_APPS_Label" Text="غلق التطبيقات المفتوحة"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECTION_Text" Text="جار إنشاء الاتصال..."/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECT_Button_OK" Text="موافق"/>
+    <LangID ID="LANG_MIRROR_LINK_CONNECT_Text" Text="لا يوجد اتصال USB.\nيرجى إنشاء اتصال مع جهازك الجوال."/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_APPLICATION_ERROR_Text" Text="خطأ: تقنية MirrorLink®"/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_DEVICE_FATAL_ERROR_Text" Text="يرجى إنشاء اتصال جديد بالجهاز الجوال."/>
+    <LangID ID="LANG_MIRROR_LINK_ERROR_DEVICE_UNTRUSTED_Text" Text="الجهاز الجوال غير معتمد."/>
+    <LangID ID="LANG_MIRROR_LINK_MAIN_InfoML_Text" Text="تطبيقات متوافقة مع تقنية MirrorLink®‎"/>
+    <LangID ID="LANG_MIRROR_LINK_MAIN_Text" Text="لم يتم العثور على تطبيقات متوافقة على الجهاز.\nيحتمل أن يكون الجهاز لا يدعم هذا."/>
+    <LangID ID="LANG_MIRROR_LINK_SPELLER_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_MIRROR_LINK_SPELLER_REQ_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_MiniPlayer_Media_ErrorMessage_Device_Not_Connected" Text="الجهاز غير\nمتصل."/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_AndroidAuto_text" Text="Android Auto"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_BaiduCarLife_text" Text="Baidu CarLife"/>
+    <LangID ID="LANG_MiniPlayer_Smartphoneintegration_Carplay_text" Text="Apple CarPlay"/>
+    <LangID ID="LANG_OverlayPopup_Button_Activate_Text" Text="تفعيل"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_AUDIO_SOURCE" Text="صوتيات بلوتوث (A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_All_Profile" Text="كل الخصائص (HFP/A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Bonding_Profile_HFP" Text="تحدث حر بالهاتف (HFP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names2" Text="خاصية التحدث الحر بالهاتف (HFP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names5" Text="صوتيات بلوتوث (A2DP)"/>
+    <LangID ID="LANG_PHONE_Bluetooth_Profile_Names7" Text="كل مجموعات الخصائص (HFP/A2DP)"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Accepted" Text="مستلمة"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Dialed" Text="مٌتصل بها"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Missed" Text="الفائتة"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_DropDown_EntryType_ListItem_Mixed" Text="الكل"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes0" Text="مٌتصل بها"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes1" Text="مستلمة"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes2" Text="الفائتة"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_Button_Callstack_EntryTypes3" Text="الكل"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_Headline_TextLabel" Text="المكالمات"/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty0" Text="لا توجد مدخلات."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty1" Text="لا توجد مدخلات."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty2" Text="لا توجد مدخلات."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Empty3" Text="لا توجد مدخلات."/>
+    <LangID ID="LANG_PHONE_CALLSTACKS_List_Update" Text="جار تحميل القائمة..."/>
+    <LangID ID="LANG_PHONE_CONTACTS_Button_Download" Text="جلب جهات الاتصال مجددا"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_Contacts" Text="جهات اتصال"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_ContactsLoading" Text="جهات اتصال"/>
+    <LangID ID="LANG_PHONE_CONTACTS_Headline_TextLabel_NoContacts" Text="جهات اتصال"/>
+    <LangID ID="LANG_PHONE_CONTACTS_List_Empty" Text="لا توجد جهات اتصال بها أرقام هاتف.\nقم بجلب جهات الاتصال مجددا\nمع مراعاة الإرشادات بالإضافة\nللمشكلات التي قد تظهر في الجهاز الجوال."/>
+    <LangID ID="LANG_PHONE_CONTACTS_List_Empty_Download_Ongoing" Text="جار جلب جهات الاتصال...\nتأكد في جهازك الجوال،\nهل يجب تأكيد عملية الجلب\nأم أنها فشلت."/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Multiple" Text="(أرقام هاتفية متعددة)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option0" Text="%1"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option1" Text="%1 (شخصي)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option10_CN" Text="%1 (المنزل)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option2" Text="%1 (المكتب)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option3" Text="%1 (جوال)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option4" Text="%1 (شبكة أرضية)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option5" Text="%1 (جوال شخصي)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option6" Text="%1 (شبكة أرضية خاصة)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option7" Text="%1 (جوال المكتب)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option8" Text="%1 (الرقم الأرضي للمكتب)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_NumberInfo_Single_Option9_CN" Text="%1 (عام)"/>
+    <LangID ID="LANG_PHONE_CONTACTS_PHONE_CONTACTS_BACKSIDE_Callstack" Text="المكالمات"/>
+    <LangID ID="LANG_PHONE_CONTACTS_PHONE_CONTACTS_BACKSIDE_Callstack_NewNumber" Text="جهة اتصال جديدة"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_Button_Match_Default_TextLabel" Text="**"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_Headline_TextLabel" Text="إدخال الاسم"/>
+    <LangID ID="LANG_PHONE_CONTACTS_SEARCH_InputField_HideTypingChar" Text="*"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Messages" Text="SMS رسالة"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_EmergencyCall" Text="استغاثة"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_InformationCall" Text="اتصال معلومات"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_Mailbox" Text="صندوق البريد"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_NoMatch" Text="لا توجد جهة\nاتصال مناسبة."/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_Pushup_ShortDialList_ServiceCall" Text="نداء الأعطال"/>
+    <LangID ID="LANG_PHONE_Controlbar_Button_VoiceDial" Text="أوامر صوتية"/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names0" Text="حدث خطأ."/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names1" Text="لا توجد شبكة."/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names2" Text="الرقم غير صحيح."/>
+    <LangID ID="LANG_PHONE_DIALING_FAILED_Reasons_Names3" Text="رقم الهاتف أطول من اللازم."/>
+    <LangID ID="LANG_PHONE_DOMAIN_ERROR_Text_StatusInformation" Text="الهاتف غير متاح حاليا."/>
+    <LangID ID="LANG_PHONE_DOMAIN_NOT_AVAILABLE_Text_StatusInformation" Text="جار بدء تشغيل الهاتف..."/>
+    <LangID ID="LANG_PHONE_Date_Today" Text="اليوم"/>
+    <LangID ID="LANG_PHONE_Date_Yesterday" Text="أمس"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel0" Text="1"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel1" Text="2"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel2" Text="3"/>
+    <LangID ID="LANG_PHONE_FavoriteEmpty_TextLabel3" Text="4"/>
+    <LangID ID="LANG_PHONE_INIT_BT_SWITCHED_OFF_Button_EnableBluetooth" Text="تشغيل البلوتوث"/>
+    <LangID ID="LANG_PHONE_INIT_BT_SWITCHED_OFF_Textarea_StatusInformation" Text="يرجى تشغيل البلوتوث."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_CALL_REJECTED" Text="رفض"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_HANGED_UP" Text="إنهاء..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_NOLINE" Text="بلا اتصال"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_NUMBER_TEMP_FORBIDDEN" Text="رقم محظور"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_REMOTE_BUSY" Text="مشغول"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_DisconnectReason_REMOTE_NOT_ANSWERING" Text="لا يوجد رد"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Disconnecting" Text="إنهاء..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Incoming" Text="يتصل..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Status_Incoming_on_hold" Text="انتظار..."/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Emergency" Text="استغاثة"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Info" Text="اتصال معلومات"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Mailbox" Text="صندوق البريد"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_Service" Text="نداء الأعطال"/>
+    <LangID ID="LANG_PHONE_MAIN_CALLS_Call_Type_unknown" Text="رقم غيرمعروف"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Call" Text="المكالمات"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Contacts" Text="جهات اتصال"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_DialNumber" Text="بالرقم"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_EmergencyCall" Text="استغاثة"/>
+    <LangID ID="LANG_PHONE_MAIN_Controlbar_Setup" Text="ضبط"/>
+    <LangID ID="LANG_PHONE_MAIN_DIAL_Headline_TextLabel" Text="إدخال رقم الهاتف"/>
+    <LangID ID="LANG_PHONE_MAIN_DIAL_InputField_HideTypingChar" Text=""/>
+    <LangID ID="LANG_PHONE_MAIN_NOCALLS_Preset_ListItem_Text_AddFavorite" Text="إضافة مفضلة"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_AccessDenied" Text="رفض"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_EmergencyNetwork" Text="استغاثة"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_NotAvailable" Text="لا توجد شبكة"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_ProviderUnknown" Text="غير معروفة"/>
+    <LangID ID="LANG_PHONE_MAIN_Network_Searching" Text="بحث عن شبكة"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECTED_CarPlay_Textarea_StatusInformation" Text="يرجى فصل نظام Apple CarPlay‎\nأولا لتوصيل هاتف جوال آخر."/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Button_NoPhone" Text="لا يوجد هاتف متصل."/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Button_SearchNewPhone" Text="البحث عن هاتف"/>
+    <LangID ID="LANG_PHONE_NOT_CONNECT_Textarea_StatusInformation" Text="يرجى البحث عن هاتف\nجوال والاتصال به."/>
+    <LangID ID="LANG_PHONE_RECONNECT_Button_SearchNewPhone" Text="البحث عن هاتف"/>
+    <LangID ID="LANG_PHONE_RECONNECT_Textarea_StatusInformation" Text="جار الاتصال أوتوماتيكيا..."/>
+    <LangID ID="LANG_PHONE_SETUP_Headline_TextLabel" Text="أوضاع ضبط الهاتف"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_Headline_TextLabel" Text="اختيار نغمة الرنين"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names0" Text="Bim Bam"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names5" Text="Orchestral"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names7" Text="Ring Ring"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names8" Text="Sweet Soft"/>
+    <LangID ID="LANG_PHONE_SETUP_INTERNAL_RINGTONE_ListItem_Ringtone_Names9" Text="Tut Tut"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_BluetoothSetup" Text="بلوتوث"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_HandsfreeMode" Text="وظيفة التحدث الحر"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_InternalRingtone" Text="اختيار نغمة الرنين"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneProfile" Text="مجموعة خصائص المستخدم"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneReminder" Text="تذكير: لا تنسى الهاتف الجوال"/>
+    <LangID ID="LANG_PHONE_SETUP_ListItem_PhoneSelection" Text="اختيار الهاتف"/>
+    <LangID ID="LANG_PHONE_SETUP_MAILBOX_NUMBER_HeadLine_Text" Text="إدخال رقم صندوق بريد إلكتروني"/>
+    <LangID ID="LANG_PHONE_SETUP_PHONE_SELECTION_Headline_TextLabel" Text="اختيار الهاتف"/>
+    <LangID ID="LANG_PHONE_SETUP_PHONE_SELECTION_SearchNewPhone" Text="البحث عن هاتف"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_FAVORITES_ADD_Headline_Text" Text="إضافة مفضلة"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_FAVORITES_SEL_Preset_ListItem_Text_AddFavorite" Text="إضافة مفضلة"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_Headline_TextLabel" Text="أوضاع ضبط خصائص المستخدم"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILES_SPEED_DIAL_KEYS_SEL_Headline_TextLabel" Text="إدارة المفضلات"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_Button_DeleteAll_TextLabel" Text="الكل"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_Headline_TextLabel" Text="محو ملفات الخصائص الأخرى"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_DELETE_ListItem_Profiles_DownloadedContacts" Text=""/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder0" Text="اسم العائلة"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder0_open" Text="اسم العائلة"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder1" Text="الاسم الأول"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_GetSortingOrder1_open" Text="الاسم الأول"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DeleteOtherProfiles" Text="محو ملفات الخصائص الأخرى"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DownloadContacts" Text="جلب جهات اتصال:"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_DownloadContacts_Value" Text="%1/%2"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_EditFavorites" Text="إدارة المفضلات"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_GlobalSortingOrder" Text="التصنيف حسب:"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_MailboxNumber" Text="رقم صندوق بريد:"/>
+    <LangID ID="LANG_PHONE_SETUP_PROFILE_ListItem_MailboxNumber_Empty" Text="الإدخال هنا"/>
+    <LangID ID="LANG_PHONE_SMS_CONTENT_LOADING" Text="يرجى الانتظار..."/>
+    <LangID ID="LANG_PHONE_SMS_CONTENT_NOT_AVAILABLE" Text="لا يمكن تحميل رسالة SMS."/>
+    <LangID ID="LANG_PHONE_SMS_Headline_TextLabel" Text="SMS رسالة"/>
+    <LangID ID="LANG_PHONE_SMS_MAIN_NO_MESSAGE" Text="لا تتوافر رسالة SMS."/>
+    <LangID ID="LANG_PHONE_UPDATE_IN_PROGRESS_Text_StatusInformation" Text="الهاتف غير متاح حاليا.\nجار تحديث البلوتوث..."/>
+    <LangID ID="LANG_PHONE_VOICE_DIAL_Headline_TextLabel" Text="نظام الاستعمال بالأوامر الصوتية"/>
+    <LangID ID="LANG_PHONE_VOICE_DIAL_Waiting" Text="يرجى اتباع الإرشادات على هاتفك الجوال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_A2DP_NOT_ENABLED" Text="لم يمكن تشغيل صوتيات بلوتوث."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_A2DP_NOT_ENABLED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CAR_IS_DRIVING_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CAR_IS_DRIVING_Textarea_StatusInformation" Text="يطلب جهازك إدخال رقم PIN\nولدواعي السلامة لا يكون هذا\nمتاحا أثناء السير."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_CarLifeAndroid_StatusInformation" Text="لم يمكن إنشاء اتصال بالجهاز الجوال.\nالاتصال بالجهاز\nعن طريق Baidu CarLife موجود بالفعل."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_CarPlay_StatusInformation" Text="لم يمكن إنشاء اتصال بالجهاز الجوال.\nالاتصال بالجهاز\nعن طريق Apple CarPlay‎ موجود بالفعل."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_CONCURRENT_APPCONN_Textarea_GAL_StatusInformation" Text="لم يمكن إنشاء اتصال بالجهاز الجوال.\nالاتصال بالجهاز\nعن طريق Android Auto‎ موجود بالفعل."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_GENERAL_ERROR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_GENERAL_ERROR_Textarea_StatusInformation" Text="%1\nلم يمكن إنشاء اتصال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_GENERAL_ERROR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_GENERAL_ERROR_Textarea_StatusInformation" Text="%1\nلم يمكن إجراء الاقتران."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_PASSKEY_ERROR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_PASSKEY_ERROR_Textarea_StatusInformation" Text="%1\nلم يتم إجراء الاقتران.\nكلمة المرور خطأ."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_TIMEOUT_ERROR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_PAIR_TIMEOUT_ERROR_Textarea_StatusInformation" Text="%1\nلم يتم إجراء اقتران.\nتم تجاوز زمن الإدخال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Button_Help" Text="المساعدة"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_SERVICE_ERROR_Textarea_StatusInformation" Text="%1\nلم يمكن إنشاء الاتصال، مجموعة الخصائص\nالمختارة غير مدعومة أو غير مفعلة."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_USER_ABORT_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_BONDING_USER_ABORT_Textarea_StatusInformation" Text="%1\nتم إلغاء الاقتران."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_DEVICE_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_DEVICE_Textarea_StatusInformation" Text="%1\nتم إلغاء الاتصال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECTION_USER_ABORT_Textarea_StatusInformation" Text="%1\nمجموعة الخصائص:\n%2\nتم قطع الاتصال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_GENERAL_ERR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_GENERAL_ERR_Textarea_StatusInformation" Text="%1\nلم يمكن إنشاء اتصال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_USER_ABORT_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_CONNECT_USER_ABORT_Textarea_StatusInformation" Text="%1\nتم إلغاء الاتصال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DENY_ROLE_CHANGE_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DENY_ROLE_CHANGE_Textarea_StatusInformation" Text="%1\nغير متوافق.\nيتم إلغاء الاتصالات."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DEVICE_DISCONNECT_FAILED_Button_OK" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_DEVICE_DISCONNECT_FAILED_Textarea_StatusInformation" Text="%1\nلم يمكن فصل الاتصال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_DISABLED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_DISABLED_Textarea_StatusInformation" Text="تعذر إيقاف خاصية بلوتوث."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_ENABLED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_ENGINE_NOT_ENABLED_Textarea_StatusInformation" Text="لم يمكن تشغيل خاصية بلوتوث."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_ALL_FAILED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_ALL_FAILED_Textarea_StatusInformation" Text="لا يمكن محو\nحالات الاقتران."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_FAILED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PAIRING_DELETING_FAILED_Textarea_StatusInformation" Text="%1\nلم يمكن محو الاقتران."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_DISCONNECT_FAILED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_DISCONNECT_FAILED_Textarea_StatusInformation" Text="لا يمكن فصل مجموعة الخصائص\n%1\nعن الجهاز\n%2."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_NOT_AVAILABLE_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_PROFILE_NOT_AVAILABLE_Textarea_StatusInformation" Text="%1\nمجموعة خصائص بلوتوث\nغير متاحة الآن."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_GENERAL_Textarea_StatusInformation" Text="لتشغيل وظيفة البلوتوث، يرجى تشغيل الإشعال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SCONTACT_ERROR_Textarea_StatusInformation" Text="لتشغيل وظيفة البلوتوث، يرجى تشغيل الإشعال."/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Button_Retry" Text="إعادة المحاولة"/>
+    <LangID ID="LANG_PO_ALERT_BLUETOOTH_SWDL_ERROR_Textarea_StatusInformation" Text="فشل تحديث البرمجيات.\nيرجى المحاولة مرة أخرى."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_ACTIVE_CALL_HANDOVER_WARNING_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_ACTIVE_CALL_HANDOVER_WARNING_Textarea_StatusInformation" Text="يرجى مواصلة المكالمة عن طريق هاتفك الجوال\nخلال %1 min."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_DIALING_FAILED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_DIALING_FAILED_Textarea_StatusInformation" Text="%1\nفشل إجراء الاتصال.\n%2"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NOT_INSTALLED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NOT_INSTALLED_Textarea_StatusInformation" Text="الهاتف غير متاح."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NO_LINE_FREE_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_NO_LINE_FREE_Textarea_StatusInformation" Text="لبدء هذه المكالمة، يرجى إنهاء إحدى المكالمات الجارية."/>
+    <LangID ID="LANG_PO_ALERT_PHONE_TEMP_DO_NOT_FORGET_PHONE_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_PHONE_TEMP_DO_NOT_FORGET_PHONE_Textarea_StatusInformation" Text="يرجى عدم نسيان الهاتف الجوال."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LANGUAGE_LOADING_ERROR_001_Accept_Label" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_SHUTDOWN_000_TextLabel" Text="البطارية 12 فلط أوشكت على النفاد.\nيتم إيقاف نظام المعلومات والترفيه."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_WARNING_001_Accept_Label" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_LOW_BATTERY_WARNING_TextLabel_text" Text="تنبيه: البطارية 12 فلط ضعيفة.\nيرجى تشغيل المحرك أو\nإيقاف نظام المعلومات\nوالترفيه."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_OPS_ERROR_Accept_Label" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_RVC_ERROR_Accept_Label" Text="موافق"/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_RVC_ERROR_TextArea_Text" Text="كاميرا الرجوع للخلف &quot;Rear View&quot; غير متاحة حاليا."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_SPELLER_DISCLAIMER_TextArea_text" Text="لسلامتك الشخصية\nلا ينبغي الإدخال\nأثناء تحرك السيارة."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_SPELLER_DISCLAIMER_WARNING_TextArea_text" Text="لسلامتك الشخصية\nلا ينبغي الإدخال\nأثناء تحرك السيارة."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_000_TextLabel" Text="لم يتم الحفاظ على درجة حرارة التشغيل.\nتم إيقاف نظام المعلومات والترفيه."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_001_TextLabel" Text="لم يتم الحفاظ على درجة حرارة التشغيل.\nتم إيقاف نظام المعلومات والترفيه."/>
+    <LangID ID="LANG_PO_ALERT_SYSTEM_TEMPERATURE_WARNING_SYSTEM_002_TextLabel" Text="لم يتم الحفاظ على درجة حرارة التشغيل.\nتم إطفاء الشاشة."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_BONDING_SSP_Textarea_StatusInformation" Text="هل تتطابق كلمة المرور هذه\n%1\nمع كلمة المرور في\n%2؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Button_Retry" Text="إعادة المحاولة"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_CONTACTS_FAILURE_Textarea_StatusInformation" Text="فشل الجلب. يرجى المحاولة مجددا،\nوالتأكد أن جهاز بلوتوث\n%1\nيسمح بالاتصالات."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Disable" Text="إيقاف"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_A2DP_Button_Text" Text="هل تريد فعلا إيقاف\nصوتيات بلوتوث؟\nلن يمكن إنشاء اتصالات\nصوتيات أخرى."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Button_Ok" Text="إيقاف"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_DISABLE_ENGINE_Textarea_StatusInformation" Text="هل تريد فعلا إيقاف خاصية بلوتوث؟\nسيتم فصل جميع الاتصالات الموجودة."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Enable" Text="تشغيل"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_ENABLE_A2DP_Button_Text" Text="هل تريد فعلا تشغيل\nصوتيات بلوتوث؟ قد تحدث\nاختلالات في الاتصال."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Cancel2" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Ok" Text="إنشاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Button_Ok2" Text="إنشاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Textarea_StatusInformation" Text="%1\nهل تريد إنشاء الاتصال؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_EXT_REQ_Textarea_StatusInformation2" Text="%1\nهل تريد إنشاء الاتصال؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Textarea_EU_else_StatusInformation" Text="يرجى التأكد أن مجموعة الخصائص مدعومة ومفعلة.\nتحصل على معلومات حول مطابقة جهازك لدى التاجر."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_HELP_Textarea_else_StatusInformation" Text="يرجى التأكد أن مجموعة الخصائص مدعومة ومفعلة.\nتأكد أيضا أن جهازك متوافق مع نظام المعلومات والترفيه."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Button_Ok" Text="استبدال"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_INT_REQ_OVERWRITE_Textarea_StatusInformation" Text="%1\nهل تريد استبدال هذا الاتصال مع\n%2؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Button_DeleteAll" Text="محو"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_ALL_Textarea_StatusInformation" Text="هل تريد فعلا محو كل الأجهزة المقترنة؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_Button_Delete" Text="محو"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PAIRING_DELETE_StatusInformation" Text="هل تريد فعلا محو\n%1\n؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Button_Disconnect" Text="فصل"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Textarea_StatusInformation_BluetoothDeviceName" Text="%1\nهل تريد فعلا فصل الجهاز؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_PROFILE_DISCONNECT_Textarea_StatusInformation_Profile" Text="%1\nهل تريد فعلا فصل مجموعة الخصائص؟"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_SWDL_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_SWDL_Textarea_StatusInformation" Text="البلوتوث: الوظيفة غير متاحة حاليا.\nجار التحديث..."/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_UNABLE_CONNECT_A2DP_Button_OK" Text="موافق"/>
+    <LangID ID="LANG_PO_CONFIRM_BLUETOOTH_UNABLE_CONNECT_A2DP_Textarea_StatusInformation" Text="%1\nلا يمكن إنشاء الاتصال.\nتم إنشاء اتصال آخر بنفس الجهاز."/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_BTN_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_BTN_Confirm" Text="اختيار"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_CHANGE_Text" Text="%1\nهل تريد فعلا اختيار\nحساب المستخدم هذا؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_BTN_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_BTN_Copy" Text="نسخ"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_EDIT_COPY_Text" Text="%1\n هل تريد نسخ\nأوضاع ضبط حساب\nالمستخدم الحالي في هذا الحساب؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Button_Cancel_Text" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Button_Confirm_Text" Text="إلحاق"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_KEY_ASSIGN_Popup_Confirm_Text" Text="هل تريد إلحاق\nمفتاح السيارة\nبحساب المستخدم الحالي؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_BTN_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_BTN_Confirm" Text="اختيار"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_MOVING_Text" Text="%1\nهل تريد فعلا اختيار\nحساب المستخدم هذا؟\nيمكن أن تتغير إعدادات مختلفة،\nمثل وضع المقعد."/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Button_Cancel_Text" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Button_Confirm_Text" Text="إيقاف فعالية"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_OFF_Popup_Confirm_Text" Text="هل تريد فعلا إيقاف فعالية\nالضبط الشخصي؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_BTN_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_BTN_Reset" Text="إرجاع"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_ALL_Text" Text="هل تريد فعلا إرجاع\nجميع إعدادات الضبط الشخصي\nوحسابات المستخدمين؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_BTN_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_BTN_Reset" Text="إرجاع"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text0" Text="%1\nهل تريد فعلا\nإرجاع حساب المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text1" Text="السائق 1\nهل تريد فعلا\nإرجاع حساب المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text2" Text="السائق 2\nهل تريد فعلا\nإرجاع حساب المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text3" Text="السائق 3\nهل تريد فعلا\nإرجاع حساب المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_CAR_SETUP_PERSONAL_RESET_Text4" Text="الضيف\nهل تريد فعلا\nإرجاع حساب المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Button_Delete" Text="محو"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DELALL_Textarea_StatusInformation" Text="هل تريد فعلا محو جميع المفضلات؟"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Button_Delete" Text="محو"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_FAVORITE_DEL_Textarea_StatusInformation" Text="%1\nهل تريد فعلا محو المفضلة؟"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Button_Delete" Text="محو"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DELALL_Textarea_StatusInformation" Text="هل تريد فعلا محو جميع ملفات خصائص المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Button_Delete" Text="محو"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_PROFILE_DEL_Textarea_StatusInformation" Text="%1\nهل تريد فعلا محو ملف خصائص المستخدم؟"/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_VOICE_DIAL_Error" Text="تعذر تشغيل نظام الأوامر الصوتية على الجوال."/>
+    <LangID ID="LANG_PO_CONFIRM_PHONE_VOICE_DIAL_NoSupport" Text="الاستعمال بالأوامر الصوتية غير مدعوم."/>
+    <LangID ID="LANG_PO_CONFIRM_SYSTEM_RESET_001_Cancel_CancelLabel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_CONFIRM_SYSTEM_RESET_002_Reset_Delete" Text="إرجاع الضبط"/>
+    <LangID ID="LANG_PO_DIAGNOSIS_000_TextLabel" Text="خاصية التحكم عن بعد فعالة."/>
+    <LangID ID="LANG_PO_DISCLAIMER_CLIMATE_SETUP_NOT_AVAILABLE_InfoText_text" Text="أوضاع ضبط تكييف الهواء:\nهذه الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_BATTERY_WARNING_Textarea_StatusInformation" Text="%1\nالبطارية على وشك النفاد."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_BONDING_SUCCESS_Textarea_StatusInformation" Text="تم إجراء الاقتران:\n‪%1‬"/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_CONTACTS_AVAILABLE_Textarea_StatusInformation" Text="تم جلب جهات الاتصال."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_CONTACTS_INCOMPLETE_Textarea_StatusInformation" Text="لم يتم جلب جهات الاتصال بشكل كامل."/>
+    <LangID ID="LANG_PO_INFO_BLUETOOTH_SERVICE_CONNECTION_LOST_Textarea_StatusInformation" Text="%1\nاتصال مفصول."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_EINGINE_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ENGINE_Text" Text="لا تتاح الوظيفة\nإلا والمحرك دائر."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ERROR_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_ERROR_Text" Text="هذه الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_KL15OFF_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_KL15OFF_Text" Text="لا تتاح الوظيفة\nإلا والإشعال مشغل."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_SPEED_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_SPEED_Text" Text="الوظيفة غير متاحة حاليا.\nالسرعة مرتفعة للغاية."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_STANDSTILL_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_STANDSTILL_Text" Text="لا تتاح الوظيفة إلا\nأثناء وقوف السيارة."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_TRAILER_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_TRAILER_Text" Text="المقطورة: الوظيفة\nغير متاحة حاليا."/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_UNDEFINED_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_DIAG_UNDEFINED_Text" Text="هذه الوظيفة غير متاحة حاليا."/>
+    <LangID ID="LANG_PO_INFO_CAR_FPA_FUNCTION_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_PO_INFO_CAR_FPA_FUNCTION_Text" Text="للضبط يرجى الانتقال إلى اختيار نمط القيادة."/>
+    <LangID ID="LANG_PO_INFO_CAR_SETUP_PERSONAL_KEY_ERROR_Text" Text="لم يتم التعرف على مفتاح السيارة.\nتم إيقاف عملية الإلحاق."/>
+    <LangID ID="LANG_PO_INFO_CAR_SETUP_PERSONAL_KEY_SUCCESS_Text" Text="تم إلحاق مفتاح السيارة بحساب المستخدم الحالي."/>
+    <LangID ID="LANG_PO_INFO_PHONE_CALL_EXT_InfoText_text" Text="جار إنشاء اتصال طوارئ...\nيتم إنهاء البلوتوث ونظام App-Connect\nويظلا غير متاحين أثناء اتصال الطوارئ."/>
+    <LangID ID="LANG_PO_INFO_PHONE_USER_CONNECTED_Textarea_StatusInformation" Text="%1\nمتصل."/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_REGION_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_REGION_Text" Text="التطبيق غير متاح أثناء السير.\nالتطبيق غير مصرح به في هذه الدولة."/>
+    <LangID ID="LANG_PO_MIRROR_APP_NOT_STARTABLE_Text" Text="التطبيق غير متاح أثناء السير.\nالتطبيق غير معتمد أو الاعتماد\nيقيد الاستخدام أثناء السير."/>
+    <LangID ID="LANG_PO_MIRROR_DEVICE_NOT_SUPP_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_DEVICE_NOT_SUPP_Text" Text="الجهاز غير مدعوم."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_DEVICE_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_DEVICE_Text" Text="لا يمكن تشغيل التطبيق أو التطبيق لا يعمل."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_NOT_COMPATIBLE_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_APP_NOT_COMPATIBLE_Text" Text="التطبيق غير متوافق."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_AUDIO_LOST_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_AUDIO_LOST_Text" Text="إلغاء اتصال الصوتيات."/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_ERROR_Text" Text="خطأ"/>
+    <LangID ID="LANG_PO_MIRROR_LIMITED_COMPATIBLE_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_LIMITED_COMPATIBLE_Text" Text="الجهاز الجوال متاح ولكن بشكل مقيد."/>
+    <LangID ID="LANG_PO_MIRROR_USB_CONNECTION_LOST_OK_Button" Text="موافق"/>
+    <LangID ID="LANG_PO_MIRROR_USB_CONNECTION_LOST_Text" Text="تم إيقاف اتصال USB بتقنية MirrorLink®."/>
+    <LangID ID="LANG_PO_MISC_FPA_MAIN_AbortButton_Label" Text="غلق"/>
+    <LangID ID="LANG_PO_MISC_FPA_MAIN_Setup_Label" Text="ضبط"/>
+    <LangID ID="LANG_PO_OVERLAY_MIRROR_DEV_NO_DAP_Text" Text="الجهاز الجوال متاح ولكن بشكل مقيد."/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Button_Ok" Text="اتصال الطوارئ"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_CONFIRMATION_Textarea_StatusInformation" Text="هل تريد فعلا إجراء اتصال طوارئ؟"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_FAILED_Button_Ok" Text="موافق"/>
+    <LangID ID="LANG_PO_PHONE_ECALL_FAILED_Textarea_StatusInformation" Text="نداء استغاثة: فشل إجراء الاتصال."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_REQUEST_Button_Ok" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_REQUEST_Textarea_StatusInformation" Text="%1\nيرجى إدخال كلمة المرور:\n%2\nوتأكيد الاتصال."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_VERIFY_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_PK_VERIFY_Textarea_StatusInformation" Text="%1\nجار فحص كلمة المرور...\nيرجى مراجعة ما إذا كان التأكيد ضروريا."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_Button_Ok" Text="نعم"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_ENTER_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_BONDING_SSP_ENTER_Textarea_StatusInformation" Text="%1\nيرجى إدخال كلمة مرور:\n%2"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_BOND_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_BOND_Textarea_StatusInformation" Text="%1\nجار إجراء الاقتران..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_Button_Cancel" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_DE_Textarea_StatusInformation" Text="جار إنشاء الاتصال مع\n%1\n..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_EST_CONN_Textarea_StatusInformation" Text="%1\nجار إنشاء الاتصال مع\n%2\n..."/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_SERV_REQ_Cancel_Button" Text="إلغاء"/>
+    <LangID ID="LANG_PO_PROGRESS_BLUETOOTH_SERV_REQ_Textarea_StatusInformation" Text="%1\nجار طلب مجموعات الخصائص المتاحة..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_EDIT_COPY_WAIT_Text0" Text="جار نسخ أوضاع الضبط..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_KEY_PRESS_Text" Text="يرجى الضغط على زر الفتح الموجود\nبمفتاح السيارة."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_KEY_WAIT_Text" Text="جار إلحاق مفتاح السيارة\nبالحساب الحالي للمستخدم..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_RESET_ALL_WAIT_Text" Text="يتم إرجاع جميع أوضاع الضبط..."/>
+    <LangID ID="LANG_PO_PROGRESS_CAR_SETUP_PERSONAL_RESET_WAIT_Text0" Text="يتم إرجاع جميع أوضاع الضبط..."/>
+    <LangID ID="LANG_PO_PROGRESS_WAITING_Textarea_StatusInformation" Text="يرجى الانتظار..."/>
+    <LangID ID="LANG_PO_Progress_Unmount_SD_Correct_TextLabel_text" Text="يمكن إخراج بطاقة SD."/>
+    <LangID ID="LANG_PO_Progress_Unmount_SD_InCorrect_TextLabel_text" Text="بطاقة SD ليست مفصولة بشكل آمن."/>
+    <LangID ID="LANG_PO_Progress_Unmount_USB_Correct_TextLabel_text" Text="يمكن إخراج جهاز USB."/>
+    <LangID ID="LANG_PO_Progress_Unmount_USB_InCorrect_TextLabel_text" Text="جهاز USB غير مفصول بشكل آمن."/>
+    <LangID ID="LANG_PO_Progress_Unmount_Waiting_TextLabel_text" Text="يرجى الانتظار..."/>
+    <LangID ID="LANG_PO_Progress_Unmount_iPod_Correct_TextLabel_text" Text="يمكن إخراج جهاز iPod."/>
+    <LangID ID="LANG_PO_Progress_Unmount_iPod_InCorrect_TextLabel_text" Text="جهاز iPod غير مفصول بشكل آمن."/>
+    <LangID ID="LANG_PO_SAFECODE_INCORRECT_Incorrect_text" Text="كود خاطئ."/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_ENTERTAINMENT_Label_text" Text="صوتيات"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_PHONE_Label_text" Text="الهاتف"/>
+    <LangID ID="LANG_PO_SOUND_VOLUME_SOUND_SDS_Label_text" Text="نظام SDS"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_RadioMonitors_Label_Text" Text="مراقبات الراديو"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_SWDownload_Label_Text" Text="تحديث/إصدارات البرمجيات"/>
+    <LangID ID="LANG_SERVICEMODE_MAIN_Title_Text" Text="طريقة الخدمة"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_AntennaLable_Text_Entry" Text="الهوائي: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_FSLabel_Text" Text="قوة نطاق:"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Frequency_Text_Entry" Text="التردد: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Multipath_Label_Text_Entry" Text="متعدد المسار: ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_NKLabel_Text_Entry" Text="NK: ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_PSLabel_Text_Entry" Text="PS: ---"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_QualityLabel_Text_Entry" Text="الجودة: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_AM_MONITOR_Title_Text" Text="مراقب AM"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_AntennaLable_Text_Entry" Text="الهوائي: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_FSLabel_Text" Text="قوة نطاق:"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Frequency_Text_Entry" Text="التردد: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Multipath_Label_Text_Entry" Text="متعدد المسار: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_NKLabel_Text_Entry" Text="NK: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_PSLabel_Text_Entry" Text="PS: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_QualityLabel_Text_Entry" Text="الجودة: %1"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_FM_MONITOR_Title_Text" Text="مراقب FM"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_AMMonitor_Label_Text" Text="مراقب AM"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_FMMonitor_Label_Text" Text="مراقب FM"/>
+    <LangID ID="LANG_SERVICEMODE_RADIO_MONITORS_MAIN_Title_Text" Text="مراقبات الراديو"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist0" Text="منخفض"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist0_open" Text="منخفض"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist1" Text="متوسط"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist1_open" Text="متوسط"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist2" Text="مرتفع"/>
+    <LangID ID="LANG_SOUND_VolumeOffset_Stringlist2_open" Text="مرتفع"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_TextArea_text" Text="التحديث المتوافر: %1"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_TitelLabel_text" Text="تحديث البرمجيات"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_AVAILABLE_start_text" Text="بدء التحديث"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_Confirm_text" Text="موافق"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_ERROR1_TextArea_text" Text="خطأ: تحديث البرمجيات.\nيرجى بدء تشغيل تحديث البرمجيات مجددا."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_ERROR_TextArea_text" Text="خطأ: تحديث البرمجيات.\nيرجى بدء تشغيل تحديث\nالبرمجيات مجددا."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_FINISHED_TextArea_text" Text="تم إنهاء تحديث البرمجيات."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_NOT_AVAILABLE_StatusInformatio_text" Text="لا تتوافر بيانات. يرجى\nإدخال المصدر أو فحصه."/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_NOT_AVAILABLE_TitelLabel_text" Text="تحديث البرمجيات"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_PERFORMING_MAIN_Percent_formatter" Text="%1 %"/>
+    <LangID ID="LANG_SWDL_CUSTOMER_DOWNLOAD_PERFORMING_MAIN_TitelLabel_text" Text="جار تحديث البرمجيات..."/>
+    <LangID ID="LANG_SWDL_DISCLAIMER_001_Cancel_TextLabel" Text="إلغاء"/>
+    <LangID ID="LANG_SWDL_DISCLAIMER_text" Text="تنبيه: قد تستغرق عملية\nتحديث البرمجيات عدة دقائق.\nيرجى عدم قطع الامداد بالتيار\nوعدم تشغيل المحرك."/>
+    <LangID ID="LANG_SWDL_MAIN_InstalledVersions_Bluetooth" Text="بلوتوث"/>
+    <LangID ID="LANG_SWDL_MAIN_InstalledVersions_Soft" Text="البرمجيات:"/>
+    <LangID ID="LANG_SWDL_MAIN_Partnumber_text" Text="رقم الجزء:"/>
+    <LangID ID="LANG_SWDL_MAIN_SWUpdate_text" Text="تحديث"/>
+    <LangID ID="LANG_SWDL_MAIN_TitelLabel_text" Text="تحديث البرمجيات"/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts0" Text="خطأ: المصدر غير متاح. لم يمكن\nقراءة ملف معلومات التعريف."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts1" Text="خطأ: لا تتوافر إصدارات. لم يمكن\nقراءة ملف معلومات التعريف."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts2" Text="خطأ: قراءة/فتح ملف معلومات الإصدار.\nتعذر قراءة ملف معلومات التعريف."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts3" Text="خطأ: لم يمكن فتح ملف التعريف."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts4" Text="خطأ: المناطق غير متطابقة (الوحدة الأساسية)."/>
+    <LangID ID="LANG_SWDL_METAINFO_ERROR_texts5" Text="خطأ: تعارض الأنواع"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_Abort" Text="إلغاء"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_ConfirmInformation" Text="هل تريد فعلا مواصلة تحديث البرمجيات؟"/>
+    <LangID ID="LANG_SWDL_METAINFO_SUCCESS_Continue" Text="مواصلة"/>
+    <LangID ID="LANG_SWDL_READING_METAINFO_Text_StatusInformation_text" Text="معلومات التعريف..."/>
+    <LangID ID="LANG_SWDL_READING_METAINFO_TitelLabel_text" Text="الإصدار %1‬"/>
+    <LangID ID="LANG_SWDL_REBOOT_1_TextArea_text" Text="تتم مواصلة تحديث البرمجيات بعد إعادة التشغيل..."/>
+    <LangID ID="LANG_SWDL_REBOOT_2_TextArea_text" Text="جار إعادة تشغيل النظام..."/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_MAIN_TitelLabel_text" Text="اختيار الإصدار"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_Confirm_text" Text="موافق"/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_StatusInformation_text" Text="خطأ: لا توجد بيانات متاحة. يرجى إدخال مصدر\nمع بيانات تحديث البرمجيات أو افحص المصدر."/>
+    <LangID ID="LANG_SWDL_RELEASE_SELECT_NOT_AVAILABLE_TitelLabel_text" Text="تحديث البرمجيات"/>
+    <LangID ID="LANG_SWDL_Start_text" Text="بدء"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList0" Text="DD.MM.YYYY"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList0_open" Text="DD.MM.YYYY"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList1" Text="YYYY-MM-DD"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList1_open" Text="YYYY-MM-DD"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList2" Text="MM-DD-YYYY"/>
+    <LangID ID="LANG_SYSTEM_DateModesDDList2_open" Text="MM-DD-YYYY"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList0" Text="أشد درجة سطوع"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList0_open" Text="أشد درجة سطوع"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList1" Text="أكثر سطوعا"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList1_open" Text="أكثر سطوعا"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList2" Text="متوسطة"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList2_open" Text="متوسطة"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList3" Text="أكثر إعتاما"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList3_open" Text="أكثر إعتاما"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList4" Text="أشد درجة إعتام"/>
+    <LangID ID="LANG_SYSTEM_DisplayBrightnessDDList4_open" Text="أشد درجة إعتام"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList0" Text="km"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList0_open" Text="km"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList1" Text="mi"/>
+    <LangID ID="LANG_SYSTEM_DistanceUnitsDDList1_open" Text="mi"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile1_Title" Text="مريح"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile2_Title" Text="رياضي"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile3_Title" Text="أراضي وعرة"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile4_Title" Text="اقتصادي"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile5_Title" Text="سباق"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile6Title" Text="شخصي"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile7_Title" Text="عادي"/>
+    <LangID ID="LANG_SYSTEM_FPA_SETUP_Profile8_Title" Text="اقتصادي+"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList0" Text="l/100km"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList0_open" Text="l/100km"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList1" Text="km/l"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList1_open" Text="km/l"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList2" Text="mpg (US)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList2_open" Text="mpg (US)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList3" Text="mpg (UK)"/>
+    <LangID ID="LANG_SYSTEM_PetrolConsumtionUnitsDDList3_open" Text="mpg (UK)"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList0" Text="kPa"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList0_open" Text="kPa"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList1" Text="bar"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList1_open" Text="bar"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList2" Text="psi"/>
+    <LangID ID="LANG_SYSTEM_PressureUnitsDDList2_open" Text="psi"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Button_OK_Text" Text="موافق"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_InputField_HideTypingChar_text" Text="الكود"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Speller_InfoText" Text=""/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_INPUT_Title_text" Text="كود الحماية من السرقة"/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Incorrect_text" Text="كود خاطئ."/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Locked_text" Text="نظام المعلومات والترفيه محظور.\nيرجى الانتظار %1 دقيقة."/>
+    <LangID ID="LANG_SYSTEM_SAFECODE_LOCKED_Unlock_text" Text="نظام المعلومات الترفيه محظور.\nالمحاولات المتبقية: %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_ADDITIONAL_SPELLER_LANGUAGES_Title_text" Text="لغات إضافية للوحة المفاتيح"/>
+    <LangID ID="LANG_SYSTEM_SETUP_COPYRIGHTS_Title_text" Text="معلومات حقوق النسخ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_008_Day" Text="يوم"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_009_Month" Text="شهر"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_010_Year" Text="سنة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview0" Text="اث"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview1" Text="ثلا"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview2" Text="أر"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview3" Text="خم"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview4" Text="جم"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview5" Text="سب"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Calender_DayOverview6" Text="أحد"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month10_Year" Text="أكتوبر %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month11_Year" Text="نوفمبر %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month12_Year" Text="ديسمبر %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month1_Year" Text="يناير %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month2_Year" Text="فبراير %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month3_Year" Text="مارس %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month4_Year" Text="أبريل %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month5_Year" Text="مايو %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month6_Year" Text="يونيو %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month7_Year" Text="يوليو %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month8_Year" Text="أغسطس %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Month9_Year" Text="سبتمبر %1"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DATE_Title_text" Text="ضبط التاريخ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_AcousticTouchscreenFeedback_text" Text="صوت شاشة اللمس"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_Brightness_text" Text="درجة السطوع:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_ShowClock_text" Text="عرض الوقت في طريقة الاستعداد"/>
+    <LangID ID="LANG_SYSTEM_SETUP_DISPLAY_Title_text" Text="أوضاع ضبط الشاشة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_REQUEST_ConcatString" Text="هل تريد فعلا\nإرجاع أوضاع ضبط\n&quot;‪%1‬&quot;؟"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_REQUEST_ConcatString_ALL" Text="هل تريد فعلا إرجاع جميع أوضاع الضبط والبيانات؟"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList0" Text="الإرجاع إلى أوضاع ضبط المصنع"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList10" Text="App-Connect"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList10_SKODA" Text="SmartLink"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList13" Text="النظام"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList2" Text="الصوت"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList3" Text="الراديو"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList5" Text="الهاتف"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_StringList6" Text="الميديا"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Subheadline_1" Text="إرجاع كل أوضاع الضبط والبيانات"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Subheadline_2" Text="إرجاع بعض أوضاع الضبط"/>
+    <LangID ID="LANG_SYSTEM_SETUP_FACTORY_SETTINGS_Title_text" Text="أوضاع ضبط المصنع"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANGUAGE_MAIN_Title_text" Text="اختيار اللغة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANG_ERROR_TextArea_text" Text="اللغة المختارة غير متاحة."/>
+    <LangID ID="LANG_SYSTEM_SETUP_LANG_LOADING_DATA_TextArea_text" Text="جار تحميل اللغة..."/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_AutomaticLanguage_text" Text="أوتوماتيكيا"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text0" Text="نظام ABC"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text0_open" Text="نظام ABC"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text1" Text="نظام QWERTZ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_CurrentSpellerLayout_text1_open" Text="نظام QWERTZ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList12" Text="Русский"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList16" Text=""/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList18" Text="Español (MEX)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList20" Text="Português (BR)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_LanguageList37" Text="中文"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemBTDevices_text" Text="بلوتوث"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemCopyrights_text" Text="حقوق النسخ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemDisplay_text" Text="الشاشة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemFactorySettings_text" Text="أوضاع ضبط المصنع"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemLanguage_CN_English_text" Text="اللغة/语言"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemLanguage_text" Text="اللغة / Language"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemSpellerLayout_text" Text="لوحة المفاتيح:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemSwitchOffDisplay_text" Text="يتم إطفاء الشاشة (خلال 10 ثوان)"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemTime_text" Text="الوقت والتاريخ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemTone_text" Text="الصوت"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemUnits_text" Text="وحدات القياس"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_ListitemVersions" Text="معلومات النظام"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Listitem_AdditionalSpellerLayout_text" Text="لغات إضافية للوحة المفاتيح"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Title_text" Text="أوضاع ضبط النظام"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option0" Text="بطاقة SD"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option1" Text="مقبس USB"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_Option4" Text="جهاز iPod"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_text" Text="اختيار"/>
+    <LangID ID="LANG_SYSTEM_SETUP_MAIN_Unmount_text_Title" Text="الإخراج الآمن"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_002_ButtonSwitchAM_PM_TextArea" Text="am"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_003_ButtonSwitchPM_AM_TextArea" Text="pm"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_008_Hour" Text="ساعة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_009_Minute" Text="دقيقة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_010_AM_PM" Text="ص/م"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text0" Text="‏12‏ ساعة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text0_open" Text="‏12‏ ساعة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text1" Text="‏24‏ ساعة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_CurrentTimeFormatValue_text1_open" Text="‏24‏ ساعة"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Date_text" Text="التاريخ:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Dateformat_text" Text="صيغة التاريخ:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Summertime_text" Text="توقيت صيفي"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Time_text" Text="الوقت:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Timeformat_text" Text="صيغة الوقت:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_DATE_UNITS_Title_text" Text="أوضاع ضبط الوقت والتاريخ"/>
+    <LangID ID="LANG_SYSTEM_SETUP_TIME_Title_text" Text="ضبط الوقت"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Distance_text" Text="المسافة:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_PetrolConsumtion_text" Text="الاستهلاك:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Pressure_text" Text="الضغط:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Speed_TextLabel_text" Text="السرعة:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Temperature_text" Text="درجة الحرارة:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Title_text" Text="أوضاع ضبط الوحدات"/>
+    <LangID ID="LANG_SYSTEM_SETUP_UNITS_Volume_text" Text="الحجم:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIIONS_AndroidAuto" Text="Android Auto"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_Bluetooth" Text="بلوتوث:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_CarPlay" Text="Apple CarPlay"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_DevicePartnumber" Text="رقم جزء الجهاز:‪"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_HardwarePartnumber" Text="الأجزاء الصلبة:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_SoftwarePartnumber" Text="البرمجيات:"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_Title_text" Text="معلومات النظام"/>
+    <LangID ID="LANG_SYSTEM_SETUP_VERSIONS_UpdateSW_text" Text="تحديث البرمجيات"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList0" Text="km/h"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList0_open" Text="km/h"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList1" Text="mph"/>
+    <LangID ID="LANG_SYSTEM_SpeedUnitsDDList1_open" Text="mph"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList0" Text="°C"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList0_open" Text="°C"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList1" Text="°F"/>
+    <LangID ID="LANG_SYSTEM_TemperatureUnitsDDList1_open" Text="°F"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList0" Text="l"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList0_open" Text="l"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList1" Text="gal (US)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList1_open" Text="gal (US)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList2" Text="gal (UK)"/>
+    <LangID ID="LANG_SYSTEM_VolumeUnitsDDList2_open" Text="gal (UK)"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_AppConnect_text" Text="App-Connect"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_AppConnect_text_SKODA" Text="SmartLink"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_Relaunch_text" Text="إعادة تشغيل Baidu CarLife"/>
+    <LangID ID="LANG_SmartPhoneIntegration_CARLIFE_NO_VIDEO_CONTENT_VIEW_text" Text="برنامج CarLife: لا يوجد نقل بيانات.\nيرجى إلغاء حظر الجهاز الجوال أو اترك التطبيق\nيعمل في الواجهة حتى تستخدم برنامج CarLife."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_GAL_FIRST_RUN_EXPERIENCE_ConfirmButton_text" Text="موافق"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_GAL_FIRST_RUN_EXPERIENCE_text" Text="يرجى التأكد في الجهاز الجوال\nمن ضرورة وجود تأكيد.\nلسلامتك الشخصية ينبغي عدم\nاستخدام الجهاز الجوال أثناء القيادة."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_ConfirmButton_text" Text="موافق"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_InfoTextCarplayOnly_text" Text="يرجى المحاولة مجددا\nأو قم بتغيير مقبس USB إن أمكن."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_ALERT_INCOMPATIBLE_DEVICE_InfoTextGeneral_text" Text="تعذر إنشاء الاتصال.\nيرجى التأكد أن\nالجهاز الجوال\nمدعوم من قبل %1."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_CancelLabel_text" Text="إلغاء"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_DeactivateTPLabel_text" Text="إنشاء"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_CONNECT_DETECTED_CARPLAY_DEVICE_TextLabel_text" Text="نظام Apple CarPlay‎: تم التعرف على جهاز جديد.\nهل تريد إنشاء اتصال باستخدام Apple CarPlay‎؟\nيرجى الانتباه إلى أنك بذلك تسمح بنقل\nالبيانات بين السيارة والجهاز الجوال."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_CancelLabel_text" Text="إلغاء"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_ConfirmLabel_text" Text="موافق"/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_CONFIRM_EXTERNAL_DATA_TRANSFER_text" Text="يرجى الانتباه إلى أنه في حالة اتصال\nالسيارة بالجهاز الجوال يتم نقل البيانات."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_CONNECTION_FAILED_TextArea_text" Text="فشل الاتصال.\nيرجى التأكد من إلغاء حظر جهازك الجوال."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_DISCONNECT_TextArea_text" Text="نظام App-Connect:\n%1\nتم إلغاء الاتصال."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_DISCONNECT_TextArea_text_SKODA" Text="وظيفة SmartLink:\n%1\nتم إيقاف الاتصال."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_NO_CONNECTION_DURING_CALL_TextArea_text" Text="نظام App-Connect:\nيرجى مراعاة أن هذه الوظيفة\nتكون غير متاحة أثناء المكالمة الفعالة."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_NO_CONNECTION_DURING_CALL_TextArea_text_SKODA" Text="وظيفة SmartLink:\nيرجى مراعاة أن هذه الوظيفة\nتكون غير متاحة أثناء\nالمكالمة الفعالة."/>
+    <LangID ID="LANG_SmartPhoneIntegration_PO_SMI_INFO_START_CONNECTION_TextLabel_text" Text="%1\nيتم إنشاء الاتصال عن طريق %2\nلا يمكن استخدام الجهاز كمصدر في &quot;الميديا&quot;."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_Headline_TextLabel_text" Text="معلومات نظام App-Connect"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_Headline_TextLabel_text_SKODA" Text="معلومات SmartLink"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_InfoText_ROW_Text" Text="تجد عرض عام للتطبيقات الأخرى في الموقع\nwww.volkswagen.com/apps\nأو عن طريق إجراء عملية المسح للكود\nباستخدام جهازك الجوال."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_INFO_InfoText_text" Text="تجد عرض عام للتطبيقات\nالأخرى في الموقع\nwww.volkswagen.com/apps\nأو عن طريق إجراء عملية المسح للكود\nباستخدام جهازك الجوال."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_Controlbar_Btn_Info_text" Text="معلومات"/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_WelcomeText_text" Text="مرحبا في نظام App-Connect\nيرجى اختيار جهاز."/>
+    <LangID ID="LANG_SmartPhoneIntegration_SMI_MAIN_WelcomeText_text_SKODA" Text="مرحبا في وظيفة SmartLink.\nيرجى اختيار جهاز."/>
+    <LangID ID="LANG_TEXT_Version" Text="MIBG_GP_22_17_M5"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist0" Text="يدويا"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist0_open" Text="يدويا"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist1" Text="روك"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist1_open" Text="روك"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist2" Text="بوب"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist2_open" Text="بوب"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist3" Text="كلاسيك"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist3_open" Text="كلاسيك"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist4" Text="جاز"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist4_open" Text="جاز"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist5" Text="اللغة"/>
+    <LangID ID="LANG_TONE_Equalization_Stringlist5_open" Text="اللغة"/>
+    <LangID ID="LANG_TONE_SETUP_BALANCE_FADER_000_title" Text="الموازنة - التوزيع"/>
+    <LangID ID="LANG_TONE_SETUP_BALANCE_FADER_001_title" Text="الموازنة"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_AccousticTouchscreenFeedback_text" Text="صوت شاشة اللمس"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Balance_SettingName" Text="الموازنة"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Equalizer_Title_text" Text="إكواليزر:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_Textlabel_TMB" Text="العمق - الوسطية - الحدة"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_000_Title" Text="أوضاع ضبط شدة الصوت"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_AudioLowering_LabelOff" Text="إيقاف"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_AudioLowering_ValueFormat" Text="%1"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_BalanceFader_Title_text" Text="الموازنة - التوزيع"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List3" Text="أقصى شدة صوت تشغيل"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List4" Text="مواءمة شدة الصوت (GALA)"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List5" Text="شدة صوت AUX:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List6" Text="صوتيات بلوتوث:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List7" Text="خفض شدة صوت وسائل الترفيه"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List8" Text="شدة صوت جهاز iPod:"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_TextLabel_List9" Text="نظام الاستعمال بالأوامر الصوتية"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_VOLUMES_Title_text" Text="شدة الصوت"/>
+    <LangID ID="LANG_TONE_SETUP_MAIN_title_text" Text="أوضاع ضبط النغمات"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Bass_SettingName" Text="عمق"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Mid_SettingName" Text="وسط"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_Treble_SettingName" Text="حدة"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_Headline_Title_text" Text="العمق - الوسطية - الحدة"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_SettingValueMax_text" Text="+9"/>
+    <LangID ID="LANG_TONE_SETUP_T_M_B_VERTICAL_SettingValueMin_text" Text="-9"/>
+    <LangID ID="LANG_TUNER_AM_LIST_MAIN_TextArea_Updating_text" Text="يرجى الانتظار..."/>
+    <LangID ID="LANG_TUNER_AM_LIST_MAIN_TextLabel_Text" Text="AM لائحة محطات"/>
+    <LangID ID="LANG_TUNER_AM_MAIN_003_Scan_TextArea" Text="Scan"/>
+    <LangID ID="LANG_TUNER_AM_SETUP_MAIN_SetupButtons_ListContainer_ListItem_Tone_long_ToneSettings_TextLabel_Text" Text="الصوت"/>
+    <LangID ID="LANG_TUNER_AM_StoreStation_Title" Text="تخزين: &quot;%1&quot;"/>
+    <LangID ID="LANG_TUNER_AM_TUNE_kHz_Text" Text=""/>
+    <LangID ID="LANG_TUNER_AM_TUNE_kHz_Text_2" Text="kHz"/>
+    <LangID ID="LANG_TUNER_BandChange_AM" Text="النطاق AM"/>
+    <LangID ID="LANG_TUNER_BandChange_FM" Text="FM النطاق"/>
+    <LangID ID="LANG_TUNER_DOMAIN_ERROR_DomainNotAvailable_text" Text="&quot;الراديو&quot; غير متوافر حاليا."/>
+    <LangID ID="LANG_TUNER_DOMAIN_NOT_AVAILABLE_TextArea_text" Text="جار بدء تشغيل &quot;الراديو&quot;..."/>
+    <LangID ID="LANG_TUNER_FM_LIST_MAIN_TextArea_Updating_text" Text="يرجى الانتظار."/>
+    <LangID ID="LANG_TUNER_FM_SETUP_DELETE_PRESETS_002_HeadlineLabel" Text="هل تريد فعلا محو كل المحطات المخزنة؟"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_MAIN_005_ScanBTN_TextLabel" Text="Scan"/>
+    <LangID ID="LANG_TUNER_FM_SETUP_MAIN_010_ToneSettings_TextLabel" Text="الصوت"/>
+    <LangID ID="LANG_TUNER_FM_Scan_CN" Text="Scan"/>
+    <LangID ID="LANG_TUNER_FM_TUNE_MHz_Text" Text="MHz"/>
+    <LangID ID="LANG_TUNER_FM_TUNE_MHz_Text_2" Text=""/>
+    <LangID ID="LANG_TUNER_Formater_AM" Text=""/>
+    <LangID ID="LANG_TUNER_Formater_FM" Text="%1 MHz"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Band" Text="نطاق"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Manual" Text="يدويا"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_Setup" Text="ضبط"/>
+    <LangID ID="LANG_TUNER_MAIN_Controlbar_StationList" Text="محطات"/>
+    <LangID ID="LANG_TUNER_OVERLAY_INITIAL_AUTOSTORE_001_Cancel_CancelLabel" Text="إلغاء"/>
+    <LangID ID="LANG_TUNER_OVERLAY_INITIAL_AUTOSTORE_TextLabel_text" Text="تخزين أوتوماتيكي..."/>
+    <LangID ID="LANG_TUNER_OVERLAY_SETUP_DELETE_PRESETS_004_Button_Delete_TextLabel" Text="محو"/>
+    <LangID ID="LANG_TUNER_OVERLAY_SETUP_DELETE_PRESETS_005_Button_Cancel_TextLabel" Text="إلغاء"/>
+    <LangID ID="LANG_TUNER_OverlaySetupDeletePresets_InfoText" Text="هل تريد فعلا محو المحطة المخزنة؟"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text0" Text="1"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text1" Text="2"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text10" Text="11"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text11" Text="12"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text12" Text="13"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text13" Text="14"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text14" Text="15"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text2" Text="3"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text3" Text="4"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text4" Text="5"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text5" Text="6"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text6" Text="7"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text7" Text="8"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text8" Text="9"/>
+    <LangID ID="LANG_TUNER_PresetButtons_Number_Text9" Text="10"/>
+    <LangID ID="LANG_TUNER_PresetList_NoPresetStoredText" Text="خال"/>
+    <LangID ID="LANG_TUNER_SETUP_AM_ButtonList_DeleteAMPresetsBTN_Label_Text" Text="محو الذاكرة"/>
+    <LangID ID="LANG_TUNER_SETUP_AM_Title_Label_Text" Text="AM أوضاع ضبط النطاق الموجي"/>
+    <LangID ID="LANG_TUNER_SETUP_DELETE_AM_PRESETS_Headline_Text" Text="قائمة ذاكرة AM"/>
+    <LangID ID="LANG_TUNER_SETUP_DELETE_PRESETS_Title_Text" Text="قائمة ذاكرة FM"/>
+    <LangID ID="LANG_TUNER_SETUP_DeleteAllBTN_Label_Text" Text="الكل"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_ButtonList_DeleteFMPresetsBTN_Label_Text" Text="محو الذاكرة"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_Label_Text" Text="ترتيب المحطات:"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List0" Text="هجائيا"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List0_open" Text="هجائيا"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List2" Text="التردد"/>
+    <LangID ID="LANG_TUNER_SETUP_FM_StationlistSorting_List2_open" Text="التردد"/>
+    <LangID ID="LANG_TUNER_SETUP_MAIN_ScopeOfArrowKeys_Button_Label_Text" Text="أزرار الأسهم:"/>
+    <LangID ID="LANG_TUNER_SETUP_MAIN_TunerSetupLabel_Text" Text="أوضاع ضبط النطاق الموجي FM"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0" Text="قائمة الذاكرة"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_gr" Text="قائمة الذاكرة"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_gr_open" Text="قائمة الذاكرة"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList0_open" Text="قائمة الذاكرة"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2" Text="البحث عن محطات"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_gr" Text="البحث عن محطات"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_gr_open" Text="البحث عن محطات"/>
+    <LangID ID="LANG_TUNER_ScopeOfArrowKeys_TextList2_open" Text="البحث عن محطات"/>
+    <LangID ID="LANG_TUNER_Store_Text" Text="خال"/>
+    <LangID ID="LANG_TUNER_TUNER_FM_LIST_MAIN_TextLabel_Text" Text="لائحة محطات FM"/>
+    <LangID ID="LANG_Tuner_FM_StoreStation_Title" Text="تخزين: &quot;%1&quot;"/>
+    <LangID ID="PO_Alert_Climate_Error_Accept" Text="موافق"/>
+    <LangID ID="PO_Alert_Climate_Error_Text" Text="أوضاع ضبط تكييف الهواء:\nهذه الوظيفة غير متاحة حاليا."/>
+    <LangID ID="PO_Alert_OPS_Error_Text" Text="نظام صف السيارة بإشارات مرئية (OPS) غير متاح حاليا."/>
+    <LangID ID="SWDL_Disclaimer_Title" Text="تحديث البرمجيات"/>
+    <LangID ID="Tone_Setup_GALA_EL_Off" Text="إيقاف"/>
+    <LangID ID="Tuner_Station_List_AM_Preset_Frequency" Text="%1 kHz"/>
+    <LangID ID="Tuner_Station_List_AM_Update_Unsuccessful" Text="لا توجد محطة"/>
+    <LangID ID="Tuner_Station_List_FM_Update_Unsuccessful" Text="لا توجد محطة"/>
+    <LangID ID="_&lt;SWDL_CUSTOMER_DOWNLOAD&gt;" Text="-1"/>
+</LangDef>

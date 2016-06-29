@@ -12,6 +12,7 @@ def GetTextWidth(ft_eng_file,ft_chn_file,ft_size,text):
     eng_face    = FT_Face()
     chn_face    = FT_Face()
     pen         = FT_Vector()
+    tmp_pen     = FT_Vector()
     glyph       = FT_Glyph()
     bbox        = FT_BBox()
     glyph_bbox  = FT_BBox()
@@ -38,6 +39,7 @@ def GetTextWidth(ft_eng_file,ft_chn_file,ft_size,text):
         charcode = ord(text[n])
         eng_index = FT_Get_Char_Index( eng_face, charcode )
         chn_index = FT_Get_Char_Index( chn_slot, charcode )
+        tmp_pen.x = pen.x
 
         if eng_index != 0 or (eng_index == 0 and chn_index == 0): #use english slot
             FT_Load_Glyph( eng_face, eng_index, FT_LOAD_DEFAULT )
@@ -56,8 +58,8 @@ def GetTextWidth(ft_eng_file,ft_chn_file,ft_size,text):
             pen.x += (chn_slot.contents.advance.x/64)
             pen.y += (chn_slot.contents.advance.y/64)
 
-        glyph_bbox.xMin += pen.x
-        glyph_bbox.xMax += pen.x
+        glyph_bbox.xMin += tmp_pen.x
+        glyph_bbox.xMax += tmp_pen.x
 
         if glyph_bbox.xMin < bbox.xMin:
             bbox.xMin = glyph_bbox.xMin
@@ -72,6 +74,6 @@ def GetTextWidth(ft_eng_file,ft_chn_file,ft_size,text):
     FT_Done_FreeType(eng_library)
     FT_Done_FreeType(chn_library)
     
-    print bbox.xMin
-    print bbox.xMax
+    #print bbox.xMin
+    #print bbox.xMax
     return bbox.xMax
