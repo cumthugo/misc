@@ -1,4 +1,16 @@
-# misc
-for some little code
+# Font width check tool
 
-don't udpate code in the master branch.
+[Setup]
+1. Install Python 2.7.10, don't use 2.7.12.
+2. Install xlrd, you can use "pip install xlrd"
+3. Copy freetype.dll to C:\Windows\System32\
+4. Extract freetype-py-1.0.2.tar.gz
+5. Use cmd and change folder to freetype-py-1.0.2, run "python setup.py install"
+6. Run script "python TextWidthCheckTool.py > result.txt"
+7. Open result.txt to see result.
+
+
+
+
+[Configure]
+You can config some parameters in TextWidthCheckTool.py, details see TextWidthCheckTool.py
