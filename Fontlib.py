@@ -38,9 +38,10 @@ def GetTextWidth(ft_eng_file,ft_chn_file,ft_size,text):
         # load glyph image into the slot (erase previous one)
         charcode = ord(text[n])
         eng_index = FT_Get_Char_Index( eng_face, charcode )
-        chn_index = FT_Get_Char_Index( chn_slot, charcode )
+        chn_index = FT_Get_Char_Index( chn_face, charcode )
         tmp_pen.x = pen.x
 
+        #print text[n],' english_index = ', eng_index, ' chn_index = ', chn_index, ' charcode = ', charcode
         if eng_index != 0 or (eng_index == 0 and chn_index == 0): #use english slot
             FT_Load_Glyph( eng_face, eng_index, FT_LOAD_DEFAULT )
             FT_Get_Glyph(eng_slot,byref(glyph))
@@ -50,7 +51,7 @@ def GetTextWidth(ft_eng_file,ft_chn_file,ft_size,text):
             pen.x += (eng_slot.contents.advance.x/64)
             pen.y += (eng_slot.contents.advance.y/64)
         else:
-            FT_Load_Glyph( chn_slot, chn_index, FT_LOAD_DEFAULT )
+            FT_Load_Glyph( chn_face, chn_index, FT_LOAD_DEFAULT )
             FT_Get_Glyph(chn_slot,byref(glyph))
             FT_Glyph_Get_CBox(glyph,3,byref(glyph_bbox))
 

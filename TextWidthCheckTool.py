@@ -2,10 +2,9 @@ import sys
 reload(sys)
 sys.setdefaultencoding( "utf-8" )
 import xlrd
-import string
 from xml.sax.handler import ContentHandler
 from xml.sax import parse
-import sys,os
+import os
 import Fontlib
 
 #parameter config
@@ -42,6 +41,12 @@ def read_text_id_and_max_width():
     return text_info
 
 
+#read the output mode
+def output_all_text():
+    if len(sys.argv) < 2:
+        return False
+    return sys.argv[1] == 'all'
+
 def check_width_which_larger_than_maxwidth(lang_table):
     text_id_width_info = read_text_id_and_max_width()
     for text_id in text_id_width_info:
@@ -52,9 +57,12 @@ def check_width_which_larger_than_maxwidth(lang_table):
             check_texts = lang_table[text_id].split('\\n')
             for text_line in check_texts:
                 actual_width = Fontlib.GetTextWidth(eng_font_name,font_chinese_file,text_id_width_info[text_id]['size'],text_line)
-                if actual_width > text_id_width_info[text_id]['maxPixel']:
+                if output_all_text():
                     print text_id
-                    print 'actual_width =',actual_width,' maxPixel =',text_id_width_info[text_id]['maxPixel'],' Text =',text_line
+                    print 'actual_width =',actual_width,' maxPixel =',text_id_width_info[text_id]['maxPixel'],' Text =',text_line, 'font =',text_id_width_info[text_id]['font'], 'size =', text_id_width_info[text_id]['size']
+                elif actual_width > text_id_width_info[text_id]['maxPixel']:
+                    print text_id
+                    print 'actual_width =',actual_width,' maxPixel =',text_id_width_info[text_id]['maxPixel'],' Text =',text_line, 'font =',text_id_width_info[text_id]['font'], 'size =', text_id_width_info[text_id]['size']
                     break
 
 class readTextTableHandler(ContentHandler):
