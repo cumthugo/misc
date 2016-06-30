@@ -10,7 +10,10 @@
 7. Open result.txt to see result.
 
 
-
-
 [Configure]
 You can config some parameters in TextWidthCheckTool.py, details see TextWidthCheckTool.py
+
+
+[Get Result]
+1. double click "check_text_width.bat", then open result.txt.
+2. double click "get_all_text_width.bat", then open all_text_width.txt to see all text width
