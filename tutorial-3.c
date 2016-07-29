@@ -30,8 +30,8 @@ int main(int argc, char *argv[]) {
     
   /* Create the elements */
   data.source = gst_element_factory_make ("uridecodebin", "source");
-  data.convert = gst_element_factory_make ("audioconvert", "convert");
-  data.sink = gst_element_factory_make ("autoaudiosink", "sink");
+  data.convert = gst_element_factory_make ("videoconvert", "convert");
+  data.sink = gst_element_factory_make ("autovideosink", "sink");
    
   /* Create the empty pipeline */
   data.pipeline = gst_pipeline_new ("test-pipeline");
@@ -66,9 +66,8 @@ int main(int argc, char *argv[]) {
    
   /* Listen to the bus */
   bus = gst_element_get_bus (data.pipeline);
-  do {
     msg = gst_bus_timed_pop_filtered (bus, GST_CLOCK_TIME_NONE,
-        GST_MESSAGE_STATE_CHANGED | GST_MESSAGE_ERROR | GST_MESSAGE_EOS);
+         GST_MESSAGE_ERROR | GST_MESSAGE_EOS);
    
     /* Parse message */
     if (msg != NULL) {
@@ -104,7 +103,6 @@ int main(int argc, char *argv[]) {
       }
       gst_message_unref (msg);
     }
-  } while (!terminate);
    
   /* Free resources */
   gst_object_unref (bus);
@@ -133,7 +131,7 @@ static void pad_added_handler (GstElement *src, GstPad *new_pad, CustomData *dat
   new_pad_caps = gst_pad_query_caps (new_pad,NULL);
   new_pad_struct = gst_caps_get_structure (new_pad_caps, 0);
   new_pad_type = gst_structure_get_name (new_pad_struct);
-  if (!g_str_has_prefix (new_pad_type, "audio/x-raw")) {
+  if (!g_str_has_prefix (new_pad_type, "video/x-raw")) {
     g_print ("  It has type '%s' which is not raw audio. Ignoring.\n", new_pad_type);
     goto exit;
   }
