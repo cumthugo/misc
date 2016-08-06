@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
   }
    
   /* Set the URI to play */
-  g_object_set (data.playbin, "uri", "file:///home/yong/work/project/misc/sintel_trailer-480p.webm", NULL);
+  g_object_set (data.playbin, "uri", "file:///Users/zhangyong/Desktop/work/misc/sintel_trailer-480p.webm", NULL);
    
   /* Start playing */
   ret = gst_element_set_state (data.playbin, GST_STATE_PLAYING);

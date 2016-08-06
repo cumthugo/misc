@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
   }
    
   /* Set the URI to play */
-  g_object_set (data.source, "uri", "file:///home/yong/work/project/misc/sintel_trailer-480p.webm", NULL);
+  g_object_set (data.source, "uri", "file:///Users/zhangyong/Desktop/work/misc/sintel_trailer-480p.webm", NULL);
    
   /* Connect to the pad-added signal */
   g_signal_connect (data.source, "pad-added", G_CALLBACK (pad_added_handler), &data);

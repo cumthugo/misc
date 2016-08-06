@@ -48,6 +48,7 @@ int main(int argc, char* argv[])
 	sink = gst_element_factory_make("autoaudiosink","audio-output");
 
 	if(!pipeline || !source || !decoder || !sink){
+		g_printerr("pipeline = %d, source = %d, decoder = %d, sink = %d",pipeline,source,decoder,sink);
 		g_printerr("One element could not be created. Exiting.\n");
 		return -1;
 	}
