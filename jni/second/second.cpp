@@ -14,9 +14,11 @@
 #define LOGI(...) \
   ((void)__android_log_print(ANDROID_LOG_INFO, "second:", __VA_ARGS__))
 
+extern int first_test();
+
 int second()
 {
 	printf("printf work?");
 	LOGI("my second shared lib");
-	return 7;
+	return first_test() + 2;
 }

@@ -5,5 +5,6 @@ LOCAL_MODULE := second
 LOCAL_MODULE_FILENAME := libsecond
 LOCAL_SRC_FILES := second.cpp
 LOCAL_LDLIBS := -llog
+LOCAL_STATIC_LIBRARIES := first
 include $(BUILD_SHARED_LIBRARY)
 
