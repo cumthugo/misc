@@ -1,9 +1,9 @@
-LOCAL_PATH := $(call my-dir)
+MY_LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := $(MY_LOCAL_PATH)
 
-include $(CLEAR_VAR)
-LOCAL_MODULE := first
-LOCAL_MODULE_FILENAME := libfirst
-LOCAL_SRC_FILES := first.cpp
-LOCAL_LDLIBS := -llog
-include $(BUILD_SHARED_LIBRARY)
+#NDK_MODULE_PATH := $(LOCAL_PATH)
+#
+#$(call import-module,first)
+#$(call import-module,second)
 
+include $(call all-subdir-makefiles)
