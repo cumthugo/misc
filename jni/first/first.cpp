@@ -11,6 +11,10 @@
 #include <inttypes.h>
 #include <android/log.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #define LOGI(...) \
   ((void)__android_log_print(ANDROID_LOG_INFO, "first:", __VA_ARGS__))
 
@@ -20,3 +24,7 @@ int first_test()
 	LOGI("my first shared lib");
 	return 5;
 }
+
+#ifdef __cplusplus
+}
+#endif
