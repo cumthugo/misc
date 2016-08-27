@@ -9,6 +9,7 @@
 #include "person.pb.h"
 #include <fstream>
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -68,19 +69,23 @@ jstring Java_hugo_jnitest_MainActivity_jni_1get(JNIEnv *env, jobject thiz){
     }
 
     /* proto buffer test */
+	std::string transfer_str;
     Person person;
     person.set_name("John Doe");
     person.set_id(1234);
     person.set_email("jdoe@example.com");
-    fstream output("myfile", ios::out | ios::binary);
-    person.SerializeToOstream(&output);
-
-    fstream input("myfile", ios::in | ios::binary);
+    //fstream output("/data/myfile", ios::out | ios::binary);
+    //person.SerializeToOstream(&output);
+	//output.close();
+    //fstream input("/data/myfile", ios::in | ios::binary);
+	person.SerializeToString(&transfer_str);
     Person person2;
-    person2.ParseFromIstream(&input);
+    //person2.ParseFromIstream(&input);
+	person2.ParseFromString(transfer_str);
     cout << "Name: " << person2.name() << endl;
     cout << "E-mail: " << person2.email() << endl;
 
+    LOGI("person Name: %s, email: %s",person2.name().c_str(),person2.email().c_str());
     return env->NewStringUTF(ss);
 }
 
@@ -98,7 +103,7 @@ void *mythreadproc(void* arg)
     int a;
     while(++a < 20)
     {
-        LOGI("my thread run! oh yeah");
+        LOGI("my thread run! run  times = %d",a);
         sleep(1);
     }
 }

@@ -21,7 +21,7 @@ LOCAL_SRC_FILES := test.cpp person.pb.cc
 LOCAL_CPP_EXTENSION := .cpp .cc
 LOCAL_CFLAGS += -I/Users/zhangyong/Desktop/work/Carlife/source/protobuf-2.5.0/build/include
 LOCAL_CFLAGS += -I/Users/zhangyong/Desktop/work/Carlife/source/protobuf-2.5.0/build/include/google/protobuf/io
-
+LOCAL_LDLIBS += -llog -pthread
 LOCAL_CPP_FEATURES := rtti
 LOCAL_SHARED_LIBRARIES := foo-prebuilt
 LOCAL_SHARED_LIBRARIES += second
