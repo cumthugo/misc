@@ -21,6 +21,30 @@ jstring Java_hugo_jnitest_MainActivity_jni_1get(JNIEnv *env, jobject thiz){
 	sec_ret = second();
 	LOGI("second return value = %d",sec_ret);
     sprintf(ss,"Hello from Jni in libjni-test.so, second = %d",sec_ret);
+
+    jclass clazz = env->FindClass("hugo/jnitest/MainActivity");
+    if (clazz != NULL)
+    {
+        LOGI("clazz is not null");
+        jmethodID id = env->GetMethodID(clazz,"callByJni","(I)V");
+        if(id != NULL)
+        {
+            LOGI("method id not null, call");
+            jint s = 86;
+            env->CallVoidMethod(thiz,id,s);
+
+        }
+        else
+        {
+            LOGI("method is null, cancelled");
+        }
+
+    }
+    else
+    {
+        LOGI("clazz is null");
+    }
+
     return env->NewStringUTF(ss);
 }
 
