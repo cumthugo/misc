@@ -6,6 +6,11 @@
 #include <android/log.h>
 #include <pthread.h>
 #include <unistd.h>
+#include "person.pb.h"
+#include <fstream>
+#include <iostream>
+
+using namespace std;
 
 #define LOGI(...) \
   ((void)__android_log_print(ANDROID_LOG_INFO, "test.cpp:", __VA_ARGS__))
@@ -61,6 +66,20 @@ jstring Java_hugo_jnitest_MainActivity_jni_1get(JNIEnv *env, jobject thiz){
     {
         LOGI("clazz is null");
     }
+
+    /* proto buffer test */
+    Person person;
+    person.set_name("John Doe");
+    person.set_id(1234);
+    person.set_email("jdoe@example.com");
+    fstream output("myfile", ios::out | ios::binary);
+    person.SerializeToOstream(&output);
+
+    fstream input("myfile", ios::in | ios::binary);
+    Person person2;
+    person2.ParseFromIstream(&input);
+    cout << "Name: " << person2.name() << endl;
+    cout << "E-mail: " << person2.email() << endl;
 
     return env->NewStringUTF(ss);
 }
