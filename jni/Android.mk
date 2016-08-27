@@ -7,3 +7,6 @@ LOCAL_PATH := $(MY_LOCAL_PATH)
 #$(call import-module,second)
 
 include $(call all-subdir-makefiles)
+
+
+LOCAL_PATH := $(MY_LOCAL_PATH)
